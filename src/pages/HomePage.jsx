@@ -1,5 +1,5 @@
 import { IoIosShareAlt } from "react-icons/io";
-import HomeCard from "../components/hOMEcARD.JSX";
+import HomeCard from "../components/HomeCard";
 import HomeGrid1 from "../components/HomeGrid1";
 import HomeGrid2 from "../components/HomeGrid2";
 import HomeGrid3 from "../components/HomeGrid3";
@@ -108,10 +108,10 @@ const HomePage = () => {
             <HomeGrid5 />
             <HomeGrid6 />
             <HomeGrid7 />
-            <HomeGrid8/>
+            <HomeGrid8 />
           </div>
           <hr />
-          <Form/>
+          <Form />
         </div>
       </div>
     </>
