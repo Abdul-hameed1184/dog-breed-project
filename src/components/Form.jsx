@@ -10,33 +10,40 @@ const Form = () => {
       </form>
       <h4>{`AMERICA'S`} BEST BREEDERS</h4>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
-        laudantium voluptate quidem eveniet repellendus architecto, eius fugit
-        nulla at aspernatur. Lorem ipsum dolor, sit amet consectetur adipisicing
-        elit. Earum dolorum eum natus impedit vel vero, quod iure eos. Soluta,
-        debitis.
+        Designer Frenchies is a family-operated French Bulldog breeding program
+        committed to top AKC bloodlines. Buying your new family member from a
+        breeder who focuses on health, temperament, and genetics rather than a
+        hobby breeder or puppy mill is an investment in quality. If the price is
+        the only thing that matters and health or breed quality is not
+        important, then we are probably not the breeder for you.
       </p>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos adipisci
-        numquam a doloremque aspernatur? Doloremque fugit quia voluptas, est
-        accusantium deserunt illo odio omnis non. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, odio.
+        If you’re looking for a well-structured, quality pup, it's important to
+        be selective. The breed has become so varied that some pups no longer
+        resemble true French Bulldogs. Our pups are “thick-boned” with features
+        reminiscent of English Bulldogs—adorable wrinkles, strong builds, and
+        excellent structure.
       </p>
       <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus
-        perspiciatis est esse excepturi? Eveniet dignissimos similique nesciunt
-        provident architecto? Quisquam, magnam? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos aperiam voluptas voluptate quis sequi ducimus et impedit beatae non omnis.
+        We breed for shorter-bodied and -legged Frenchies, avoiding the
+        long-legged variations. Our puppies come with flat faces, perfect ropes,
+        and well-set ears. You will not find any pups with long noses, tails, or
+        lanky necks in our program. We are able to safely deliver your pup to
+        anywhere in the USA, right to your local airport, thanks to our
+        dedicated puppy nanny.
       </p>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
-        ratione hic omnis ab odio dolorum at nostrum, velit adipisci tempora sed
-        voluptatum voluptate voluptas aut rerum totam error. Debitis placeat,
-        perferendis dolorum illo ea laborum? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam quasi ut ab laboriosam consequuntur maxime.
+        Our puppies are all raised in our home with our children, so they are
+        very socialized. Each pup is playful, intelligent, curious, and
+        affectionate-a true Snuggle Bug. Our unique whelping process sets them
+        up for success. By six weeks, our puppies will be pee-pad trained, which
+        makes housebreaking much easier than other breeders.
       </p>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius accusamus
-        officia quos. Quam aperiam repellendus consectetur molestiae distinctio
-        explicabo aliquid? Omnis fugit temporibus quas incidunt sunt, quaerat
-        dignissimos magni rem.
+        Unlike many breeders, we have an on-site animal biologist with a
+        genetics background, consistently improving our program. This strong
+        focus on genetics and bloodline health allows us to continually enhance
+        the breed. We would like to thank you for trusting Designer Frenchies!
       </p>
       <ul>
         <h3>SOUTHEAST FRENCH LINK</h3>

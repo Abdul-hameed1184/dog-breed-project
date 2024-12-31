@@ -1,4 +1,4 @@
-// import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
 
 const Routes = () => {
   return (
@@ -6,19 +6,31 @@ const Routes = () => {
       <ul className="routes">
         <li>French Bulldog Puppies</li>
         <span>|</span>
-        <li>contacts</li>
+        <Link to={"/contacts"}>
+          <li>contacts</li>
+        </Link>
         <span>|</span>
         <li>French Bulldog colors</li>
         <span>|</span>
+        <Link to={"/programs"}>
         <li>our program</li>
+        </Link>
         <span>|</span>
-        <li>Finance</li>
+        <Link to={"/finance"}>
+          <li>Finance</li>
+        </Link>
         <span>|</span>
-        <li>Stud Service</li>
+        <Link to={"/stud-services"}>
+          <li>Stud Service</li>
+        </Link>
         <span>|</span>
-        <li>HOME</li>
+        <Link to={"/"}>
+          <li>HOME</li>
+        </Link>
         <span>|</span>
-        <li>Gear</li>
+        <Link to={"/gear"}>
+          <li>Gear</li>
+        </Link>
         {/* <li>
             <Link>French Bull Puppies</Link>
           </li>

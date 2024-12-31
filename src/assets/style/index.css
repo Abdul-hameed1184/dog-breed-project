@@ -78,6 +78,12 @@
         background: transparent;
         color: rgba(231, 223, 223, 0.205);
       }
+      a {
+        background: transparent;
+      }
+      a:hover {
+        border-bottom: 2px solid cyan;
+      }
       li {
         background: transparent;
         color: rgba(231, 223, 223, 0.582);
@@ -366,11 +372,11 @@
     line-height: 1.1em;
     margin: 1rem 3rem;
   }
-  ul{
+  ul {
     line-height: 1.5rem;
     margin: 1rem 3rem;
     font-size: 13px;
-list-style-type: disc;
+    list-style-type: disc;
   }
   p {
     font-size: 13px;
@@ -390,16 +396,16 @@ list-style-type: disc;
     }
   }
 }
-.form{
+.form {
   color: rgb(177, 175, 175);
   margin-top: 1rem;
-  ul{
+  ul {
     margin-bottom: 3rem;
   }
-  hr{
+  hr {
     width: 100%;
   }
-  form{
+  form {
     border: 0.7px solid rgba(231, 223, 223, 0.205);
 
     border-radius: 2px;
@@ -407,37 +413,379 @@ list-style-type: disc;
     flex-direction: column;
     padding: 1rem;
     margin-bottom: 1rem;
-    input{
-          outline: none;
-    color: rgba(231, 223, 223, 0.603);
+    input {
+      outline: none;
+      color: rgba(231, 223, 223, 0.603);
       height: 2.5rem;
       padding-left: 1.5rem;
       border: 1px solid rgba(231, 223, 223, 0.205);
       margin-bottom: 1rem;
       border-radius: 3px;
     }
-    button{
+    button {
       height: 2.5rem;
       border: none;
       background-color: antiquewhite;
       border-radius: 3px;
-
     }
   }
-    p {
+  p {
     font-size: 13px;
     margin-top: 1rem;
     line-height: 1.3rem;
     margin-bottom: 1rem;
     margin: 1rem 3rem;
-    }
-    a{
+  }
+  a {
     font-size: 13px;
     line-height: 2rem;
     margin: 1rem 3rem;
-      color: antiquewhite;
+    color: antiquewhite;
   }
-  h3{
+  h3 {
     margin-bottom: 1rem;
+  }
+}
+.contactPage {
+  color: rgb(231, 223, 223);
+  margin-top: 15.5rem;
+  .container {
+    padding: 0 18vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    img {
+      height: 500px;
+      border-radius: 3px;
+      margin-bottom: 2rem;
+    }
+    .write-up {
+      text-align: center;
+      p {
+        font-size: 13px;
+        line-height: 1.5rem;
+        margin-top: 1rem;
+      }
+      h2 {
+        margin-bottom: 1rem;
+      }
+      h3 {
+        margin-top: 2rem;
+      }
+      .images {
+        display: flex;
+        gap: 5rem;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10rem;
+        img {
+          height: 17rem;
+        }
+      }
+    }
+  }
+}
+.hr {
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  padding: 0 1rem;
+  width: 99vw;
+  border: 1px solid rgba(231, 223, 223, 0.205);
+}
+.studServices {
+  margin-top: 15rem;
+  color: rgb(231, 223, 223);
+  .cover {
+    img {
+      width: 100%;
+    }
+  }
+  .write-up {
+    padding: 0 18vw;
+    p {
+      font-size: 13px;
+      text-align: center;
+      line-height: 1.5rem;
+      margin-top: 1rem;
+    }
+    h1 {
+      text-align: center;
+
+      font-family: Metrophobic, Helvetica, Arial, sans-serif;
+      font-size: 28px;
+      line-height: 1.1em;
+      margin: 1rem 3rem;
+    }
+    h2 {
+      text-align: center;
+      margin: 1rem;
+    }
+    .images {
+      display: flex;
+      gap: 5rem;
+      align-items: center;
+      justify-content: center;
+      margin-top: 10rem;
+    }
+  }
+  .studGrid1 {
+    display: flex;
+    gap: 3rem;
+    margin-top: 5rem;
+    .left {
+      margin: 0 2rem;
+      h1 {
+        margin: 1.5rem 0;
+      }
+    }
+    .right {
+      img {
+        aspect-ratio: auto 600 / 1000;
+        width: 560px;
+      }
+    }
+  }
+  .studGrid2 {
+    margin-bottom: 5rem;
+
+    display: flex;
+    gap: 3rem;
+    margin-top: 5rem;
+    .left {
+      margin: 0 2rem;
+      h1 {
+        margin: 1.5rem 0;
+      }
+    }
+    .right {
+      img {
+        aspect-ratio: auto 600 / 1000;
+        width: 560px;
+      }
+    }
+  }
+}
+.finance {
+  margin-top: 15rem;
+  color: rgb(231, 223, 223);
+  .cover {
+    margin-bottom: 2rem;
+    img {
+      width: 100%;
+    }
+  }
+  .finance-body {
+    padding: 0 18vw;
+    text-align: center;
+    h1 {
+      font-family: metrophobic, Helvetica, Arial, sans-serif;
+      margin-bottom: 2rem;
+    }
+    h6 {
+      color: yellow;
+      text-align: left;
+      margin-bottom: 1rem;
+    }
+    .pay {
+      text-align: left;
+      font-size: 15px;
+      /* margin-bottom: 1rem; */
+    }
+    ul {
+      text-align: left;
+      line-height: 1.5rem;
+      list-style: none;
+      li {
+        font-size: 14px;
+      }
+    }
+    ul li:before {
+      content: "✔";
+      margin-right: 0.5rem;
+    }
+    .semi {
+      display: flex;
+      gap: 7rem;
+      margin-bottom: 3rem;
+      h1 {
+        font-size: 15px;
+        color: yellow;
+      }
+      p {
+        line-height: 1.5rem;
+        font-size: 14px;
+      }
+    }
+    .qr {
+      margin-bottom: 2rem;
+    }
+    p {
+      font-size: 13px;
+      text-align: left;
+      margin-bottom: 2rem;
+    }
+  }
+  .financeGrid {
+    img {
+      border-radius: 3px;
+    }
+    display: flex;
+    padding: 0 18vw;
+    gap: 5rem;
+    .left {
+      text-align: center;
+      h1 {
+        margin-top: 3rem;
+        font-family: Metrophobic, Helvetica, Arial, sans-serif;
+        font-size: 28px;
+        line-height: 1.1rem;
+      }
+      h2,
+      h4,
+      h1 {
+        margin-bottom: 2rem;
+      }
+      p {
+        font-size: 13px;
+        margin-top: 0.7rem;
+        line-height: 1.5rem;
+        margin-bottom: 0.7rem;
+      }
+      .p-left {
+        text-align: left;
+      }
+      img {
+        height: 780px;
+        width: 800px;
+        margin-bottom: 2rem;
+      }
+      .cover2 {
+        height: 370px;
+      }
+    }
+    .right {
+      img {
+        height: 19rem;
+        width: 20rem;
+        object-fit: cover;
+        margin-bottom: 1rem;
+      }
+    }
+  }
+  .form {
+    padding: 0 18vw;
+    margin-top: 2rem;
+  }
+}
+.gear {
+  margin-top: 15rem;
+  color: rgb(231, 223, 223);
+  .cover {
+    margin-bottom: 2rem;
+    img {
+      width: 100%;
+    }
+  }
+  .gearGrid {
+    img {
+      border-radius: 3px;
+    }
+    display: flex;
+    padding: 0 18vw;
+    gap: 5rem;
+    .left {
+      text-align: center;
+      h1 {
+        margin-top: 3rem;
+        font-family: Metrophobic, Helvetica, Arial, sans-serif;
+        font-size: 28px;
+        line-height: 1.1rem;
+      }
+      h2,
+      h4,
+      h1 {
+        margin-bottom: 2rem;
+      }
+      p {
+        font-size: 13px;
+        margin-top: 0.7rem;
+        line-height: 1.5rem;
+        margin-bottom: 0.7rem;
+      }
+
+      img {
+        height: 780px;
+        width: 800px;
+        margin-bottom: 2rem;
+      }
+      .cover2 {
+        height: 370px;
+      }
+    }
+    .right {
+      img {
+        height: 19rem;
+        width: 20rem;
+        object-fit: cover;
+        margin-bottom: 1rem;
+      }
+    }
+  }
+  .form {
+    padding: 0 18vw;
+    margin-top: 2rem;
+  }
+}
+.program {
+  color: rgb(231, 223, 223);
+  margin-top: 15rem;
+  .cover {
+    img {
+      width: 100%;
+    }
+  }
+  h1,
+  h3,
+  h4 {
+    font-family: Metrophobic, Helvetica, Arial, sans-serif;
+    line-height: 1.1em;
+    margin: 1rem;
+  }
+  h1 {
+    font-size: 28px;
+  }
+  p {
+    font-size: 13px;
+    line-height: 1.5rem;
+    margin-top: 1rem;
+  }
+  .container {
+    img {
+      border-radius: 3px;
+    }
+    margin-top: 5rem;
+    .programGrid {
+      padding: 0 18vw;
+      display: flex;
+      gap: 5rem;
+
+      ul {
+        line-height: 1.5rem;
+        margin: 1rem 3rem;
+        font-size: 13px;
+        li {
+          list-style-type: disc;
+        }
+      }
+
+      .right {
+        img {
+          height: 35rem;
+          width: 36rem;
+          margin-bottom: 2rem;
+        }
+      }
+    }
   }
 }
