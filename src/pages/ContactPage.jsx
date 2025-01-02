@@ -1,5 +1,3 @@
-import Form from "../components/Form";
-import Hr from "../components/Hr";
 
 const ContactPage = () => {
   return (
@@ -34,8 +32,7 @@ const ContactPage = () => {
                       <img src="src/assets/images/fluffy-frenchie-for-sale.jpg.webp" alt="" />
                   </div>
               </div>
-              <Hr />
-            <Form/>  
+
       </div>
     </div>
   );

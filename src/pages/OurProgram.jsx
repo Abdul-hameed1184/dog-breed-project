@@ -1,4 +1,7 @@
+import Contact from "../components/Contact"
 import ProgramGrid from "../components/ProgramGrid"
+import ProgramPics from "../components/ProgramPics"
+
 
 const OurProgram = () => {
   return (
@@ -10,7 +13,10 @@ const OurProgram = () => {
               <img src="src/assets/images/program1.jpg" alt="" />
           </div>
           <div className="container">
-              <ProgramGrid/>
+              <ProgramGrid />
+              <Contact />    
+              <ProgramPics />
+
           </div>
     </div>
   )

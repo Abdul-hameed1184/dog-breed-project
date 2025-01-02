@@ -6,6 +6,8 @@ import StudServices from "./pages/StudServices"
 import Finance from "./pages/Finance"
 import GearPage from "./pages/GearPage"
 import OurProgram from "./pages/OurProgram"
+import BulldogColors from "./pages/BulldogColors"
+import BulldogPuppies from "./pages/BulldogPuppies"
 
 const App = () => {
 
@@ -18,6 +20,8 @@ const App = () => {
         <Route path="/finance" element={ <Finance/>} />
         <Route path="/gear" element={ <GearPage/>} />
         <Route path="/programs" element={ <OurProgram/>} />
+        <Route path="/french-bulldog-colors" element={ <BulldogColors/>} />
+        <Route path="/bulldog-puppies" element={ <BulldogPuppies/>} />
       </Route>
     )
   )

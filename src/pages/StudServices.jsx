@@ -1,12 +1,10 @@
-import Form from "../components/Form";
-import Hr from "../components/Hr";
 import StudGrid1 from "../components/StudGrid1";
 import StudGrid2 from "../components/StudGrid2";
 
 const StudServices = () => {
   return (
-      <div className="studServices">
-          <div className="route">you are here: stud services</div>
+    <div className="studServices">
+      <div className="route">you are here: stud services</div>
       <div className="cover">
         <img
           src="src/assets/images/french-bulldog-stud-service-1-1.jpg.webp"
@@ -27,14 +25,12 @@ const StudServices = () => {
           plan in place years before you get to that point. If you are
           interested in locking in one of our Frenchie Stud Service dogs, please
           click here.
-              </p>
-              <StudGrid1 />
-              <StudGrid2 />
-              {/* <Hr /> */}
-              <Form/>
+        </p>
+        <StudGrid1 />
+        <StudGrid2 />
       </div>
     </div>
   );
-}
+};
 
-export default StudServices
+export default StudServices;

@@ -1,4 +1,4 @@
-import Form from "../components/Form";
+
 import GearGrid from "../components/GearGrid";
 
 const GearPage = () => {
@@ -11,7 +11,6 @@ const GearPage = () => {
       <div className="content">
         <GearGrid />
       </div>
-      <Form />
     </div>
   );
 };

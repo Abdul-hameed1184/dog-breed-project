@@ -8,8 +8,6 @@ import HomeGrid5 from "../components/HomeGrid5";
 import HomeGrid6 from "../components/HomeGrid6";
 import HomeGrid7 from "../components/HomeGrid7";
 import HomeGrid8 from "../components/HomeGrid8";
-import Form from "../components/Form";
-import Hr from "../components/Hr";
 const HomePage = () => {
   return (
     <>
@@ -111,8 +109,7 @@ const HomePage = () => {
             <HomeGrid7 />
             <HomeGrid8 />
           </div>
-          <Hr/>
-          <Form />
+
         </div>
       </div>
     </>

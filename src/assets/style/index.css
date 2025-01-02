@@ -36,11 +36,12 @@
   flex-direction: column;
   align-items: center;
   div {
-    border-top: 1px solid rgba(231, 223, 223, 0.205);
+    /* border-top: 1px solid rgba(231, 223, 223, 0.205); */
     width: 100%;
-    padding: 0 18vw;
+    /* padding: 0 18vw; */
   }
   .contact {
+    padding-right: 20rem;
     height: 1.5rem;
     align-items: center;
     display: flex;
@@ -48,6 +49,8 @@
     background-color: #191919;
     border-top: none;
     font-size: 11px;
+    border-top: 1px solid rgba(231, 223, 223, 0.205);
+    border-bottom: 1px solid rgba(231, 223, 223, 0.205);
     p {
       color: rgba(231, 223, 223, 0.596);
     }
@@ -58,6 +61,7 @@
     padding: 1rem 0;
     display: flex;
     justify-content: center;
+    border-bottom: 1px solid rgba(231, 223, 223, 0.205);
     img {
       height: 100%;
       background: transparent;
@@ -65,6 +69,10 @@
   }
   .nav-btn {
     background: transparent;
+  }
+  /* .nav-btn {
+    background: transparent;
+    position: relative;
     display: flex;
     justify-content: center;
     border-bottom: 1px solid rgba(231, 223, 223, 0.205);
@@ -81,6 +89,7 @@
       a {
         background: transparent;
       }
+
       a:hover {
         border-bottom: 2px solid cyan;
       }
@@ -91,14 +100,13 @@
         font-size: 13px;
         align-items: center;
         display: flex;
-        /* border-bottom: 2px solid rgb(0, 140, 255); */
       }
       li:hover {
         color: rgb(231, 223, 223);
       }
       gap: 1rem;
     }
-  }
+  } */
 }
 .homePage {
   color: rgb(231, 223, 223);
@@ -397,8 +405,10 @@
   }
 }
 .form {
+  padding: 0 18vw;
   color: rgb(177, 175, 175);
   margin-top: 1rem;
+  margin-bottom: 2rem;
   ul {
     margin-bottom: 3rem;
   }
@@ -673,10 +683,7 @@
       }
     }
   }
-  .form {
-    padding: 0 18vw;
-    margin-top: 2rem;
-  }
+
 }
 .gear {
   margin-top: 15rem;
@@ -732,10 +739,7 @@
       }
     }
   }
-  .form {
-    padding: 0 18vw;
-    margin-top: 2rem;
-  }
+
 }
 .program {
   color: rgb(231, 223, 223);
@@ -784,6 +788,329 @@
           height: 35rem;
           width: 36rem;
           margin-bottom: 2rem;
+        }
+      }
+    }
+    .contact {
+      padding: 0 18vw;
+      h3,
+      h6 {
+        text-align: center;
+      }
+      hr {
+        margin: 2rem 0;
+      }
+      form {
+        line-height: 2rem;
+        margin-bottom: 2rem;
+        span {
+          color: rgb(243, 58, 58);
+        }
+        .details {
+          input {
+            border: 0.7px solid rgba(231, 223, 223, 0.205);
+            outline: none;
+            padding-left: 0.7rem;
+            width: 100%;
+            height: 2rem;
+            color: rgb(177, 175, 175);
+            border-radius: 3px;
+          }
+          label {
+            display: block;
+          }
+          .name {
+            display: flex;
+            gap: 2rem;
+            section {
+              width: 100%;
+              label {
+                font-size: 13px;
+              }
+            }
+          }
+        }
+        .checkbox {
+          display: flex;
+          flex-direction: column;
+          label {
+            padding-left: 1rem;
+            font-size: 13px;
+          }
+        }
+        .text {
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+          textarea {
+            width: 100%;
+            resize: vertical;
+            height: 10rem;
+            outline: none;
+            padding-left: 0.6rem;
+            color: rgb(231, 223, 223);
+          }
+        }
+      }
+      .phone-number-form {
+        margin-top: 3rem;
+        display: flex;
+        flex-direction: column;
+        max-width: 300px;
+        font-family: Arial, sans-serif;
+
+        input {
+          padding: 10px;
+          color: rgb(177, 175, 175);
+          font-size: 16px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          outline: none;
+        }
+      }
+      .drop-down {
+        display: flex;
+        flex-direction: column;
+        max-width: 50rem;
+        select {
+          height: 2rem;
+          color: rgb(177, 175, 175);
+          outline: none;
+          border-radius: 3px;
+        }
+      }
+      .submit {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 3rem;
+        margin-bottom: 2rem;
+
+        button {
+          height: 2rem;
+          background-color: rgb(177, 175, 175);
+          border: none;
+          width: 7rem;
+          border-radius: 5px;
+        }
+      }
+      .captcha {
+        font-size: 12px;
+        color: grey;
+      }
+    }
+    .programPics {
+      display: flex;
+      padding: 0 18vw;
+      gap: 3rem;
+      object-fit: cover;
+      margin-bottom: 5rem;
+      flex-wrap: wrap;
+      img {
+        height: 22rem;
+        width: 22rem;
+      }
+    }
+
+  }
+}
+
+.bulldogColors {
+  display: flex;
+  flex-direction: column;
+  color: #ccc;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15.5rem;
+  .cover {
+    margin-top: 3rem;
+    img {
+      width: 50vw;
+    }
+  }
+  .colorGrid {
+    padding: 0 18vw;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    gap: 5rem;
+    img {
+      border-radius: 3px;
+    }
+    .left {
+      img {
+        width: 100%;
+      }
+      h1,
+      h3,
+      h4 {
+        font-family: Metrophobic, Helvetica, Arial, sans-serif;
+        line-height: 1.1em;
+        margin: 1rem;
+      }
+      h1 {
+        font-size: 28px;
+      }
+      p {
+        font-size: 13px;
+        line-height: 1.5rem;
+        margin-top: 1rem;
+      }
+    }
+    .right {
+      width: 20rem;
+      img {
+        height: 20rem;
+      }
+    }
+  }
+
+}
+
+.routes {
+  background: transparent;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid rgba(231, 223, 223, 0.205);
+  text-align: center;
+  align-items: center;
+}
+
+.routes ul {
+  background: transparent;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.routes span {
+  background: transparent;
+  color: rgba(231, 223, 223, 0.205);
+}
+
+.routes a {
+  background: transparent;
+}
+
+.routes a:hover {
+  border-bottom: 2px solid cyan;
+}
+
+.routes li {
+  background: transparent;
+  color: rgba(231, 223, 223, 0.582);
+  height: 3rem;
+  font-size: 13px;
+  align-items: center;
+  display: flex;
+}
+
+.routes li:hover {
+  color: rgb(231, 223, 223);
+}
+
+.dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.dropdown li {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.dropdown li:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+.homeDropdown {
+  width: 7rem;
+  display: flex;
+  margin-top: 3rem;
+  ul {
+    display: flex;
+    flex-direction: column;
+    width: 7rem;
+  }
+}
+.header {
+  background: transparent;
+
+  .container {
+    border-bottom: 1px solid rgba(231, 223, 223, 0.205);
+    background: transparent;
+
+    nav {
+      height: 3rem;
+      align-items: center;
+      justify-content: center;
+      display: flex;
+      background: transparent;
+
+      .main-nav {
+        background: transparent;
+
+        .nav-body {
+          background: transparent;
+
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 2rem;
+          position: relative;
+          span {
+            background: transparent;
+            color: rgba(231, 223, 223, 0.205);
+          }
+          .nav-list {
+            height: 2rem;
+            align-items: center;
+            text-align: center;
+            display: flex;
+            background: transparent;
+
+            a {
+              font-size: 13px;
+              color: rgba(231, 223, 223, 0.582);
+              background: transparent;
+            }
+
+            a:hover {
+              color: rgb(231, 223, 223);
+            }
+            .sub-menu1, .sub-menu2, .sub-menu3, .sub-menu4, .sub-menu5, .sub-menu6, .sub-menu7, .sub-menu8 {
+              display: none;
+              flex-direction: column;
+              width: 12rem;
+              position: absolute;
+              margin-top: 2.5rem;
+              line-height: 2.5rem;
+              color: #ccc;
+              li:hover {
+                background-color: #252525;
+              }
+            }
+ 
+            .visible{
+              display: flex;
+            }
+          }
+          .nav-list:hover {
+            border-bottom: 3px solid rgb(0, 110, 255);
+            color: rgb(231, 223, 223);
+          }
         }
       }
     }

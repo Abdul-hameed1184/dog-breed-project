@@ -1,11 +1,10 @@
 import FinanceGrid from "../components/FinanceGrid";
-import Form from "../components/Form";
-import Hr from "../components/Hr";
+
 
 const Finance = () => {
   return (
     <div className="finance">
-      <div className="route">you are here : contacts</div>
+      <div className="route">you are here : finances</div>
       <div className="cover">
         <img src="src/assets/images/finance1.jpg" alt="" />
       </div>
@@ -55,9 +54,9 @@ const Finance = () => {
           apply.
         </p>
           </div>
-          <Hr/>
+
           <FinanceGrid />
-          <Form/>
+
     </div>
   );
 };
