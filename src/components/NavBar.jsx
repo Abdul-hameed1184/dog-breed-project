@@ -1,4 +1,5 @@
 import Routes from "./Routes";
+import '../../public'
 
 const NavBar = () => {
   return (
