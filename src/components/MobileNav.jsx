@@ -60,7 +60,7 @@ const MobileNav = () => {
       <nav>
         <div className="nav-container">
           <div className="logo">
-            <img src="src/assets/images/logo.png" alt="" />
+            <img src="public/images/logo.png" />
           </div>
           <div className="left">
             <BiSearch className="icon" />

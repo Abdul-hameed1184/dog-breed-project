@@ -49,10 +49,15 @@ const HomeGrid4 = () => {
         </p>
       </div>
       <div className="right">
-        <img src="src/assets/images/black-and-tan-fluffy-frenchie-1-600x593.webp" alt="" />
-        <img src="src/assets/images/frenchie-puppies-for-sale-near-me-1-1-600x600 (1).webp" alt="" />
+        <img
+          src="publics/black-and-tan-fluffy-frenchie-1-600x593.webp"
+          alt=""
+        />
+        <img
+          src="publics/frenchie-puppies-for-sale-near-me-1-1-600x600 (1).webp"
+          alt=""
+        />
       </div>
-
     </div>
   );
 };

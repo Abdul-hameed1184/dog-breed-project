@@ -69,13 +69,13 @@ const HomeGrid8 = () => {
         </ul>
       </div>
       <div className="right">
-        <img src="src/assets/images/big-rope-Frenchie-14 (1).jpg" alt="" />
+        <img src="publics/big-rope-Frenchie-14 (1).jpg" alt="" />
         <img
-          src="src/assets/images/isabella-french-bulldog-for-sale450.jpg"
+          src="publics/isabella-french-bulldog-for-sale450.jpg"
           alt=""
         />
-        <img src="src/assets/images/blue-frenchie-450x450.jpg.webp" alt="" />
-        <img src="src/assets/images/merle-frenchies-for-sale-32.jpg" alt="" />
+        <img src="publics/blue-frenchie-450x450.jpg.webp" alt="" />
+        <img src="publics/merle-frenchies-for-sale-32.jpg" alt="" />
       </div>
     </div>
   );

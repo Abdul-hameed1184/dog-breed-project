@@ -6,7 +6,7 @@ const BulldogColors = () => {
       <div className="bulldogColors">
       <div className="route">You are here : French Bulldog colors</div>
       <div className="cover">
-        <img src="src/assets/images/colors1.jpg" alt="" />
+        <img src="public/images/colors1.jpg" alt="" />
       </div>
       <ColorsGrid/>
 

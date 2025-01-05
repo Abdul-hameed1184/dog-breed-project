@@ -15,7 +15,7 @@ const HomePage = () => {
         <div className="route">You are here: Home</div>
 
         <div className="container">
-          <img src="src/assets/images/french-bulldogs-for-sale-534-1.jpg" />
+          <img src="public/imagesh-bulldogs-for-sale-534-1.jpg" />
           <div className="write-up">
             <h1>SOUTHEAST ELITE FRENCHIES BULLDOGS</h1>
             <p className="first-p">
@@ -35,9 +35,13 @@ const HomePage = () => {
               dignissimos, delectus repellendus, nulla unde iusto, dolorem neque
               placeat sapiente aliquid beatae corrupti.
             </p>
-            <img src="src/assets/images/available.jpg" alt="" className="mid"/>
+            <img
+              src="public/imagesable.jpg"
+              alt=""
+              className="mid"
+            />
             <div className="available">
-              <img src="src/assets/images/available.jpg" alt="" />
+              <img src="public/imagesable.jpg" alt="" />
               <div className="overlay">
                 <div className="icon-div">
                   <IoIosShareAlt className="icon" />

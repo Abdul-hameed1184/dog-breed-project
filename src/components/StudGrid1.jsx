@@ -1,4 +1,3 @@
-
 const StudGrid1 = () => {
   return (
     <div className="studGrid1">
@@ -41,13 +40,13 @@ const StudGrid1 = () => {
           not the top Frenchie Stud carrying both Fluffy and Isabella in the
           United States.
         </p>
-          </div>
-          <div className="right">
-              <img src="src/assets/images/image 1.jpg" alt="" />
-              <img src="src/assets/images/image2.jpg" alt="" />
-          </div>
+      </div>
+      <div className="right">
+        <img src="public/images/image 1.jpg" alt="" />
+        <img src="public/images/image2.jpg" alt="" />
+      </div>
     </div>
   );
-}
+};
 
-export default StudGrid1
+export default StudGrid1;

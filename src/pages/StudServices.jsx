@@ -7,7 +7,7 @@ const StudServices = () => {
       <div className="route">you are here: stud services</div>
       <div className="cover">
         <img
-          src="src/assets/images/french-bulldog-stud-service-1-1.jpg.webp"
+          src="public/images/french-bulldog-stud-service-1-1.jpg.webp"
           alt=""
         />
       </div>

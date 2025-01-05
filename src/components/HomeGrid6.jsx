@@ -1,4 +1,3 @@
-
 const HomeGrid6 = () => {
   return (
     <div className="homeGrid6">
@@ -70,9 +69,15 @@ const HomeGrid6 = () => {
         </p>
       </div>
       <div className="right">
-        <img src="src/assets/images/IMG_4513-450x450.jpg.webp" alt="" />
-        <img src="src/assets/images/blue-merle-Frenchie-for-sale-450x450.webp" alt="" />
-        <img src="src/assets/images/fluffy-frenchie-puppies-cost-15111.jpg" alt="" />
+        <img src="public4513-450x450.jpg.webp" alt="" />
+        <img
+          src="public-merle-Frenchie-for-sale-450x450.webp"
+          alt=""
+        />
+        <img
+          src="publicfy-frenchie-puppies-cost-15111.jpg"
+          alt=""
+        />
       </div>
     </div>
   );

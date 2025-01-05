@@ -69,9 +69,12 @@ const HomeGrid1 = () => {
         </p>
       </div>
       <div className="rigth">
-      <img src="src/assets/images/isabella-french-bulldog-for-sale450.jpg" alt="" />
-      <img src="src/assets/images/blue-frenchie-450x450.jpg.webp" alt="" />
-      <img src="src/assets/images/merle-frenchies-for-sale-32.jpg" alt="" />
+        <img
+          src="publics/isabella-french-bulldog-for-sale450.jpg"
+          alt=""
+        />
+        <img src="publics/blue-frenchie-450x450.jpg.webp" alt="" />
+        <img src="publics/merle-frenchies-for-sale-32.jpg" alt="" />
       </div>
     </div>
   );

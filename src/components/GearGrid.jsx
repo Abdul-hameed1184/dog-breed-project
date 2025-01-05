@@ -1,4 +1,3 @@
-
 const GearGrid = () => {
   return (
     <div className="gearGrid">
@@ -29,17 +28,17 @@ const GearGrid = () => {
           needs today. Check out our entire Frenchie clothes and baby French
           Bulldog clothes section!
         </p>
-          </div>
-          <div className="right">
-              <img src="src/assets/images/gear2.jpg" alt="" />
-              <img src="src/assets/images/gear3.jpg" alt="" />
-              <img src="src/assets/images/gear4.jpg" alt="" />
-              <img src="src/assets/images/gear5.jpg" alt="" />
-              <img src="src/assets/images/gear6.jpg" alt="" />
-              <img src="src/assets/images/gear7.jpg" alt="" />
-          </div>
+      </div>
+      <div className="right">
+        <img src="public/images/gear2.jpg" alt="" />
+        <img src="public/images/gear3.jpg" alt="" />
+        <img src="public/images/gear4.jpg" alt="" />
+        <img src="public/images/gear5.jpg" alt="" />
+        <img src="public/images/gear6.jpg" alt="" />
+        <img src="public/images/gear7.jpg" alt="" />
+      </div>
     </div>
   );
-}
+};
 
-export default GearGrid
+export default GearGrid;

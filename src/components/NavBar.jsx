@@ -7,7 +7,7 @@ const NavBar = () => {
         <p>(609) 827-2645</p>
       </div>
       <div className="logo">
-        <img src="src/assets/images/logo.png" alt="" />
+        <img src="public/images/logo.png" alt="" />
       </div>
       <div className="nav-btn">
         <Routes />

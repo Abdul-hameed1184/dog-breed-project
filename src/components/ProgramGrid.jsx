@@ -104,9 +104,9 @@ const ProgramGrid = () => {
         </p>
       </div>
       <div className="right">
-        <img src="src/assets/images/program2.jpg" alt="" />
-        <img src="src/assets/images/program3.jpg" alt="" />
-        <img src="src/assets/images/program4.jpg" alt="" />
+        <img src="public/images/program2.jpg" alt="" />
+        <img src="public/images/program3.jpg" alt="" />
+        <img src="public/images/program4.jpg" alt="" />
       </div>
     </div>
   );
