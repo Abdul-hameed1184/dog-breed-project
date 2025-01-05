@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { useRef } from "react";
+import { useRef, useState } from "react";
 // import HomeDropdown from "./HomeDropdown";
 
 const Routes = () => {
@@ -13,55 +13,54 @@ const Routes = () => {
   const navRef8 = useRef();
   // const showRef8 = useRef();
   const handleMouseEnter = () => {
-    navRef.current.classList.toggle("visible");
+    navRef.current.classList.add("visible");
   };
   const handleMouseLeave = () => {
     navRef.current.classList.remove("visible");
   };
   const handleMouseEnter2 = () => {
-    navRef2.current.classList.toggle("visible");
+    navRef2.current.classList.add("visible");
   };
   const handleMouseLeave2 = () => {
     navRef2.current.classList.remove("visible");
   };
   const handleMouseEnter3 = () => {
-    navRef3.current.classList.toggle("visible");
+    navRef3.current.classList.add("visible");
   };
   const handleMouseLeave3 = () => {
     navRef3.current.classList.remove("visible");
   };
   const handleMouseEnter4 = () => {
-    navRef4.current.classList.toggle("visible");
+    navRef4.current.classList.add("visible");
   };
   const handleMouseLeave4 = () => {
     navRef4.current.classList.remove("visible");
   };
   const handleMouseEnter5 = () => {
-    navRef5.current.classList.toggle("visible");
+    navRef5.current.classList.add("visible");
   };
   const handleMouseLeave5 = () => {
     navRef5.current.classList.remove("visible");
   };
   const handleMouseEnter6 = () => {
-    navRef6.current.classList.toggle("visible");
+    navRef6.current.classList.add("visible");
   };
   const handleMouseLeave6 = () => {
     navRef6.current.classList.remove("visible");
   };
   const handleMouseEnter7 = () => {
-    navRef7.current.classList.toggle("visible");
+    navRef7.current.classList.add("visible");
   };
   const handleMouseLeave7 = () => {
     navRef7.current.classList.remove("visible");
   };
   const handleMouseEnter8 = () => {
-    navRef8.current.classList.toggle("visible");
+    navRef8.current.classList.add("visible");
   };
   const handleMouseLeave8 = () => {
     navRef8.current.classList.remove("visible");
   };
-  
-  
+
   return (
     <>
       <div className="header">
@@ -70,7 +69,7 @@ const Routes = () => {
             <div className="main-nav">
               <ul className="nav-body">
                 <li className="nav-list">
-                  <Link onMouseEnter={handleMouseEnter} to={'/Bulldog-puppies'}>
+                  <Link onMouseEnter={handleMouseEnter} to={"/Bulldog-puppies"}>
                     French Bulldog Puppies
                   </Link>
                   <ul
@@ -78,11 +77,15 @@ const Routes = () => {
                     ref={navRef}
                     onMouseLeave={handleMouseLeave}
                   >
-                    <li>option1 </li>
-                    <li>option1 </li>
-                    <li>option1 </li>
-                    <li>option1 </li>
-                    <li>option1 </li>
+                    <li>
+                      <Link>Available French Bulldog Puppies</Link>
+                    </li>
+                    <li>
+                      <Link>Future litter reservation deposit</Link>{" "}
+                    </li>
+                    <li>
+                      <Link>puppy waiting list</Link>
+                    </li>
                   </ul>
                 </li>
                 <span>|</span>

@@ -13,7 +13,7 @@ const App = () => {
 
   const router = createBrowserRouter(
     createRoutesFromElements(
-      <Route path="/" element={<Layout/>}>
+      <Route path="/" element={<Layout />}>
         <Route path="/" element={ <HomePage/>} />
         <Route path="/contacts" element={ <ContactPage/>} />
         <Route path="/stud-services" element={ <StudServices/>} />
@@ -21,7 +21,7 @@ const App = () => {
         <Route path="/gear" element={ <GearPage/>} />
         <Route path="/programs" element={ <OurProgram/>} />
         <Route path="/french-bulldog-colors" element={ <BulldogColors/>} />
-        <Route path="/bulldog-puppies" element={ <BulldogPuppies/>} />
+        <Route path="/bulldog-puppies" element={<BulldogPuppies />} />
       </Route>
     )
   )

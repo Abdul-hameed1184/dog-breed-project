@@ -13,6 +13,7 @@ const HomePage = () => {
     <>
       <div className="homePage">
         <div className="route">You are here: Home</div>
+
         <div className="container">
           <img src="src/assets/images/french-bulldogs-for-sale-534-1.jpg" />
           <div className="write-up">
@@ -34,6 +35,7 @@ const HomePage = () => {
               dignissimos, delectus repellendus, nulla unde iusto, dolorem neque
               placeat sapiente aliquid beatae corrupti.
             </p>
+            <img src="src/assets/images/available.jpg" alt="" className="mid"/>
             <div className="available">
               <img src="src/assets/images/available.jpg" alt="" />
               <div className="overlay">
@@ -109,7 +111,6 @@ const HomePage = () => {
             <HomeGrid7 />
             <HomeGrid8 />
           </div>
-
         </div>
       </div>
     </>

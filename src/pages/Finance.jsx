@@ -1,6 +1,5 @@
 import FinanceGrid from "../components/FinanceGrid";
 
-
 const Finance = () => {
   return (
     <div className="finance">
@@ -53,10 +52,9 @@ const Finance = () => {
           eligibility and not guaranteed. Must be at least 18 years old to
           apply.
         </p>
-          </div>
+      </div>
 
-          <FinanceGrid />
-
+      <FinanceGrid />
     </div>
   );
 };

@@ -1,28 +1,25 @@
 import { useState } from "react";
 
 const Contact = () => {
-    const [phoneNumber, setPhoneNumber] = useState("");
+  const [phoneNumber, setPhoneNumber] = useState("");
 
-    const handleInputChange = (e) => {
-      let input = e.target.value;
-      // Remove non-numeric characters
-      input = input.replace(/[^0-9]/g, "");
+  const handleInputChange = (e) => {
+    let input = e.target.value;
+    // Remove non-numeric characters
+    input = input.replace(/[^0-9]/g, "");
 
-      // Format the input to ####-###-####
-      if (input.length <= 4) {
-        input = input;
-      } else if (input.length <= 7) {
-        input = `${input.slice(0, 4)}-${input.slice(4)}`;
-      } else {
-        input = `${input.slice(0, 4)}-${input.slice(4, 7)}-${input.slice(
-          7,
-          11
-        )}`;
-      }
+    // Format the input to ####-###-####
+    if (input.length <= 4) {
+      input = input;
+    } else if (input.length <= 7) {
+      input = `${input.slice(0, 4)}-${input.slice(4)}`;
+    } else {
+      input = `${input.slice(0, 4)}-${input.slice(4, 7)}-${input.slice(7, 11)}`;
+    }
 
-      setPhoneNumber(input);
-    };
-    
+    setPhoneNumber(input);
+  };
+
   return (
     <div className="contact">
       <h3>Designer French Bulldogs Contact</h3>
@@ -183,6 +180,30 @@ const Contact = () => {
             waiting list? Deposit is $1000.00 and goes towards final price of
             puppy.
           </p>
+          <label>
+            <input type="radio" name="option" value="yes" />
+            <span>Yes</span>
+          </label>
+          <br />
+          <label>
+            <input type="radio" name="option" value="no" />
+            <span>Not at this time</span>
+          </label>
+        </div>
+        <div className="check2">
+          <p>
+            Stay up-to-date with puppy announcements and more from Designer
+            French Bulldogs!
+          </p>
+          <label>
+            <input type="radio" name="check2" value="yes" />
+           <span>Yes</span>
+          </label>
+          <br />
+          <label>
+            <input type="radio" name="check2" value="no" />
+             <span>No</span>
+          </label>
         </div>
         <div className="submit">
           <button>Submit</button>

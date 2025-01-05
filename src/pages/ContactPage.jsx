@@ -1,3 +1,4 @@
+import Contact from "../components/Contact";
 
 const ContactPage = () => {
   return (
@@ -24,15 +25,18 @@ const ContactPage = () => {
             exercitationem ea id, obcaecati voluptate Lorem ipsum dolor sit,
             amet consectetur adipisicing elit. Magnam, blanditiis ipsum. Quaerat
             quam sed cum blanditiis eaque obcaecati, impedit iusto?
-                  </p>
-                  <div className="images">
-                      <img src="src/assets/images/frenchies-for-sale-1.jpg.webp" alt="" />
-                      <img src="src/assets/images/frenchie-for-sale-1.jpg.webp" alt="" />
-                      <img src="src/assets/images/lilac-frenchie-cost.jpg" alt="" />
-                      <img src="src/assets/images/fluffy-frenchie-for-sale.jpg.webp" alt="" />
-                  </div>
-              </div>
-
+          </p>
+          <div className="images">
+            <img src="src/assets/images/frenchies-for-sale-1.jpg.webp" alt="" />
+            <img src="src/assets/images/frenchie-for-sale-1.jpg.webp" alt="" />
+            <img src="src/assets/images/lilac-frenchie-cost.jpg" alt="" />
+            <img
+              src="src/assets/images/fluffy-frenchie-for-sale.jpg.webp"
+              alt=""
+            />
+          </div>
+        </div>
+        <Contact />
       </div>
     </div>
   );
