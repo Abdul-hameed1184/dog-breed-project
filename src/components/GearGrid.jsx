@@ -30,12 +30,12 @@ const GearGrid = () => {
         </p>
       </div>
       <div className="right">
-        <img src="public/images/gear2.jpg" alt="" />
-        <img src="public/images/gear3.jpg" alt="" />
-        <img src="public/images/gear4.jpg" alt="" />
-        <img src="public/images/gear5.jpg" alt="" />
-        <img src="public/images/gear6.jpg" alt="" />
-        <img src="public/images/gear7.jpg" alt="" />
+        <img src="/images/gear2.jpg" alt="" />
+        <img src="/images/gear3.jpg" alt="" />
+        <img src="/images/gear4.jpg" alt="" />
+        <img src="/images/gear5.jpg" alt="" />
+        <img src="/images/gear6.jpg" alt="" />
+        <img src="/images/gear7.jpg" alt="" />
       </div>
     </div>
   );

@@ -5,7 +5,7 @@ const ContactPage = () => {
     <div className="contactPage">
       <div className="route">You are here: contact </div>
       <div className="container">
-        <img src="public/images/rojo-frenchie-2.webp" alt="" />
+        <img src="/images/rojo-frenchie-2.webp" alt="" />
         <div className="write-up">
           <h2> Southeast French Bulldogs</h2>
           <h6>EHT, NJ and Tampa, FL, USA</h6>
@@ -27,13 +27,10 @@ const ContactPage = () => {
             quam sed cum blanditiis eaque obcaecati, impedit iusto?
           </p>
           <div className="images">
-            <img src="public/images/frenchies-for-sale-1.jpg.webp" alt="" />
-            <img src="public/images/frenchie-for-sale-1.jpg.webp" alt="" />
-            <img src="public/images/lilac-frenchie-cost.jpg" alt="" />
-            <img
-              src="public/images/fluffy-frenchie-for-sale.jpg.webp"
-              alt=""
-            />
+            <img src="/images/frenchies-for-sale-1.jpg.webp" alt="" />
+            <img src="/images/frenchie-for-sale-1.jpg.webp" alt="" />
+            <img src="/images/lilac-frenchie-cost.jpg" alt="" />
+            <img src="/images/fluffy-frenchie-for-sale.jpg.webp" alt="" />
           </div>
         </div>
         <Contact />

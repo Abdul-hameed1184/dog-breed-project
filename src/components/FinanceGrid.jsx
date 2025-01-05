@@ -26,7 +26,7 @@ const FinanceGrid = () => {
         </p>
         <h2>LILAC FRENCH BULLDOG COLORS</h2>
         <div className="image">
-          <img src="public/images/finance2.jpg" alt="" />
+          <img src="/images/finance2.jpg" alt="" />
         </div>
         <p>
           Lilac French bulldogs are some of the most beautiful of all colors. A
@@ -40,7 +40,7 @@ const FinanceGrid = () => {
         </p>
         <h4>Finance your French Bulldog Puppy</h4>
         <div className="image">
-          <img src="public/images/finance3.jpg" alt="" />
+          <img src="/images/finance3.jpg" alt="" />
         </div>
         <p>
           The newest and rarest, and some would say cutest, is the fluffy French
@@ -53,7 +53,7 @@ const FinanceGrid = () => {
         </p>
         <h4>French BullDog Coloring</h4>
         <div className="image">
-          <img src="public/images/finance4.jpg" alt="" />
+          <img src="/images/finance4.jpg" alt="" />
         </div>
         <p>
           From time to time, depending on the French bull dog coloring we will
@@ -87,7 +87,7 @@ const FinanceGrid = () => {
         </p>
         <h4>Black French Bulldogs for Sale</h4>
         <div className="image">
-          <img src="public/images/finance5.jpg" alt="" />
+          <img src="/images/finance5.jpg" alt="" />
         </div>
         <p>
           Do you look for the perfect Black French Bulldog puppies for sale? We
@@ -117,7 +117,7 @@ const FinanceGrid = () => {
         </p>
         <h1>ISABELLA FRENCH BULLDOG COLORS</h1>
         <div className="image">
-          <img src="public/images/finance6.jpg" alt="" />
+          <img src="/images/finance6.jpg" alt="" />
         </div>
         <p className="p-left">
           Isabella French Bulldog Puppy-if you're looking for that perfect new
@@ -140,7 +140,7 @@ const FinanceGrid = () => {
           sure you fill out our contact and wait list form!
         </p>
         <h4>French Bulldog Price Chart</h4>
-        <img src="public/images/finance7.jpg" alt="" className="cover2" />
+        <img src="/images/finance7.jpg" alt="" className="cover2" />
         <p className="p-left">
           Within the different colors is the French Bulldog price chart. This
           shows a scale based on a number of factors starting with the color and
@@ -186,7 +186,7 @@ const FinanceGrid = () => {
           French bulldog, also referred to as the blue merle frenchie by some
           enthusiasts.
         </p>
-        <img src="public/images/finance8.jpg" alt="" />
+        <img src="/images/finance8.jpg" alt="" />
         <p className="p-left">
           Blue and Tan frenchie puppies are middle of the road in price and are
           still highly sought after for their amazing blue fur and tan pointed
@@ -234,16 +234,16 @@ const FinanceGrid = () => {
         </p>
       </div>
       <div className="right">
-        <img src="public/images/finance9.jpg" alt="" />
-        <img src="public/images/finance10.jpg" alt="" />
-        <img src="public/images/finance11.jpg" alt="" />
-        <img src="public/images/finance12.jpg" alt="" />
-        <img src="public/images/finance13.jpg" alt="" />
-        <img src="public/images/finance14.jpg" alt="" />
-        <img src="public/images/finance15.jpg" alt="" />
-        <img src="public/images/finance17.jpg" alt="" />
-        <img src="public/images/finance18.jpg" alt="" />
-        <img src="public/images/finance19.jpg" alt="" />
+        <img src="/images/finance9.jpg" alt="" />
+        <img src="/images/finance10.jpg" alt="" />
+        <img src="/images/finance11.jpg" alt="" />
+        <img src="/images/finance12.jpg" alt="" />
+        <img src="/images/finance13.jpg" alt="" />
+        <img src="/images/finance14.jpg" alt="" />
+        <img src="/images/finance15.jpg" alt="" />
+        <img src="/images/finance17.jpg" alt="" />
+        <img src="/images/finance18.jpg" alt="" />
+        <img src="/images/finance19.jpg" alt="" />
       </div>
     </div>
   );

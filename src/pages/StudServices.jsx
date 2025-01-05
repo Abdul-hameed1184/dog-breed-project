@@ -6,10 +6,7 @@ const StudServices = () => {
     <div className="studServices">
       <div className="route">you are here: stud services</div>
       <div className="cover">
-        <img
-          src="public/images/french-bulldog-stud-service-1-1.jpg.webp"
-          alt=""
-        />
+        <img src="/images/french-bulldog-stud-service-1-1.jpg.webp" alt="" />
       </div>
       <div className="write-up">
         <h1>FRENCHIE STUD SERVICE</h1>

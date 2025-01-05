@@ -5,7 +5,7 @@ const Finance = () => {
     <div className="finance">
       <div className="route">you are here : finances</div>
       <div className="cover">
-        <img src="public/images/finance1.jpg" alt="" />
+        <img src="//finance1.jpg" alt="" />
       </div>
       <div className="finance-body">
         <h1>FRENCH BULDOG FINANCE</h1>
@@ -43,7 +43,7 @@ const Finance = () => {
           </div>
         </div>
         <div className="qr">
-          <img src="public/images/finance qr.jpg" alt="" />
+          <img src="//finance qr.jpg" alt="" />
         </div>
         <p>
           * Terrace Pets powered by Terrace Finance is not a lender but

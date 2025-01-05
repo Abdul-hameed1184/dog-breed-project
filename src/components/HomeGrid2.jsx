@@ -2,14 +2,8 @@ const HomeGrid2 = () => {
   return (
     <div className="homeGrid2">
       <div className="left">
-        <img
-          src="public/image/images/designer-french-bulldogs-1-450x450.webp"
-          alt=""
-        />
-        <img
-          src="public/image/images/Frenchies-for-sale-near-me-3.jpg"
-          alt=""
-        />
+        <img src="publics/designer-french-bulldogs-1-450x450.webp" alt="" />
+        <img src="//Frenchies-for-sale-near-me-3.jpg" alt="" />
       </div>
       <div className="right">
         <h1>FRENCH BULLDOGS FOR SALE</h1>

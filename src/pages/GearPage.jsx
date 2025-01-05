@@ -5,7 +5,7 @@ const GearPage = () => {
     <div className="gear">
       <div className="route">You are here: Blldog Clothes</div>
       <div className="cover">
-        <img src="public/images.jpg" alt="" />
+        <img src="/.jpg" alt="" />
       </div>
       <div className="content">
         <GearGrid />
