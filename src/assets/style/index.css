@@ -26,7 +26,7 @@
   display: flex;
   font-size: 12px;
   font-weight: 500;
-  /* border-bottom: 1px solid rgba(231, 223, 223, 0.205); */
+  border-bottom: 1px solid rgba(231, 223, 223, 0.205);
 }
 .navbar {
   z-index: 10;
@@ -1074,6 +1074,164 @@
     }
   }
 }
+.availablePuppies {
+  color: #ccc;
+  margin-top: 15.5rem;
+  text-align: center;
+  img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+  }
+  h1 {
+    margin-top: 3rem;
+    font-family: Metrophobic, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    line-height: 1.1em;
+  }
+  p {
+    font-size: 13px;
+    margin-top: 1rem;
+    line-height: 1.1rem;
+    margin-bottom: 1rem;
+  }
+  .container {
+    padding: 0 18vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .availablePics {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2rem;
+    gap: 4rem;
+    img {
+      height: 22rem;
+      width: 22rem;
+    }
+  }
+  .contact {
+    text-align: start;
+  }
+  .available2 {
+    height: 29rem;
+  }
+  .availableGrid {
+    display: flex;
+    padding: 0 18vw;
+    gap: 5rem;
+    margin-top: 1rem;
+    .left {
+      text-align: left;
+      img {
+        height: 20rem;
+      }
+      span {
+        color: yellow;
+        margin-left: 0.5rem;
+      }
+      h2,
+      h4 {
+        margin: 1rem 0;
+      }
+      h4 {
+        text-align: center;
+      }
+    }
+    .right {
+      img {
+        height: 25rem;
+        margin: 1rem 0;
+      }
+    }
+  }
+}
+.puppyList{
+  color: #ccc;
+  margin-top: 15.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .cover{
+    img{
+      max-width: 100vw;
+
+    }
+  }
+  h1 {
+    font-family: Metrophobic, Helvetica, Arial, sans-serif;
+    text-align: center;
+    font-size: 28px;
+    line-height: 1.1em;
+    margin: 1rem 3rem;
+  }
+  p {
+    font-size: 13px;
+    margin-top: 1rem;
+    line-height: 1.3rem;
+    margin-bottom: 1rem;
+    margin: 1rem 3rem;
+  }
+  ul{
+    line-height: 2rem;
+  }
+  .write-up2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    img{
+      width: 60rem;
+margin: 2rem;
+    }
+  }
+  .cover2{
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #6786A1;
+    width: 100%;
+    font-family: Metrophobic, Helvetica, Arial, sans-serif;
+    h1{
+      background-color: inherit;
+
+    }
+    form{
+      background-color: inherit;
+      display: flex;
+      gap: .5rem;
+      input{
+        height: 3rem;
+        border: 2px solid white;
+        background-color: inherit;
+        color: white;
+        outline: none;
+        padding-left: 1rem;
+        
+      }
+      input::placeholder{
+        color: white;
+      }
+      button{
+        background-color: inherit;
+        width: 12rem;
+        border: 2px solid white;
+        color: white;
+      }
+      button:hover{
+        transition: all ease-in-out 0.3s;
+        background-color: orange;
+      }
+    }
+  }
+}
 @media (max-width: 600px) {
   * {
     transition: all ease-in-out 0.5s;
@@ -1123,8 +1281,10 @@
     }
 
     .nav-menu {
-      position: absolute;
+     
+      position: fixed;
       /* z-index: 10; */
+      overflow-y: scroll;
       width: 92vw;
       height: 100vh;
       right: -27rem;
@@ -1136,18 +1296,23 @@
         background-color: #252525;
         li {
           width: 100%;
+          display: flex;
+          flex-wrap: wrap;
+          align-items: center;
+          justify-content: space-between;
           border-bottom: 1px solid rgba(231, 223, 223, 0.205);
           /* padding: 0.5rem 2rem; */
           a {
             padding-left: 2rem;
+            padding-right: 6rem;
             color: rgb(231, 223, 223);
             align-items: center;
-            display: flex;
-            justify-content: space-between;
-            span {
-              font-size: 1rem;
-              padding-right: 2rem;
-            }
+            /* justify-content: space-between; */
+          }
+          span {
+            font-size: 1rem;
+            padding: 0 2rem;
+            color: #ccc;
           }
           ul {
             width: 100%;
@@ -1157,8 +1322,15 @@
               color: rgb(231, 223, 223);
               padding: 0rem 2rem;
               padding-left: 4rem;
+              justify-content: start;
+              display: flex;
+              gap: 1rem;
               span {
-                margin-right: 1rem;
+                padding: 0;
+                /* margin-right: ; */
+              }
+              a{
+                padding: 0;
               }
             }
           }
@@ -1342,39 +1514,105 @@
       }
     }
   }
-  .studServices{
+  .studServices {
     margin-top: 5.2rem;
-    .write-up{
-      padding: 0 2rem ;
-      .studGrid1, .studGrid2{
+    .write-up {
+      padding: 0 2rem;
+      .studGrid1,
+      .studGrid2 {
         flex-direction: column;
-        .left{
+        .left {
           margin: 0;
         }
-        img{
+        img {
           height: 20.5rem;
           margin-top: 1rem;
           width: 100%;
         }
       }
     }
-
   }
-  .gear{
+  .gear {
     margin-top: 5.2rem;
     padding: 0;
-    .gearGrid{
+    .gearGrid {
       flex-direction: column;
       padding: 0 2rem;
-      .left{
-
-        h1{
+      .left {
+        h1 {
           line-height: 3rem;
         }
       }
-      img{
+      img {
         height: 20.5rem;
         width: 100%;
+      }
+    }
+  }
+  .availablePuppies {
+    margin-top: 5.1rem;
+    img {
+      height: 9rem;
+    }
+    .container {
+      padding: 0 2rem;
+      .available2 {
+        height: 10rem;
+      }
+      .availableGrid {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0 2rem;
+        gap: 1rem;
+        .left {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          img {
+            height: 10rem;
+            margin-bottom: 1rem;
+          }
+        }
+        .right {
+          img {
+            height: 20rem;
+          }
+        }
+      }
+    }
+  }
+  .puppyList{
+    margin-top: 5.1rem;
+    .contact{padding: 0 2rem;}
+    ul{
+      padding: 0 3rem;
+    }
+    .write-up2{
+      h2{
+padding: 0 4rem;
+        font-size: 0.9rem;
+        text-align: center;
+      }
+      img{
+        height: 15rem;
+        width: auto;
+      }
+    }
+    .cover2{
+height: 25rem;
+h1{
+  font-weight: 400;
+}
+      form{
+        flex-direction: column;
+        width: 80%;
+        button{
+          height: 3rem;
+          width: 100%;
+          margin-top: 1rem;
+        }
       }
     }
   }

@@ -43,10 +43,10 @@ const HomeGrid3 = () => {
       </div>
       <div className="right">
         <img
-          src="publicges/new-shade-rojo-french-bulldog-price-231-600x600.webp"
+          src="/images/new-shade-rojo-french-bulldog-price-231-600x600.webp"
           alt=""
         />
-        <img src="/es/Frenchie-breeders-6.jpg" alt="" />
+        <img src="/images/Frenchie-breeders-6.jpg" alt="" />
       </div>
     </div>
   );

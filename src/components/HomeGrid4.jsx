@@ -50,11 +50,11 @@ const HomeGrid4 = () => {
       </div>
       <div className="right">
         <img
-          src="publics/black-and-tan-fluffy-frenchie-1-600x593.webp"
+          src="images/black-and-tan-fluffy-frenchie-1-600x593.webp"
           alt=""
         />
         <img
-          src="publics/frenchie-puppies-for-sale-near-me-1-1-600x600 (1).webp"
+          src="images/frenchie-puppies-for-sale-near-me-1-1-600x600 (1).webp"
           alt=""
         />
       </div>

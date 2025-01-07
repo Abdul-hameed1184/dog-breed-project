@@ -2,8 +2,8 @@ const HomeGrid7 = () => {
   return (
     <div className="homeGrid7">
       <div className="left">
-        <img src="publicchie-puppies-near-me.jpg" alt="" />
-        <img src="publicch-bulldog-breeders-near-me-321.jpg" alt="" />
+        <img src="images/frenchie-puppies-near-me.jpg" alt="" />
+        <img src="images/french-bulldog-breeders-near-me-321.jpg" alt="" />
       </div>
       <div className="right">
         <h1>HOW DO I PURCHASE A FRENCHIE PUPPY</h1>

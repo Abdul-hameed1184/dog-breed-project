@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { useRef, useState } from "react";
+import { useRef } from "react";
 // import HomeDropdown from "./HomeDropdown";
 
 const Routes = () => {
@@ -69,146 +69,142 @@ const Routes = () => {
             <div className="main-nav">
               <ul className="nav-body">
                 <li className="nav-list">
-                  <Link onMouseEnter={handleMouseEnter} to={"/Bulldog-puppies"}>
-                    French Bulldog Puppies
-                  </Link>
-                  <ul
-                    className="sub-menu1"
-                    ref={navRef}
+                  <div
+                    onMouseEnter={handleMouseEnter}
                     onMouseLeave={handleMouseLeave}
                   >
-                    <li>
-                      <Link>Available French Bulldog Puppies</Link>
-                    </li>
-                    <li>
-                      <Link>Future litter reservation deposit</Link>{" "}
-                    </li>
-                    <li>
-                      <Link>puppy waiting list</Link>
-                    </li>
-                  </ul>
+                    <Link to={"#"}>French Bulldog Puppies</Link>
+                    <ul className="sub-menu1" ref={navRef}>
+                      <li>
+                        <Link to={"/available-puppies"}>
+                          Available French Bulldog Puppies
+                        </Link>
+                      </li>
+                      <li>
+                        <Link>Future litter reservation deposit</Link>{" "}
+                      </li>
+                      <li>
+                        <Link to={"/puppies-wait-list"}>
+                          puppy waiting list
+                        </Link>
+                      </li>
+                    </ul>
+                  </div>
                 </li>
                 <span>|</span>
                 <li className="nav-list">
-                  <Link onMouseEnter={handleMouseEnter2} to={"/contacts"}>
-                    contacts
-                  </Link>
-                  <ul
-                    className="sub-menu2"
-                    ref={navRef2}
+                  <div
+                    onMouseEnter={handleMouseEnter2}
                     onMouseLeave={handleMouseLeave2}
                   >
-                    <li>option1 </li>
-                    <li>option1 </li>
-                    <li>option1 </li>
-                    <li>option1 </li>
-                    <li>option1 </li>
-                  </ul>
+                    <Link to={"/contacts"}>contacts</Link>
+                    <ul className="sub-menu2" ref={navRef2}>
+                      <li>option1 </li>
+                      <li>option1 </li>
+                      <li>option1 </li>
+                      <li>option1 </li>
+                      <li>option1 </li>
+                    </ul>
+                  </div>
                 </li>
                 <span>|</span>
                 <li className="nav-list">
-                  <Link
+                  <div
                     onMouseEnter={handleMouseEnter3}
-                    to={"/french-bulldog-colors"}
-                  >
-                    French Bulldog Colors
-                  </Link>
-                  <ul
-                    className="sub-menu3"
-                    ref={navRef3}
                     onMouseLeave={handleMouseLeave3}
                   >
-                    <li>option1 </li>
-                    <li>option1 </li>
-                    <li>option1 </li>
-                    <li>option1 </li>
-                    <li>option1 </li>
-                  </ul>
+                    <Link to={"/french-bulldog-colors"}>
+                      French Bulldog Colors
+                    </Link>
+                    <ul className="sub-menu3" ref={navRef3}>
+                      <li>option1 </li>
+                      <li>option1 </li>
+                      <li>option1 </li>
+                      <li>option1 </li>
+                      <li>option1 </li>
+                    </ul>
+                  </div>
                 </li>
                 <span>|</span>
                 <li className="nav-list">
-                  <Link onMouseEnter={handleMouseEnter4} to={"/programs"}>
-                    Our Programs
-                  </Link>
-                  <ul
-                    className="sub-menu4"
-                    ref={navRef4}
+                  <div
+                    onMouseEnter={handleMouseEnter4}
                     onMouseLeave={handleMouseLeave4}
                   >
-                    <li>option1 </li>
-                    <li>option1 </li>
-                    <li>option1 </li>
-                    <li>option1 </li>
-                    <li>option1 </li>
-                  </ul>
+                    <Link to={"/programs"}>Our Programs</Link>
+                    <ul className="sub-menu4" ref={navRef4}>
+                      <li>option1 </li>
+                      <li>option1 </li>
+                      <li>option1 </li>
+                      <li>option1 </li>
+                      <li>option1 </li>
+                    </ul>
+                  </div>
                 </li>
                 <span>|</span>
+
                 <li className="nav-list">
-                  <Link onMouseEnter={handleMouseEnter5} to={"/finance"}>
-                    Finance
-                  </Link>
-                  <ul
-                    className="sub-menu5"
-                    ref={navRef5}
+                  <div
+                    onMouseEnter={handleMouseEnter5}
                     onMouseLeave={handleMouseLeave5}
                   >
-                    <li>option1 </li>
-                    <li>option1 </li>
-                    <li>option1 </li>
-                    <li>option1 </li>
-                    <li>option1 </li>
-                  </ul>
+                    <Link to={"/finance"}>Finance</Link>
+                    <ul className="sub-menu5" ref={navRef5}>
+                      <li>option1 </li>
+                      <li>option1 </li>
+                      <li>option1 </li>
+                      <li>option1 </li>
+                      <li>option1 </li>
+                    </ul>
+                  </div>
                 </li>
                 <span>|</span>
                 <li className="nav-list">
-                  <Link onMouseEnter={handleMouseEnter6} to={"/stud-services"}>
-                    Stud Services
-                  </Link>
-                  <ul
-                    className="sub-menu6"
-                    ref={navRef6}
+                  <div
+                    onMouseEnter={handleMouseEnter6}
                     onMouseLeave={handleMouseLeave6}
                   >
-                    <li>option1 </li>
-                    <li>option1 </li>
-                    <li>option1 </li>
-                    <li>option1 </li>
-                    <li>option1 </li>
-                  </ul>
+                    <Link to={"/stud-services"}>Stud Services</Link>
+                    <ul className="sub-menu6" ref={navRef6}>
+                      <li>option1 </li>
+                      <li>option1 </li>
+                      <li>option1 </li>
+                      <li>option1 </li>
+                      <li>option1 </li>
+                    </ul>
+                  </div>
                 </li>
                 <span>|</span>
                 <li className="nav-list">
-                  <Link onMouseEnter={handleMouseEnter7} to={"/"}>
-                    HOME
-                  </Link>
-                  <ul
-                    className="sub-menu7"
-                    ref={navRef7}
+                  <div
+                    onMouseEnter={handleMouseEnter7}
                     onMouseLeave={handleMouseLeave7}
                   >
-                    <li>option1 </li>
-                    <li>option1 </li>
-                    <li>option1 </li>
-                    <li>option1 </li>
-                    <li>option1 </li>
-                  </ul>
+                    <Link to={"/"}>HOME</Link>
+                    <ul className="sub-menu7" ref={navRef7}>
+                      <li>option1 </li>
+                      <li>option1 </li>
+                      <li>option1 </li>
+                      <li>option1 </li>
+                      <li>option1 </li>
+                    </ul>
+                  </div>
                 </li>
                 <span>|</span>
                 <li className="nav-list">
-                  <Link onMouseEnter={handleMouseEnter8} to={"/gear"}>
-                    Gear
-                  </Link>
-                  <ul
-                    className="sub-menu8"
-                    ref={navRef8}
+                  <div
+                    onMouseEnter={handleMouseEnter8}
                     onMouseLeave={handleMouseLeave8}
                   >
-                    <li>option1 </li>
-                    <li>option1 </li>
-                    <li>option1 </li>
-                    <li>option1 </li>
-                    <li>option1 </li>
-                  </ul>
+                    <Link to={"/gear"}>Gear</Link>
+                    <ul className="sub-menu8" ref={navRef8}>
+                      <li>option1 </li>
+                      <li>option1 </li>
+                      <li>option1 </li>
+                      <li>option1 </li>
+                      <li>option1 </li>
+                    </ul>
+                  </div>
                 </li>
               </ul>
             </div>

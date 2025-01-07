@@ -1,12 +1,11 @@
 import { useEffect, useRef, useState } from "react";
 import { BiChevronRight, BiSearch } from "react-icons/bi";
 import { CgChevronDown, CgClose, CgMenu } from "react-icons/cg";
-import { Link } from "react-router-dom";
-import StudServices from "../pages/StudServices";
+import { Link, useLocation } from "react-router-dom";
 
 const MobileNav = () => {
   const navRef = useRef();
-
+  const location = useLocation();
   const [navbar, setnavbar] = useState(false);
   const showNavbar = () => {
     navRef.current.classList.toggle("responsive_bar");
@@ -60,7 +59,7 @@ const MobileNav = () => {
       <nav>
         <div className="nav-container">
           <div className="logo">
-            <img src="//logo.png" />
+            <img src="/images/logo.png" />
           </div>
           <div className="left">
             <BiSearch className="icon" />
@@ -75,33 +74,47 @@ const MobileNav = () => {
         <div className="nav-menu" ref={navRef}>
           <ul>
             <li>
-              <Link to={"/"} onClick={() => toggleMenu(1)}>
+              <Link
+                to={"/available-puppies"}
+                onClick={() => console.log(location)}
+              >
                 French Bulldog Puppies
-                <span>
-                  {showMenu[1] ? <CgChevronDown /> : <BiChevronRight />}
-                </span>
               </Link>
+              <span>
+                {showMenu[1] ? (
+                  <CgChevronDown onClick={() => toggleMenu(1)} />
+                ) : (
+                  <BiChevronRight onClick={() => toggleMenu(1)} />
+                )}
+              </span>
               {showMenu[1] ? (
                 <ul className="showMenu">
                   <li>
-                    <span>-</span> path = {location.pathname}
+                    <span>-</span>
+                    <Link to={"/available-puppies"}>
+                      Available French Bullog
+                    </Link>
                   </li>
                   <li>
                     <span>-</span> Future litter reservation deposit
                   </li>
                   <li>
-                    <span>-</span> Puppy waiting list
+                    <span>-</span> <Link to={"/puppies-wait-list"}>Puppy
+                    waiting list
+                    </Link> 
                   </li>
                 </ul>
               ) : null}
             </li>
             <li>
-              <Link to={"/contacts"} onClick={() => toggleMenu(2)}>
-                Contact
-                <span>
-                  {showMenu[2] ? <CgChevronDown /> : <BiChevronRight />}
-                </span>
-              </Link>
+              <Link to={"/contacts"}>Contact</Link>
+              <span>
+                {showMenu[2] ? (
+                  <CgChevronDown onClick={() => toggleMenu(2)} />
+                ) : (
+                  <BiChevronRight onClick={() => toggleMenu(2)} />
+                )}
+              </span>
               {showMenu[2] ? (
                 <ul className="showMenu">
                   <li>
@@ -114,12 +127,14 @@ const MobileNav = () => {
               ) : null}
             </li>
             <li>
-              <Link onClick={() => toggleMenu(3)} to={"/french-bulldog-colors"}>
-                French Bulldog Colors
-                <span>
-                  {showMenu[3] ? <CgChevronDown /> : <BiChevronRight />}
-                </span>
-              </Link>
+              <Link to={"/french-bulldog-colors"}>French Bulldog Colors</Link>
+              <span>
+                {showMenu[3] ? (
+                  <CgChevronDown onClick={() => toggleMenu(3)} />
+                ) : (
+                  <BiChevronRight onClick={() => toggleMenu(3)} />
+                )}
+              </span>
               {showMenu[3] ? (
                 <ul className="showMenu">
                   <li>
@@ -174,12 +189,14 @@ const MobileNav = () => {
               ) : null}
             </li>
             <li>
-              <Link onClick={() => toggleMenu(4)} to={"/programs"}>
-                Our Program
-                <span>
-                  {showMenu[4] ? <CgChevronDown /> : <BiChevronRight />}
-                </span>
-              </Link>
+              <Link to={"/programs"}>Our Program</Link>
+              <span>
+                {showMenu[4] ? (
+                  <CgChevronDown onClick={() => toggleMenu(4)} />
+                ) : (
+                  <BiChevronRight onClick={() => toggleMenu(4)} />
+                )}
+              </span>
               {showMenu[4] ? (
                 <ul className="showMenu">
                   <li>
@@ -198,12 +215,14 @@ const MobileNav = () => {
               ) : null}
             </li>
             <li>
-              <Link onClick={() => toggleMenu(5)} to={"/finance"}>
-                Finance
-                <span>
-                  {showMenu[5] ? <CgChevronDown /> : <BiChevronRight />}
-                </span>
-              </Link>
+              <Link to={"/finance"}>Finance</Link>
+              <span>
+                {showMenu[5] ? (
+                  <CgChevronDown onClick={() => toggleMenu(5)} />
+                ) : (
+                  <BiChevronRight onClick={() => toggleMenu(5)} />
+                )}
+              </span>
               {showMenu[5] ? (
                 <ul className="showMenu">
                   <li>
@@ -213,12 +232,14 @@ const MobileNav = () => {
               ) : null}
             </li>
             <li>
-              <Link onClick={() => toggleMenu(6)} to={"/stud-services"}>
-                Stud Services
-                <span>
-                  {showMenu[6] ? <CgChevronDown /> : <BiChevronRight />}
-                </span>
-              </Link>
+              <Link to={"/stud-services"}>Stud Services</Link>
+              <span>
+                {showMenu[6] ? (
+                  <CgChevronDown onClick={() => toggleMenu(6)} />
+                ) : (
+                  <BiChevronRight onClick={() => toggleMenu(6)} />
+                )}
+              </span>
               {showMenu[6] ? (
                 <ul className="showMenu">
                   <li>
@@ -234,12 +255,14 @@ const MobileNav = () => {
               ) : null}
             </li>
             <li>
-              <Link onClick={() => toggleMenu(7)} to={"/"}>
-                HOME
-                <span>
-                  {showMenu[7] ? <CgChevronDown /> : <BiChevronRight />}
-                </span>
-              </Link>
+              <Link to={"/"}>HOME</Link>
+              <span>
+                {showMenu[7] ? (
+                  <CgChevronDown onClick={() => toggleMenu(7)} />
+                ) : (
+                  <BiChevronRight onClick={() => toggleMenu(7)} />
+                )}
+              </span>
               {showMenu[7] ? (
                 <ul className="showMenu">
                   <li>
@@ -279,12 +302,14 @@ const MobileNav = () => {
               ) : null}
             </li>
             <li>
-              <Link onClick={() => toggleMenu(8)} to={"/gear"}>
-                Gear
-                <span>
-                  {showMenu[8] ? <CgChevronDown /> : <BiChevronRight />}
-                </span>
-              </Link>
+              <Link to={"/gear"}>Gear</Link>
+              <span>
+                {showMenu[8] ? (
+                  <CgChevronDown onClick={() => toggleMenu(8)} />
+                ) : (
+                  <BiChevronRight onClick={() => toggleMenu(8)} />
+                )}
+              </span>
               {showMenu[8] ? (
                 <ul className="showMenu">
                   <li>

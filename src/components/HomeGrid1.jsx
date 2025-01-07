@@ -70,11 +70,11 @@ const HomeGrid1 = () => {
       </div>
       <div className="rigth">
         <img
-          src="publics/isabella-french-bulldog-for-sale450.jpg"
+          src="images/isabella-french-bulldog-for-sale450.jpg"
           alt=""
         />
-        <img src="publics/blue-frenchie-450x450.jpg.webp" alt="" />
-        <img src="publics/merle-frenchies-for-sale-32.jpg" alt="" />
+        <img src="images/blue-frenchie-450x450.jpg.webp" alt="" />
+        <img src="images/merle-frenchies-for-sale-32.jpg" alt="" />
       </div>
     </div>
   );
