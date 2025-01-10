@@ -53,6 +53,14 @@ const MobileNav = () => {
       8: false,
     });
   }, [location.pathname]);
+    const openPdf = (event) => {
+      event.preventDefault(); // Prevents the default behavior of the link
+      window.open(
+        "/designerfrenchbulldogscontract.pdf",
+        "_blank",
+        "noopener,noreferrer"
+      );
+    };
 
   return (
     <div className="mobileNav">
@@ -117,10 +125,14 @@ const MobileNav = () => {
               {showMenu[2] ? (
                 <ul className="showMenu">
                   <li>
-                    <span>-</span> contact southeast frenchies
+                    <Link to={"/contacts/#top"}>
+                      <span>-</span> contact southeast frenchies
+                    </Link>
                   </li>
                   <li>
-                    <span>-</span> sample puppy contract
+                    <Link onClick={openPdf}>
+                      <span>-</span> sample puppy contract
+                    </Link>
                   </li>
                 </ul>
               ) : null}
@@ -134,7 +146,7 @@ const MobileNav = () => {
                   <BiChevronRight onClick={() => toggleMenu(3)} />
                 )}
               </span>
-              {showMenu[3] ? (
+              {/* {showMenu[3] ? (
                 <ul className="showMenu">
                   <li>
                     <span>-</span> Rare French BUlldog colors
@@ -185,7 +197,7 @@ const MobileNav = () => {
                     <span>-</span> Fawn french Bulldogs
                   </li>
                 </ul>
-              ) : null}
+              ) : null} */}
             </li>
             <li>
               <Link to={"/programs"}>Our Program</Link>
@@ -199,13 +211,19 @@ const MobileNav = () => {
               {showMenu[4] ? (
                 <ul className="showMenu">
                   <li>
-                    <span>-</span> Frequently Asked Questions
+                    <Link to={"/FAQ"}>
+                      <span>-</span> Frequently Asked Questions
+                    </Link>
                   </li>
                   <li>
-                    <span>-</span> About Southeast French Bulldog
+                    <Link to={"/programs/#top"}>
+                      <span>-</span> About Southeast French Bulldog
+                    </Link>
                   </li>
                   <li>
-                    <span>-</span> Southeast French Bulldog Reviews
+                    <Link to={"/reviews"}>
+                      <span>-</span> Southeast French Bulldog Reviews
+                    </Link>
                   </li>
                   <li>
                     <span>-</span> Past Frenchies Puppies
@@ -225,7 +243,9 @@ const MobileNav = () => {
               {showMenu[5] ? (
                 <ul className="showMenu">
                   <li>
-                    <span>-</span> French Bulldog Finance Company
+                    <Link to={"/finance/#top"}>
+                      <span>-</span> French Bulldog Finance Company
+                    </Link>
                   </li>
                 </ul>
               ) : null}
@@ -242,13 +262,19 @@ const MobileNav = () => {
               {showMenu[6] ? (
                 <ul className="showMenu">
                   <li>
-                    <span>-</span> French Bulldog French Services
+                    <Link to={"/stud-services/#top"}>
+                      <span>-</span> French Bulldog French Services
+                    </Link>
                   </li>
                   <li>
-                    <span>-</span> French Bulldog Stock Lock In
+                    <Link to={"/stud-lock-in"}>
+                      <span>-</span> French Bulldog Stock Lock In
+                    </Link>
                   </li>
                   <li>
-                    <span>-</span> Goober Rojo Cherry tan tricolor merle
+                    <Link to={"/rojo-tan-tricolor"}>
+                      <span>-</span> Goober Rojo Cherry tan tricolor merle
+                    </Link>
                   </li>
                 </ul>
               ) : null}
@@ -265,21 +291,29 @@ const MobileNav = () => {
               {showMenu[7] ? (
                 <ul className="showMenu">
                   <li>
-                    <span>-</span> Home
+                    <Link to={"/#top"}>
+                      <span>-</span> Home
+                    </Link>
                   </li>
                   <li>
                     <span>-</span> Frenchies Blog
                   </li>
                   <li>
-                    <span>-</span> Frenchies puppy for Sale
+                    <Link to={"/puppy-for-sale"}>
+                      <span>-</span> Frenchies puppy for Sale
+                    </Link>
                   </li>
                   <li>
-                    <span>-</span> French Bulldogs for sale
+                    <Link to={"/bulldog-for-sale"}>
+                      <span>-</span> French Bulldogs for sale
+                    </Link>
                   </li>
                   <li>
-                    <span>-</span> Frenchies for sale
+                    <Link to={"frenchies-for-sale"}>
+                      <span>-</span> Frenchies for sale
+                    </Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <span>-</span> French Bulldog Prices
                   </li>
                   <li>
@@ -296,7 +330,7 @@ const MobileNav = () => {
                   </li>
                   <li>
                     <span>-</span> Bab Frenchie pictures
-                  </li>
+                  </li> */}
                 </ul>
               ) : null}
             </li>
@@ -312,10 +346,21 @@ const MobileNav = () => {
               {showMenu[8] ? (
                 <ul className="showMenu">
                   <li>
-                    <span>-</span> French Leash & Harness
+                    <Link to={"/leashes"}>
+                      <span>-</span> French Leash & Harness
+                    </Link>
                   </li>
                   <li>
-                    <span>-</span> French Bulldog Clothes for sale
+                    <Link to={"/gear/#top"}>
+                    <span>-</span> Frenchies cloth for sale</Link>
+                  </li>
+                  <li>
+                    <Link to={"/baby-clothes-for-sale"}>
+                    <span>-</span> Baby french bulldog clothes</Link>
+                  </li>
+                  <li>
+                    <Link to={"/french-bulldog-prices"}>
+                    <span>-</span> French bulldog clothes</Link>
                   </li>
                 </ul>
               ) : null}
