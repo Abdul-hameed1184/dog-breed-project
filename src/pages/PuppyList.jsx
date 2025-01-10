@@ -4,7 +4,7 @@ const PuppyList = () => {
   return (
     <div className="puppyList">
       <div className="route">
-        <p>You are here: frenc bulldog puppy waitlist</p>
+        You are here: french bulldog puppy waitlist
       </div>
       <div className="cover">
         <img src="/images/List1.jpg" alt="" />

@@ -99,11 +99,6 @@ const HomePage = () => {
             <HomeCard />
             <HomeCard />
             <HomeCard />
-            <HomeCard />
-            <HomeCard />
-            <HomeCard />
-            <HomeCard />
-            <HomeCard />
           </div>
           <div className="grids">
             <HomeGrid1 />

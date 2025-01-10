@@ -8,7 +8,7 @@ const MobileNav = () => {
   const location = useLocation();
   const [navbar, setnavbar] = useState(false);
   const showNavbar = () => {
-    navRef.current.classList.toggle("responsive_bar");
+    // navRef.current.classList.toggle("responsive_bar");
 
     setnavbar(!navbar);
   };
@@ -39,7 +39,7 @@ const MobileNav = () => {
   // };
   useEffect(() => {
     console.log("Route changed to:", location.pathname);
-    navRef.current.classList.remove("responsive_bar");
+    // navRef.current.classList.remove("responsive_bar");
     window.scrollTo(0, 0);
     setnavbar(false);
     setShowMenu({
@@ -53,14 +53,14 @@ const MobileNav = () => {
       8: false,
     });
   }, [location.pathname]);
-    const openPdf = (event) => {
-      event.preventDefault(); // Prevents the default behavior of the link
-      window.open(
-        "/designerfrenchbulldogscontract.pdf",
-        "_blank",
-        "noopener,noreferrer"
-      );
-    };
+  const openPdf = (event) => {
+    event.preventDefault(); // Prevents the default behavior of the link
+    window.open(
+      "/designerfrenchbulldogscontract.pdf",
+      "_blank",
+      "noopener,noreferrer"
+    );
+  };
 
   return (
     <div className="mobileNav">
@@ -70,83 +70,86 @@ const MobileNav = () => {
             <img src="/images/logo.png" />
           </div>
           <div className="left">
-            <BiSearch className="icon" />
             {navbar ? (
               <CgClose className="icon " onClick={showNavbar} />
             ) : (
               <CgMenu className="icon bar" onClick={showNavbar} />
             )}
-          </div>
-        </div>
-
-        <div className="nav-menu" ref={navRef}>
-          <ul>
-            <li>
-              <Link
-                to={"/available-puppies"}
-                onClick={() => console.log(location)}
-              >
-                French Bulldog Puppies
-              </Link>
-              <span>
-                {showMenu[1] ? (
-                  <CgChevronDown onClick={() => toggleMenu(1)} />
-                ) : (
-                  <BiChevronRight onClick={() => toggleMenu(1)} />
-                )}
-              </span>
-              {showMenu[1] ? (
-                <ul className="showMenu">
-                  <li>
-                    <span>-</span>
-                    <Link to={"/available-puppies"}>
-                      Available French Bullog
-                    </Link>
-                  </li>
-                  <li>
-                    <span>-</span> Future litter reservation deposit
-                  </li>
-                  <li>
-                    <span>-</span>{" "}
-                    <Link to={"/puppies-wait-list"}>Puppy waiting list</Link>
-                  </li>
-                </ul>
-              ) : null}
-            </li>
-            <li>
-              <Link to={"/contacts"}>Contact</Link>
-              <span>
-                {showMenu[2] ? (
-                  <CgChevronDown onClick={() => toggleMenu(2)} />
-                ) : (
-                  <BiChevronRight onClick={() => toggleMenu(2)} />
-                )}
-              </span>
-              {showMenu[2] ? (
-                <ul className="showMenu">
-                  <li>
-                    <Link to={"/contacts/#top"}>
-                      <span>-</span> contact southeast frenchies
-                    </Link>
-                  </li>
-                  <li>
-                    <Link onClick={openPdf}>
-                      <span>-</span> sample puppy contract
-                    </Link>
-                  </li>
-                </ul>
-              ) : null}
-            </li>
-            <li>
-              <Link to={"/french-bulldog-colors"}>French Bulldog Colors</Link>
-              <span>
-                {showMenu[3] ? (
-                  <CgChevronDown onClick={() => toggleMenu(3)} />
-                ) : (
-                  <BiChevronRight onClick={() => toggleMenu(3)} />
-                )}
-              </span>
-              {/* {showMenu[3] ? (
+            <div className={navbar ? "slide-in" : "slide-out"}>
+              {navbar ? (
+                <div className="nav-menu">
+                  <ul>
+                    <li>
+                      <Link
+                        to={"/available-puppies"}
+                        onClick={() => console.log(location)}
+                      >
+                        French Bulldog Puppies
+                      </Link>
+                      <span>
+                        {showMenu[1] ? (
+                          <CgChevronDown onClick={() => toggleMenu(1)} />
+                        ) : (
+                          <BiChevronRight onClick={() => toggleMenu(1)} />
+                        )}
+                      </span>
+                      {showMenu[1] ? (
+                        <ul className="showMenu">
+                          <li>
+                            <span>-</span>
+                            <Link to={"/available-puppies"}>
+                              Available French Bullog
+                            </Link>
+                          </li>
+                          <li>
+                            <Link to={'/future-litter'}>
+                            <span>-</span> Future litter reservation deposit</Link>
+                          </li>
+                          <li>
+                            <span>-</span>{" "}
+                            <Link to={"/puppies-wait-list"}>
+                              Puppy waiting list
+                            </Link>
+                          </li>
+                        </ul>
+                      ) : null}
+                    </li>
+                    <li>
+                      <Link to={"/contacts"}>Contact</Link>
+                      <span>
+                        {showMenu[2] ? (
+                          <CgChevronDown onClick={() => toggleMenu(2)} />
+                        ) : (
+                          <BiChevronRight onClick={() => toggleMenu(2)} />
+                        )}
+                      </span>
+                      {showMenu[2] ? (
+                        <ul className="showMenu">
+                          <li>
+                            <Link to={"/contacts/#top"}>
+                              <span>-</span> contact southeast frenchies
+                            </Link>
+                          </li>
+                          <li>
+                            <Link onClick={openPdf}>
+                              <span>-</span> sample puppy contract
+                            </Link>
+                          </li>
+                        </ul>
+                      ) : null}
+                    </li>
+                    <li>
+                      <Link to={"/french-bulldog-colors"}>
+                        French Bulldog Colors
+                      </Link>
+                      <span>
+                        {showMenu[3] ? (
+                          <CgChevronDown onClick={() => toggleMenu(3)} />
+                        ) : (
+                          <BiChevronRight onClick={() => toggleMenu(3)} />
+                        )}
+                      </span>
+                      {/* {showMenu[3] ? (
                 <ul className="showMenu">
                   <li>
                     <span>-</span> Rare French BUlldog colors
@@ -198,122 +201,123 @@ const MobileNav = () => {
                   </li>
                 </ul>
               ) : null} */}
-            </li>
-            <li>
-              <Link to={"/programs"}>Our Program</Link>
-              <span>
-                {showMenu[4] ? (
-                  <CgChevronDown onClick={() => toggleMenu(4)} />
-                ) : (
-                  <BiChevronRight onClick={() => toggleMenu(4)} />
-                )}
-              </span>
-              {showMenu[4] ? (
-                <ul className="showMenu">
-                  <li>
-                    <Link to={"/FAQ"}>
-                      <span>-</span> Frequently Asked Questions
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to={"/programs/#top"}>
-                      <span>-</span> About Southeast French Bulldog
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to={"/reviews"}>
-                      <span>-</span> Southeast French Bulldog Reviews
-                    </Link>
-                  </li>
-                  <li>
-                    <span>-</span> Past Frenchies Puppies
-                  </li>
-                </ul>
-              ) : null}
-            </li>
-            <li>
-              <Link to={"/finance"}>Finance</Link>
-              <span>
-                {showMenu[5] ? (
-                  <CgChevronDown onClick={() => toggleMenu(5)} />
-                ) : (
-                  <BiChevronRight onClick={() => toggleMenu(5)} />
-                )}
-              </span>
-              {showMenu[5] ? (
-                <ul className="showMenu">
-                  <li>
-                    <Link to={"/finance/#top"}>
-                      <span>-</span> French Bulldog Finance Company
-                    </Link>
-                  </li>
-                </ul>
-              ) : null}
-            </li>
-            <li>
-              <Link to={"/stud-services"}>Stud Services</Link>
-              <span>
-                {showMenu[6] ? (
-                  <CgChevronDown onClick={() => toggleMenu(6)} />
-                ) : (
-                  <BiChevronRight onClick={() => toggleMenu(6)} />
-                )}
-              </span>
-              {showMenu[6] ? (
-                <ul className="showMenu">
-                  <li>
-                    <Link to={"/stud-services/#top"}>
-                      <span>-</span> French Bulldog French Services
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to={"/stud-lock-in"}>
-                      <span>-</span> French Bulldog Stock Lock In
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to={"/rojo-tan-tricolor"}>
-                      <span>-</span> Goober Rojo Cherry tan tricolor merle
-                    </Link>
-                  </li>
-                </ul>
-              ) : null}
-            </li>
-            <li>
-              <Link to={"/"}>HOME</Link>
-              <span>
-                {showMenu[7] ? (
-                  <CgChevronDown onClick={() => toggleMenu(7)} />
-                ) : (
-                  <BiChevronRight onClick={() => toggleMenu(7)} />
-                )}
-              </span>
-              {showMenu[7] ? (
-                <ul className="showMenu">
-                  <li>
-                    <Link to={"/#top"}>
-                      <span>-</span> Home
-                    </Link>
-                  </li>
-                  <li>
-                    <span>-</span> Frenchies Blog
-                  </li>
-                  <li>
-                    <Link to={"/puppy-for-sale"}>
-                      <span>-</span> Frenchies puppy for Sale
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to={"/bulldog-for-sale"}>
-                      <span>-</span> French Bulldogs for sale
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to={"frenchies-for-sale"}>
-                      <span>-</span> Frenchies for sale
-                    </Link>
-                  </li>
-                  {/* <li>
+                    </li>
+                    <li>
+                      <Link to={"/programs"}>Our Program</Link>
+                      <span>
+                        {showMenu[4] ? (
+                          <CgChevronDown onClick={() => toggleMenu(4)} />
+                        ) : (
+                          <BiChevronRight onClick={() => toggleMenu(4)} />
+                        )}
+                      </span>
+                      {showMenu[4] ? (
+                        <ul className="showMenu">
+                          <li>
+                            <Link to={"/FAQ"}>
+                              <span>-</span> Frequently Asked Questions
+                            </Link>
+                          </li>
+                          <li>
+                            <Link to={"/programs/#top"}>
+                              <span>-</span> About Southeast French Bulldog
+                            </Link>
+                          </li>
+                          <li>
+                            <Link to={"/reviews"}>
+                              <span>-</span> Southeast French Bulldog Reviews
+                            </Link>
+                          </li>
+                          <li>
+                            <span>-</span> Past Frenchies Puppies
+                          </li>
+                        </ul>
+                      ) : null}
+                    </li>
+                    <li>
+                      <Link to={"/finance"}>Finance</Link>
+                      <span>
+                        {showMenu[5] ? (
+                          <CgChevronDown onClick={() => toggleMenu(5)} />
+                        ) : (
+                          <BiChevronRight onClick={() => toggleMenu(5)} />
+                        )}
+                      </span>
+                      {showMenu[5] ? (
+                        <ul className="showMenu">
+                          <li>
+                            <Link to={"/finance/#top"}>
+                              <span>-</span> Bulldog Finance Company
+                            </Link>
+                          </li>
+                        </ul>
+                      ) : null}
+                    </li>
+                    <li>
+                      <Link to={"/stud-services"}>Stud Services</Link>
+                      <span>
+                        {showMenu[6] ? (
+                          <CgChevronDown onClick={() => toggleMenu(6)} />
+                        ) : (
+                          <BiChevronRight onClick={() => toggleMenu(6)} />
+                        )}
+                      </span>
+                      {showMenu[6] ? (
+                        <ul className="showMenu">
+                          <li>
+                            <Link to={"/stud-services/#top"}>
+                              <span>-</span> French Bulldog French Services
+                            </Link>
+                          </li>
+                          <li>
+                            <Link to={"/stud-lock-in"}>
+                              <span>-</span> French Bulldog Stock Lock In
+                            </Link>
+                          </li>
+                          <li>
+                            <Link to={"/rojo-tan-tricolor"}>
+                              <span>-</span> Goober Rojo Cherry tan tricolor
+                              merle
+                            </Link>
+                          </li>
+                        </ul>
+                      ) : null}
+                    </li>
+                    <li>
+                      <Link to={"/"}>HOME</Link>
+                      <span>
+                        {showMenu[7] ? (
+                          <CgChevronDown onClick={() => toggleMenu(7)} />
+                        ) : (
+                          <BiChevronRight onClick={() => toggleMenu(7)} />
+                        )}
+                      </span>
+                      {showMenu[7] ? (
+                        <ul className="showMenu">
+                          <li>
+                            <Link to={"/#top"}>
+                              <span>-</span> Home
+                            </Link>
+                          </li>
+                          <li>
+                            <span>-</span> Frenchies Blog
+                          </li>
+                          <li>
+                            <Link to={"/puppy-for-sale"}>
+                              <span>-</span> Frenchies puppy for Sale
+                            </Link>
+                          </li>
+                          <li>
+                            <Link to={"/bulldog-for-sale"}>
+                              <span>-</span> French Bulldogs for sale
+                            </Link>
+                          </li>
+                          <li>
+                            <Link to={"frenchies-for-sale"}>
+                              <span>-</span> Frenchies for sale
+                            </Link>
+                          </li>
+                          {/* <li>
                     <span>-</span> French Bulldog Prices
                   </li>
                   <li>
@@ -331,41 +335,68 @@ const MobileNav = () => {
                   <li>
                     <span>-</span> Bab Frenchie pictures
                   </li> */}
-                </ul>
-              ) : null}
-            </li>
-            <li>
-              <Link to={"/gear"}>Gear</Link>
-              <span>
-                {showMenu[8] ? (
-                  <CgChevronDown onClick={() => toggleMenu(8)} />
-                ) : (
-                  <BiChevronRight onClick={() => toggleMenu(8)} />
-                )}
-              </span>
-              {showMenu[8] ? (
-                <ul className="showMenu">
-                  <li>
-                    <Link to={"/leashes"}>
-                      <span>-</span> French Leash & Harness
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to={"/gear/#top"}>
-                    <span>-</span> Frenchies cloth for sale</Link>
-                  </li>
-                  <li>
-                    <Link to={"/baby-clothes-for-sale"}>
-                    <span>-</span> Baby french bulldog clothes</Link>
-                  </li>
-                  <li>
-                    <Link to={"/french-bulldog-prices"}>
-                    <span>-</span> French bulldog clothes</Link>
-                  </li>
-                </ul>
-              ) : null}
-            </li>
-          </ul>
+                        </ul>
+                      ) : null}
+                    </li>
+                    <li>
+                      <Link to={"/gear"}>Gear</Link>
+                      <span>
+                        {showMenu[8] ? (
+                          <CgChevronDown onClick={() => toggleMenu(8)} />
+                        ) : (
+                          <BiChevronRight onClick={() => toggleMenu(8)} />
+                        )}
+                      </span>
+                      {showMenu[8] ? (
+                        <ul className="showMenu">
+                          <li>
+                            <Link to={"/leashes"}>
+                              <span>-</span> French Leash & Harness
+                            </Link>
+                          </li>
+                          <li>
+                            <Link to={"/gear/#top"}>
+                              <span>-</span> Frenchies cloth for sale
+                            </Link>
+                          </li>
+                          <li>
+                            <Link to={"/baby-clothes-for-sale"}>
+                              <span>-</span> Baby french bulldog clothes
+                            </Link>
+                          </li>
+                          <li>
+                            <Link to={"/french-bulldog-prices"}>
+                              <span>-</span> French bulldog clothes
+                            </Link>
+                          </li>
+                        </ul>
+                      ) : null}
+                    </li>
+                  </ul>
+                </div>
+              ) : // <>
+              //   <p>Here working</p>
+              //   <p>Here working</p>
+              //   <p>Here working</p>
+              //   <p>Here working</p>
+              //   <p>Here working</p>
+              //   <p>Here working</p>
+              //   <p>Here working</p>
+              //   <p>Here working</p>
+              //   <p>Here working</p>
+              //   <p>Here working</p>
+              //   <p>Here working</p>
+              //   <p>Here working</p>
+              //   <p>Here working</p>
+              //   <p>Here working</p>
+              //   <p>Here working</p>
+              //   <p>Here working</p>
+              // </>
+              null}
+            </div>
+
+            <BiSearch className="icon" />
+          </div>
         </div>
       </nav>
     </div>

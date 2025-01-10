@@ -9,7 +9,7 @@ const Layout = () => {
       <>
       <NavBar />
       <MobileNav/>
-      <Outlet />
+      <Outlet classname='outlet'/>
       <Hr/>
       <Form/>
       </>

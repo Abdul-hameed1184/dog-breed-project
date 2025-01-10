@@ -100,7 +100,9 @@ const Routes = () => {
                         </Link>
                       </li>
                       <li>
-                        <Link>Future litter reservation deposit</Link>
+                        <Link to={"/future-litter"}>
+                          Future litter reservation deposit
+                        </Link>
                       </li>
                       <li>
                         <Link to={"/puppies-wait-list"}>
@@ -124,7 +126,7 @@ const Routes = () => {
                         </Link>
                       </li>
                       <li>
-                        <Link onClick={openPdf} >Sample Puppy Contract</Link>
+                        <Link onClick={openPdf}>Sample Puppy Contract</Link>
                       </li>
                     </ul>
                   </div>

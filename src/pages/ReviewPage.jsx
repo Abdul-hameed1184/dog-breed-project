@@ -5,10 +5,9 @@ const ReviewPage = () => {
   return (
       <div className="reviewPage">
           <div className="route">
-                <p>You are here: Southeast French Bulldog Review</p>
+                You are here: Southeast French Bulldog Review
           </div>
           <ReviewGrid />
-          <LeashCard/>
 
 
     </div>

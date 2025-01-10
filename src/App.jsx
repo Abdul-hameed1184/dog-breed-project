@@ -49,6 +49,10 @@ const App = () => {
           element={<PreviewPage product="French Bulldog Stud Lock In" />}
         />
         <Route
+          path="/future-litter"
+          element={<PreviewPage product="Puppy Deposit" />}
+        />
+        <Route
           path="/rojo-tan-tricolor"
           element={
             <PreviewPage product="Goober Rojo Cherry Tan Tricolor Merle Stud Lock in" />
