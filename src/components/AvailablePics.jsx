@@ -7,7 +7,6 @@ const AvailablePics = () => {
           <img src="/images/available4.jpg" alt="" />
           <img src="/images/available5.jpg" alt="" />
           <img src="/images/available6.jpg" alt="" />
-          {/* <img src="/images/available7.jpg" alt="" /> */}
           <img src="/images/available8.jpg" alt="" />
           <img src="/images/available9.jpg" alt="" />
           <img src="/images/available10.jpg" alt="" />

@@ -50,7 +50,10 @@ const HomeGrid5 = () => {
         </p>
       </div>
       <div className="right">
-        <img src="public/images/French-Bulldog-breeders-near-me-1-450x450.jpg" alt="" />
+        <img
+          src="/images/French-Bulldog-breeders-near-me-1-450x450.jpg"
+          alt=""
+        />
         <img src="images/isabella-french-bulldog-for-sale450.jpg" alt="" />
       </div>
     </div>

@@ -11,6 +11,9 @@ const Routes = () => {
   const navRef6 = useRef();
   const navRef7 = useRef();
   const navRef8 = useRef();
+
+  const subRef1 = useRef();
+
   // const showRef8 = useRef();
   const handleMouseEnter = () => {
     navRef.current.classList.add("visible");
@@ -61,6 +64,22 @@ const Routes = () => {
     navRef8.current.classList.remove("visible");
   };
 
+  const handleMouseEnterSub1 = () => {
+    subRef1.current.classList.add("visible");
+  };
+  const handleMouseLeaveSub1 = () => {
+    subRef1.current.classList.remove("visible");
+  };
+
+   const openPdf = (event) => {
+     event.preventDefault(); // Prevents the default behavior of the link
+     window.open(
+       "/designerfrenchbulldogscontract.pdf",
+       "_blank",
+       "noopener,noreferrer"
+     );
+   };
+
   return (
     <>
       <div className="header">
@@ -81,7 +100,7 @@ const Routes = () => {
                         </Link>
                       </li>
                       <li>
-                        <Link>Future litter reservation deposit</Link>{" "}
+                        <Link>Future litter reservation deposit</Link>
                       </li>
                       <li>
                         <Link to={"/puppies-wait-list"}>
@@ -99,11 +118,14 @@ const Routes = () => {
                   >
                     <Link to={"/contacts"}>contacts</Link>
                     <ul className="sub-menu2" ref={navRef2}>
-                      <li>option1 </li>
-                      <li>option1 </li>
-                      <li>option1 </li>
-                      <li>option1 </li>
-                      <li>option1 </li>
+                      <li>
+                        <Link to={"/contacts/#top"}>
+                          Contact Designer Frenchies
+                        </Link>
+                      </li>
+                      <li>
+                        <Link onClick={openPdf} >Sample Puppy Contract</Link>
+                      </li>
                     </ul>
                   </div>
                 </li>
@@ -116,13 +138,6 @@ const Routes = () => {
                     <Link to={"/french-bulldog-colors"}>
                       French Bulldog Colors
                     </Link>
-                    <ul className="sub-menu3" ref={navRef3}>
-                      <li>option1 </li>
-                      <li>option1 </li>
-                      <li>option1 </li>
-                      <li>option1 </li>
-                      <li>option1 </li>
-                    </ul>
                   </div>
                 </li>
                 <span>|</span>
@@ -133,11 +148,20 @@ const Routes = () => {
                   >
                     <Link to={"/programs"}>Our Programs</Link>
                     <ul className="sub-menu4" ref={navRef4}>
-                      <li>option1 </li>
-                      <li>option1 </li>
-                      <li>option1 </li>
-                      <li>option1 </li>
-                      <li>option1 </li>
+                      <li>
+                        <Link to={"/FAQ"}>Frequently Asked Questions </Link>
+                      </li>
+                      <li>
+                        <Link to={"/programs/#top"}>
+                          About Southeast French Bulldog
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to={"/reviews"}>
+                          Southeast French Bulldog Reviews
+                        </Link>
+                      </li>
+                      <li>Past Frenchies Puppies </li>
                     </ul>
                   </div>
                 </li>
@@ -150,11 +174,11 @@ const Routes = () => {
                   >
                     <Link to={"/finance"}>Finance</Link>
                     <ul className="sub-menu5" ref={navRef5}>
-                      <li>option1 </li>
-                      <li>option1 </li>
-                      <li>option1 </li>
-                      <li>option1 </li>
-                      <li>option1 </li>
+                      <li>
+                        <Link to={"/finance/#top"}>
+                          Bulldog Finance Company
+                        </Link>
+                      </li>
                     </ul>
                   </div>
                 </li>
@@ -166,11 +190,21 @@ const Routes = () => {
                   >
                     <Link to={"/stud-services"}>Stud Services</Link>
                     <ul className="sub-menu6" ref={navRef6}>
-                      <li>option1 </li>
-                      <li>option1 </li>
-                      <li>option1 </li>
-                      <li>option1 </li>
-                      <li>option1 </li>
+                      <li>
+                        <Link to={"/stud-services/#top"}>
+                          French Bulldog Stud Services
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to={"/stud-lock-in"}>
+                          French Bulldog Stud Lock in
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to={"/rojo-tan-tricolor"}>
+                          Goober Rocho Cherry Tan Tricolor
+                        </Link>
+                      </li>
                     </ul>
                   </div>
                 </li>
@@ -182,11 +216,29 @@ const Routes = () => {
                   >
                     <Link to={"/"}>HOME</Link>
                     <ul className="sub-menu7" ref={navRef7}>
-                      <li>option1 </li>
-                      <li>option1 </li>
-                      <li>option1 </li>
-                      <li>option1 </li>
-                      <li>option1 </li>
+                      <li>
+                        {" "}
+                        <Link to={"/#top"}>HOME </Link>
+                      </li>
+                      <li>frenchies blog </li>
+
+                      <li>
+                        <Link to={"/puppy-for-sale"}>
+                          French puppy for sale
+                        </Link>
+                      </li>
+                      <li>
+                        {" "}
+                        <Link to={"/bulldog-for-sale"}>
+                          {" "}
+                          French Bulldog for sale
+                        </Link>{" "}
+                      </li>
+                      <li>
+                        <Link to={"frenchies-for-sale"}>
+                          Frenchies for sale
+                        </Link>{" "}
+                      </li>
                     </ul>
                   </div>
                 </li>
@@ -198,11 +250,34 @@ const Routes = () => {
                   >
                     <Link to={"/gear"}>Gear</Link>
                     <ul className="sub-menu8" ref={navRef8}>
-                      <li>option1 </li>
-                      <li>option1 </li>
-                      <li>option1 </li>
-                      <li>option1 </li>
-                      <li>option1 </li>
+                      <li>
+                        <Link to={"/leashes"}>
+                          Frenchies Leashes and Harness
+                        </Link>
+                      </li>
+                      <li
+                        onMouseEnter={handleMouseEnterSub1}
+                        onMouseLeave={handleMouseLeaveSub1}
+                      >
+                        <Link to={"#"}>French Bulldog Clothes for sale</Link>
+                        <ul className="sub-sub-menu" ref={subRef1}>
+                          <li>
+                            <Link to={"/gear/#top"}>
+                              Frenchies cloth for sale
+                            </Link>
+                          </li>
+                          <li>
+                            <Link to={"/baby-clothes-for-sale"}>
+                              Baby french bulldog clothes
+                            </Link>
+                          </li>
+                          <li>
+                            <Link to={"/french-bulldog-prices"}>
+                              French bulldog clothes
+                            </Link>
+                          </li>
+                        </ul>
+                      </li>
                     </ul>
                   </div>
                 </li>

@@ -99,9 +99,8 @@ const MobileNav = () => {
                     <span>-</span> Future litter reservation deposit
                   </li>
                   <li>
-                    <span>-</span> <Link to={"/puppies-wait-list"}>Puppy
-                    waiting list
-                    </Link> 
+                    <span>-</span>{" "}
+                    <Link to={"/puppies-wait-list"}>Puppy waiting list</Link>
                   </li>
                 </ul>
               ) : null}

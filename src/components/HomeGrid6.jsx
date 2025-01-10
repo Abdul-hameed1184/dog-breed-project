@@ -70,14 +70,8 @@ const HomeGrid6 = () => {
       </div>
       <div className="right">
         <img src="/images/IMG_4513-450x450.jpg" alt="" />
-        <img
-          src="/images/blue-frenchie-450x450.jpg"
-          alt=""
-        />
-        <img
-          src="public/images/fluffy-frenchie-puppies-cost-15111.jpg"
-          alt=""
-        />
+        <img src="/images/blue-frenchie-450x450.jpg" alt="" />
+        <img src="/images/fluffy-frenchie-puppies-cost-15111.jpg" alt="" />
       </div>
     </div>
   );

@@ -7,7 +7,7 @@ const PuppyList = () => {
         <p>You are here: frenc bulldog puppy waitlist</p>
       </div>
       <div className="cover">
-        <img src="public/images/List1.jpg" alt="" />
+        <img src="/images/List1.jpg" alt="" />
       </div>
       <div className="container">
         <h1>FRENCH BULLDOG PUPIES FOR SALE </h1>
@@ -71,15 +71,15 @@ const PuppyList = () => {
         </p>
       </div>
       <div className="cover2">
-              <h1>Find out when we are expecting more Frenchie Puppies!</h1>
-              <form >
-                  <input type="text" placeholder="Name*" />
-                  <input type="text" placeholder="Email*" />
-                  <button>Subscribe</button>
-              </form>
+        <h1>Find out when we are expecting more Frenchie Puppies!</h1>
+        <form>
+          <input type="text" placeholder="Name*" />
+          <input type="text" placeholder="Email*" />
+          <button>Subscribe</button>
+        </form>
       </div>
     </div>
   );
-}
+};
 
-export default PuppyList
+export default PuppyList;
