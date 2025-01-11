@@ -22,6 +22,7 @@ import PreviewPage from "./pages/PreviewPage";
 import Puppies from "./pages/Puppies";
 import Bulldog from "./pages/Bulldog";
 import Frenchies from "./pages/Frenchies";
+import CartPage from "./pages/CartPage";
 
 const App = () => {
   const router = createBrowserRouter(
@@ -44,6 +45,7 @@ const App = () => {
         <Route path="/puppy-for-sale" element={<Puppies/>} />
         <Route path="/bulldog-for-sale" element={<Bulldog/>} />
         <Route path="/frenchies-for-sale" element={<Frenchies/>} />
+        <Route path="/cart" element={<CartPage/>} />
         <Route
           path="/stud-lock-in"
           element={<PreviewPage product="French Bulldog Stud Lock In" />}

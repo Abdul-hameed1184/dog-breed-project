@@ -48,13 +48,13 @@ const Form = () => {
       <ul>
         <h3>SOUTHEAST FRENCH LINK</h3>
         <li>
-          <Link>Available puppies</Link>
+          <Link to={"/available-puppies"}>Available puppies</Link>
         </li>
         <li>
-          <Link>About our Breeders program</Link>
+          <Link to={"/programs"}>About our Breeders program</Link>
         </li>
         <li>
-          <Link>Finance your puppies</Link>
+          <Link to={"/finance"}>Finance your puppies</Link>
         </li>
         <li>
           <Link>Privacy policies</Link>

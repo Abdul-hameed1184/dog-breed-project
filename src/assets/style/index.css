@@ -63,6 +63,7 @@ h2,
 h3,
 h4,
 h5,
+.sub-total,
 h6,
 h7,
 h8,
@@ -71,7 +72,9 @@ p,
 input,
 label,
 button,
+textarea,
 hr,
+form,
 title,
 img {
   animation: appear linear;
@@ -1894,6 +1897,150 @@ img {
     }
   }
 }
+.cartPage {
+  margin-top: 15.5rem;
+  color: #ccc;
+margin: 0;
+
+  .product-container {
+    padding: 0 18vw;
+    table {
+      line-height: 2rem;
+      font-size: 13px;
+      margin-top: 2rem;
+      text-align: center;
+      .icon-column {
+        width: 2rem;
+      }
+      .pics {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img {
+          height: 2rem;
+          margin: 5px;
+        }
+      }
+      .product {
+        width: 45%;
+      }
+      .quantity {
+        height: 2rem;
+        .action {
+          button {
+            height: 2rem;
+            width: 2rem;
+            border: 0.7px solid rgba(231, 223, 223, 0.205);
+            text-align: center;
+            color: #ccc;
+            background-color: grey;
+            
+          }
+          span {
+            border: 0.7px solid rgba(231, 223, 223, 0.205);
+            padding: 0.4rem;
+            align-items: center;
+            justify-content: center;
+            display: inline-flex;
+            height: 2rem;
+            width: 2.5rem;
+            border-right: none;
+            border-left: none;
+          }
+          .increment{
+            border-top-right-radius: 3px;
+            border-bottom-right-radius: 3px;
+          }
+          .decrement{
+            border-top-left-radius: 3px;
+            border-bottom-left-radius: 3px;
+          }
+        }
+      }
+    }
+    .sub-total{
+      width: 20rem;
+      border-collapse: collapse;
+      .title{
+        font-weight: 700;
+      }
+      p{
+        color: #6786a1;
+        text-align: start;
+        padding-left: 1rem;
+        span{
+          color: yellow;
+        }
+        
+      }
+      a{
+        color: yellow
+      }
+    }
+  }
+  .bottom {
+    .bottom-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem;
+      .coupon {
+        margin-right: 1rem;
+        input {
+          padding: 0.5rem;
+          border: 0.7px solid rgba(231, 223, 223, 0.205);
+          outline: none;
+          border-top-left-radius: 5px;
+          border-bottom-left-radius: 5px;
+          color: #ccc;
+        }
+        input::placeholder{
+          color: #ccc;
+        }
+        button {
+          height: 2rem;
+          width: 6rem;
+          /* border: 0.7px solid rgba(231, 223, 223, 0.205); */
+          background-color: grey;
+          border-top-right-radius: 5px;
+          border-bottom-right-radius: 5px;
+          cursor: pointer;
+border: none;
+        }
+        button:hover{
+          background-color: rgb(78, 77, 77);
+        }
+      }
+      .update{
+        button {
+          height: 2rem;
+          width: 6rem;
+          /* border: 0.7px solid rgba(231, 223, 223, 0.205); */
+          background-color: grey;
+          border-radius: 5px;
+          cursor: pointer;
+          border: none;
+        }
+        button:hover{
+          background-color: rgb(78, 77, 77);
+        }
+      }
+    }
+  }
+   .proceed {
+          height: 3rem;
+          width: 12rem;
+          margin-top: 1rem;
+          /* border: 0.7px solid rgba(231, 223, 223, 0.205); */
+          background-color: grey;
+          border-radius: 5px;
+          cursor: pointer;
+          border: none;
+        }
+        button:hover{
+          background-color: rgb(78, 77, 77);
+        }
+}
 @media (max-width: 600px) {
   * {
     transition: all ease-in-out 0.5s;
@@ -2438,18 +2585,34 @@ img {
       flex-direction: column;
     }
   }
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  h7,
-  h8,
-  ul,
-  p :not(div) {
-    animation: appear linear;
-    animation-timeline: view();
-    animation-range: entry 0% cover 30%;
+  .cartPage{
+    /* width: 100vw; */
+    padding: 0;
+    margin-top: 12rem;
+    .product-container{
+      padding: 0 2rem;
+      button{
+        border-radius: 5px;
+        margin-top: 1rem;
+      }
+      table{
+        .quantity, .total, .pics {
+         display: none;
+       }
+       input{
+        width: 9rem;
+        border-radius: 5px;
+       }
+       .icon-column{
+        width: 2%;
+       }
+       .product{
+        width: 15%;
+       }
+       .price{
+         width: 8%;
+       }
+      }
+    }
   }
 }
