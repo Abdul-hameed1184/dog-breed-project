@@ -140,6 +140,56 @@ const Routes = () => {
                     <Link to={"/french-bulldog-colors"}>
                       French Bulldog Colors
                     </Link>
+                    <ul className="sub-menu4" ref={navRef3}>
+                      <li>
+                        <Link to={"/rare-french-bulldog-colors"}>
+                          Rare frenchies Bulldog Colors
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to={"/blue-bulldog-colors"}> Blue</Link>
+                      </li>
+                      <li>
+                        <Link to={"/merle-bulldog"}>Merle</Link>
+                      </li>
+                      <li>
+                        <Link to={"/fluffy-bulldog"}>Fluffy</Link>
+                      </li>
+                      <li>
+                        <Link to={"/isabella-bulldog"}>Isabella</Link>
+                      </li>
+                      <li>
+                        <Link to={"/lilac-bulldog"}>Lilac</Link>
+                      </li>
+                      <li>
+                        <Link to={"/platinum-bulldog"}>Platinum</Link>
+                      </li>
+                      <li>
+                        <Link to={"/rojo-bulldog"}>Rojo </Link>
+                      </li>
+                      {/* <li>
+                        <Link to={"/big-rope-bulldog"}>Big Rope</Link>
+                      </li> */}
+                      <li>
+                        <Link to={"/chocolate-bulldog"}>
+                          Chocolate Frenchies Bulldog Puppies for Sale
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to={"/cream-bulldog"}>Cream Frenchies</Link>
+                      </li>
+                      <li>
+                        <Link to={"/black-bulldog"}>Black Frenchies</Link>
+                      </li>
+
+
+                      {/* <li>
+                        <Link>Brindle French Bulldogs </Link>
+                      </li>
+                      <li>
+                        <Link>Fawn French Bulldog</Link>
+                      </li> */}
+                    </ul>
                   </div>
                 </li>
                 <span>|</span>

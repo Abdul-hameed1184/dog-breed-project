@@ -23,6 +23,17 @@ import Puppies from "./pages/Puppies";
 import Bulldog from "./pages/Bulldog";
 import Frenchies from "./pages/Frenchies";
 import CartPage from "./pages/CartPage";
+import RareColors from "./pages/RareColors";
+import Blue from "./pages/Blue";
+import Merle from "./pages/Merle";
+import Fluffy from "./pages/Fluffy";
+import Isabella from "./pages/Isabella";
+import Rojo from "./pages/Rojo";
+import Platinum from "./pages/Platinum";
+import Cream from "./pages/Cream";
+import Chocolate from "./pages/Chocolate";
+import Black from "./pages/Black";
+import Lilac from "./pages/Lilac"
 
 const App = () => {
   const router = createBrowserRouter(
@@ -46,6 +57,17 @@ const App = () => {
         <Route path="/bulldog-for-sale" element={<Bulldog/>} />
         <Route path="/frenchies-for-sale" element={<Frenchies/>} />
         <Route path="/cart" element={<CartPage/>} />
+        <Route path="/rare-french-bulldog-colors" element={<RareColors/>} />
+        <Route path="/blue-bulldog-colors" element={<Blue/>} />
+        <Route path="/merle-bulldog" element={<Merle/>} />
+        <Route path="/fluffy-bulldog" element={<Fluffy/>} />
+        <Route path="/isabella-bulldog" element={<Isabella/>} />
+        <Route path="/black-bulldog" element={<Black/>} />
+        <Route path="/chocolate-bulldog" element={<Chocolate/>} />
+        <Route path="/cream-bulldog" element={<Cream/>} />
+        <Route path="/platinum-bulldog" element={<Platinum/>} />
+        <Route path="/rojo-bulldog" element={<Rojo/>} />
+        <Route path="/lilac-bulldog" element={<Lilac/>} />
         <Route
           path="/stud-lock-in"
           element={<PreviewPage product="French Bulldog Stud Lock In" />}

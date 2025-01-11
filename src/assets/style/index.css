@@ -1007,7 +1007,18 @@ img {
   }
 }
 
-.bulldogColors {
+.bulldogColors,
+.rareFrenchies,
+.blue,
+.merle,
+.fluffy,
+.cream,
+.isabella,
+.lilac,
+.platinum,
+.rojo,
+.chocolate,
+.black {
   display: flex;
   flex-direction: column;
   color: #ccc;
@@ -1020,7 +1031,18 @@ img {
       width: 50vw;
     }
   }
-  .colorGrid {
+  .colorGrid,
+  .rareGrid,
+  .blueGrid,
+  .merleGrid,
+  .fluffyGrid,
+  .isabellaGrid,
+  .lilacGrid,
+  .platinumGrid,
+  .rojoGrid,
+  .chocolateGrid,
+  .creamGrid ,
+  .blackGrid{
     padding: 0 18vw;
     display: flex;
     justify-content: center;
@@ -1127,6 +1149,10 @@ img {
               a {
                 font-size: 12px;
                 line-height: 1.2rem;
+                height: 100%;
+                width: 100%;
+                box-sizing: border-box;
+                line-height: 2rem;
               }
 
               li:hover {
@@ -1900,7 +1926,7 @@ img {
 .cartPage {
   margin-top: 15.5rem;
   color: #ccc;
-margin: 0;
+  margin: 0;
 
   .product-container {
     padding: 0 18vw;
@@ -1934,7 +1960,6 @@ margin: 0;
             text-align: center;
             color: #ccc;
             background-color: grey;
-            
           }
           span {
             border: 0.7px solid rgba(231, 223, 223, 0.205);
@@ -1947,34 +1972,33 @@ margin: 0;
             border-right: none;
             border-left: none;
           }
-          .increment{
+          .increment {
             border-top-right-radius: 3px;
             border-bottom-right-radius: 3px;
           }
-          .decrement{
+          .decrement {
             border-top-left-radius: 3px;
             border-bottom-left-radius: 3px;
           }
         }
       }
     }
-    .sub-total{
+    .sub-total {
       width: 20rem;
       border-collapse: collapse;
-      .title{
+      .title {
         font-weight: 700;
       }
-      p{
+      p {
         color: #6786a1;
         text-align: start;
         padding-left: 1rem;
-        span{
+        span {
           color: yellow;
         }
-        
       }
-      a{
-        color: yellow
+      a {
+        color: yellow;
       }
     }
   }
@@ -1994,7 +2018,7 @@ margin: 0;
           border-bottom-left-radius: 5px;
           color: #ccc;
         }
-        input::placeholder{
+        input::placeholder {
           color: #ccc;
         }
         button {
@@ -2005,13 +2029,13 @@ margin: 0;
           border-top-right-radius: 5px;
           border-bottom-right-radius: 5px;
           cursor: pointer;
-border: none;
+          border: none;
         }
-        button:hover{
+        button:hover {
           background-color: rgb(78, 77, 77);
         }
       }
-      .update{
+      .update {
         button {
           height: 2rem;
           width: 6rem;
@@ -2021,25 +2045,25 @@ border: none;
           cursor: pointer;
           border: none;
         }
-        button:hover{
+        button:hover {
           background-color: rgb(78, 77, 77);
         }
       }
     }
   }
-   .proceed {
-          height: 3rem;
-          width: 12rem;
-          margin-top: 1rem;
-          /* border: 0.7px solid rgba(231, 223, 223, 0.205); */
-          background-color: grey;
-          border-radius: 5px;
-          cursor: pointer;
-          border: none;
-        }
-        button:hover{
-          background-color: rgb(78, 77, 77);
-        }
+  .proceed {
+    height: 3rem;
+    width: 12rem;
+    margin-top: 1rem;
+    /* border: 0.7px solid rgba(231, 223, 223, 0.205); */
+    background-color: grey;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+  }
+  button:hover {
+    background-color: rgb(78, 77, 77);
+  }
 }
 @media (max-width: 600px) {
   * {
@@ -2266,7 +2290,18 @@ border: none;
       }
     }
   }
-  .bulldogColors {
+  .bulldogColors,
+.rareFrenchies,
+.blue,
+.merle,
+.fluffy,
+.cream,
+.isabella,
+.lilac,
+.platinum,
+.rojo,
+.chocolate,
+.black {
     margin-top: 12rem;
     padding: 0;
     .cover {
@@ -2276,7 +2311,18 @@ border: none;
         border-radius: 3px;
       }
     }
-    .colorGrid {
+    .colorGrid,
+  .rareGrid,
+  .blueGrid,
+  .merleGrid,
+  .fluffyGrid,
+  .isabellaGrid,
+  .lilacGrid,
+  .platinumGrid,
+  .rojoGrid,
+  .chocolateGrid,
+  .creamGrid ,
+  .blackGrid {
       flex-direction: column;
       width: 100%;
       padding: 0 2rem;
@@ -2585,33 +2631,35 @@ border: none;
       flex-direction: column;
     }
   }
-  .cartPage{
+  .cartPage {
     /* width: 100vw; */
     padding: 0;
     margin-top: 12rem;
-    .product-container{
+    .product-container {
       padding: 0 2rem;
-      button{
+      button {
         border-radius: 5px;
         margin-top: 1rem;
       }
-      table{
-        .quantity, .total, .pics {
-         display: none;
-       }
-       input{
-        width: 9rem;
-        border-radius: 5px;
-       }
-       .icon-column{
-        width: 2%;
-       }
-       .product{
-        width: 15%;
-       }
-       .price{
-         width: 8%;
-       }
+      table {
+        .quantity,
+        .total,
+        .pics {
+          display: none;
+        }
+        input {
+          width: 9rem;
+          border-radius: 5px;
+        }
+        .icon-column {
+          width: 2%;
+        }
+        .product {
+          width: 15%;
+        }
+        .price {
+          width: 8%;
+        }
       }
     }
   }

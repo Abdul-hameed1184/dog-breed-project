@@ -149,45 +149,56 @@ const MobileNav = () => {
                           <BiChevronRight onClick={() => toggleMenu(3)} />
                         )}
                       </span>
-                      {/* {showMenu[3] ? (
+                      {showMenu[3] ? (
                 <ul className="showMenu">
-                  <li>
-                    <span>-</span> Rare French BUlldog colors
+                          <li>
+                            <Link to={"/rare-french-bulldog-colors"}>
+                    <span>-</span> Rare French BUlldog colors</Link>
                   </li>
-                  <li>
-                    <span>-</span> Blue
+                          <li>
+                            <Link to={"/blue-bulldog-colors"}>
+                    <span>-</span> Blue</Link>
                   </li>
-                  <li>
-                    <span>-</span> Merle
+                          <li>
+                            <Link to={"/merle-bulldog"}>
+                    <span>-</span> Merle</Link>
                   </li>
-                  <li>
-                    <span>-</span> Fluffy
+                          <li>
+                            <Link to={"/fluffy-bulldog"}>
+                    <span>-</span> Fluffy</Link>
                   </li>
-                  <li>
-                    <span>-</span> Isabella
+                          <li>
+                            <Link to={"/isabella-bulldog"}>
+                    <span>-</span> Isabella</Link>
                   </li>
-                  <li>
-                    <span>-</span> Lilac
+                          <li>
+                            <Link to={"/lilac-bulldog"}>
+                    <span>-</span> Lilac</Link>
                   </li>
-                  <li>
-                    <span>-</span> Platinum
+                          <li>
+                            <Link to={"/platinum-bulldog"}>
+                    <span>-</span> Platinum</Link>
                   </li>
-                  <li>
-                    <span>-</span> Rojo
+                          <li>
+                            <Link to={"/rojo-bulldog"}>
+                    <span>-</span> Rojo</Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <span>-</span> Big Rope
+                  </li> */}
+                          <li>
+                            <Link to={"/chocolate-bulldog"}>
+                    <span>-</span> Chocolate french bulldog puppies</Link>
                   </li>
-                  <li>
-                    <span>-</span> Chocolate french bulldog puppies
+                          <li>
+                            <Link to={"/cream-bulldog"}>
+                    <span>-</span> Cream frenchies</Link>
                   </li>
-                  <li>
-                    <span>-</span> Cream frenchies
+                          <li>
+                            <Link to={"/black-bulldog"}>
+                    <span>-</span> Black frenchies</Link>
                   </li>
-                  <li>
-                    <span>-</span> Black frenchies
-                  </li>
-                  <li>
+                  {/* <li>
                     <span>-</span> Frenchies bulldog cbreeders
                   </li>
                   <li>
@@ -198,9 +209,9 @@ const MobileNav = () => {
                   </li>
                   <li>
                     <span>-</span> Fawn french Bulldogs
-                  </li>
+                  </li> */}
                 </ul>
-              ) : null} */}
+              ) : null}
                     </li>
                     <li>
                       <Link to={"/programs"}>Our Program</Link>
