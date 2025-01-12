@@ -4,7 +4,7 @@ const BulldogPuppies = () => {
     <div className="bulldogPuppies">
       <div className="route">You are here :  Bulldogs</div>
       <div className="cover">
-        <img src="/images/colors1.jpg" alt="" />
+        <img src="/images/Dogbreed3.jpg" alt="" />
       </div>
     </div>
   );

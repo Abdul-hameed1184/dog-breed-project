@@ -4,7 +4,7 @@ const ClothesForSale = () => {
     <div className="gear">
       <div className="route">You are here: Blldog Clothes</div>
       <div className="cover">
-        <img src="/images/gear1.jpg" alt="" />
+        <img src="/images/Dogbreed4.jpg" alt="" />
       </div>
       <div className="content">
         

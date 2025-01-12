@@ -122,7 +122,7 @@ const Routes = () => {
                     <ul className="sub-menu2" ref={navRef2}>
                       <li>
                         <Link to={"/contacts/#top"}>
-                          Contact Designer Frenchies
+                          Contact SouthEast Elite  Frenchies
                         </Link>
                       </li>
                       <li>

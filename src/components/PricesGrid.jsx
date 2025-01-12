@@ -20,7 +20,7 @@ const PricesGrid = () => {
           carry fluffy gene but are not visual, will cost more than those that
           do not carry it.
         </p>
-        <img src="/images/merle-french-bulldog-puppies-12.jpg" alt="" />
+        <img src="/images/Dogbreed1.jpg" alt="" />
         <h2>FRENCH BULLDOG COST</h2>
         <p>
           Color is the other variable that controls the French Bulldog cost
@@ -43,7 +43,7 @@ const PricesGrid = () => {
           Bulldog price information.
         </p>
         <p>
-          Check out our entire section on French Bulldog cost. Designer
+          Check out our entire section on French Bulldog cost. SouthEast Elite
           Frenchies is proud to offer French Bulldog Puppies for sale at a
           competitive french bulldog prices that exemplify the breed standard
           for:
@@ -76,13 +76,6 @@ const PricesGrid = () => {
           you also receive years of support and decades of genetic work all in
           one frenchie puppy price.
         </p>
-          </div>
-          <div className="right">
-              <img src="/images/gear5.jpg" alt="" />
-              <img src="/images/gear5.jpg" alt="" />
-              <img src="/images/gear5.jpg" alt="" />
-              <img src="/images/gear5.jpg" alt="" />
-              <img src="/images/gear5.jpg" alt="" />
           </div>
     </div>
   );

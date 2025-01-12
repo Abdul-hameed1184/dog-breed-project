@@ -4,7 +4,7 @@ const NavBar = () => {
   return (
     <div className="navbar">
       <div className="contact">
-        <p>(609) 827-2645</p>
+        <p>808-430-4156</p>
       </div>
       <div className="logo">
         <img src="/images/logo.png" alt="" />

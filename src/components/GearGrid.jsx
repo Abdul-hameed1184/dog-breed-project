@@ -4,7 +4,7 @@ const GearGrid = () => {
       <div className="left">
         <h1>FRENCH BULLDOG CLOTHES FOR SALE</h1>
         <p>
-          Designer French Bulldog offers the widest selection of French Bulldog
+          SouthEast Elite French Bulldog offers the widest selection of French Bulldog
           clothes for sale online. Shop the latest and hottest fashion in the
           French bulldog clothing world. A full selection of sizes is available.
           If you’re shopping for baby French bulldog clothes for sale, or an
@@ -30,12 +30,13 @@ const GearGrid = () => {
         </p>
       </div>
       <div className="right">
-        <img src="/images/gear2.jpg" alt="" />
-        <img src="/images/gear3.jpg" alt="" />
-        <img src="/images/gear4.jpg" alt="" />
-        <img src="/images/gear5.jpg" alt="" />
-        <img src="/images/gear6.jpg" alt="" />
-        <img src="/images/gear7.jpg" alt="" />
+        <img src="/images/Dogbreed1.jpg" alt="" />
+        <img src="/images/Dogbreed2.jpg" alt="" />
+        <img src="/images/Dogbreed3.jpg" alt="" />
+        <img src="/images/Dogbreed4.jpg" alt="" />
+        <img src="/images/Dogbreed5.jpg" alt="" />
+        <img src="/images/Dogbreed6.jpg" alt="" />
+        <img src="/images/Dogbreed7.jpg" alt="" />
       </div>
     </div>
   );

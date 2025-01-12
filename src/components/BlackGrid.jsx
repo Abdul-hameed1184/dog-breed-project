@@ -125,7 +125,7 @@ const BlackGrid = () => {
         </p>
         <h4>Finding the right puppy</h4>
         <p>
-          Here at Designer, we "pre house break" all of our puppies with pee pad
+          Here at SouthEast Elite, we "pre house break" all of our puppies with pee pad
           training starting at 6 weeks of age. This is really different from
           most breeders who cage their puppies until they're ready to go home at
           8 weeks. Part of our commitment to producing the best quality AKC
@@ -203,15 +203,13 @@ const BlackGrid = () => {
         </p>
       </div>
       <div className="right">
-        <img src="/images/colors7.jpg" alt="" />
-        <img src="/images/colors8.jpg" alt="" />
-        <img src="/images/colors9.jpg" alt="" />
-        <img src="/images/colors10.jpg" alt="" />
-        <img src="/images/colors11.jpg" alt="" />
-        <img src="/images/colors12.jpg" alt="" />
-        <img src="/images/colors13.jpg" alt="" />
-        <img src="/images/colors15.jpg" alt="" />
-        <img src="/images/colors16.jpg" alt="" />
+        <img src="/images/Dogbreed1.jpg" alt="" />
+        <img src="/images/Dogbreed2.jpg" alt="" />
+        <img src="/images/Dogbreed3.jpg" alt="" />
+        <img src="/images/Dogbreed4.jpg" alt="" />
+        <img src="/images/Dogbreed5.jpg" alt="" />
+        <img src="/images/Dogbreed6.jpg" alt="" />
+        <img src="/images/Dogbreed7.jpg" alt="" />
       </div>
     </div>
   );

@@ -15,7 +15,7 @@ const PriceesGrid2 = () => {
           beautiful perfect structured black and tan Frenchie price will be
           6500-12000.00.
         </p>
-        <img src="images/fluffy-frenchie-for-sale.jpg.webp" alt="" />
+        <img src="images/Dogbreed1.jpg" alt="" />
         <h1>FRENCH BULLDOG PRICE</h1>
         <p>
           One of the more interesting variations of a Merle French Bulldog puppy
@@ -40,7 +40,7 @@ const PriceesGrid2 = () => {
           Merle Frenchie price will also depend on other genes the puppy may
           carry.
         </p>
-        <img src="/images/frenchie-for-sale-91.jpg" alt="" />
+        <img src="/images/Dogbreed2.jpg" alt="" />
         <h4>French Bulldog puppy price</h4>
         <p>
           Looking for the perfect brindle french bulldog puppies for sale?
@@ -80,7 +80,7 @@ const PriceesGrid2 = () => {
           French Bulldog Puppies for sale can be found on our website.
         </p>
         <h4>How much does a Frenchie Cost?</h4>
-        <img src="/images/finance11.jpg" alt="" />
+        <img src="/images/Dogbreed3.jpg" alt="" />
         <p>
           Cost of a French Bulldog varies by breeder, by quality, by lineage of
           parents, and by color and coat type. First in order, Prices for
@@ -132,7 +132,7 @@ const PriceesGrid2 = () => {
           cost.
         </p>
         <img
-          src="/images/frenchie-puppies-for-sale-near-me-1-1-600x600.webp"
+          src="/images/Dogbreed5.jpg"
           alt=""
         />
         <h4>Isabella French Bulldog puppies for sale</h4>
@@ -154,7 +154,7 @@ const PriceesGrid2 = () => {
           of coat as well as lineage of parents.
         </p>
         <h4>Isabella Frenchie prices</h4>
-        <img src="/images/finance13.jpg" alt="" />
+        <img src="/images/Dogbreed6.jpg" alt="" />
         <p>
           They are sure beautiful and rare, but are they any different than
           other beautiful Frenchie colors? That is a call only the puppies owner
@@ -178,17 +178,13 @@ const PriceesGrid2 = () => {
         </p>
       </div>
       <div className="right">
-        <img src="/images/finance7.jpg" alt="" />
-        <img src="/images/finance7.jpg" alt="" />
-        <img src="/images/finance7.jpg" alt="" />
-        <img src="/images/finance7.jpg" alt="" />
-        <img src="/images/finance7.jpg" alt="" />
-        <img src="/images/finance7.jpg" alt="" />
-        <img src="/images/finance7.jpg" alt="" />
-        <img src="/images/finance7.jpg" alt="" />
-        <img src="/images/finance7.jpg" alt="" />
-        <img src="/images/finance7.jpg" alt="" />
-        <img src="/images/finance7.jpg" alt="" />
+        <img src="/images/Dogbreed1.jpg" alt="" />
+        <img src="/images/Dogbreed2.jpg" alt="" />
+        <img src="/images/Dogbreed3.jpg" alt="" />
+        <img src="/images/Dogbreed4.jpg" alt="" />
+        <img src="/images/Dogbreed5.jpg" alt="" />
+        <img src="/images/Dogbreed6.jpg" alt="" />
+        <img src="/images/Dogbreed7.jpg" alt="" />
       </div>
     </div>
   );

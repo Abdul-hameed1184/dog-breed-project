@@ -4,7 +4,7 @@ const HomeCard = () => {
   return (
     <div className="homeCard">
       <Link>
-        <img src="/images/big-rope-Frenchie-14.jpg" alt="" />
+        <img src="/images/Dogbreed1.jpg" alt="" />
         <div className="title">Big Rope French Bulldog</div>
       </Link>
     </div>

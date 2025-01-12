@@ -177,14 +177,14 @@ const FluffyGrid = () => {
         </p>
       </div>
       <div className="right">
-        <img src="/images/colors8.jpg" alt="" />
-        <img src="/images/colors9.jpg" alt="" />
-        <img src="/images/colors10.jpg" alt="" />
-        <img src="/images/colors11.jpg" alt="" />
-        <img src="/images/colors12.jpg" alt="" />
-        <img src="/images/colors13.jpg" alt="" />
-        <img src="/images/colors15.jpg" alt="" />
-        <img src="/images/colors16.jpg" alt="" />
+        <img src="/images/Dogbreed1.jpg" alt="" />
+        <img src="/images/Dogbreed2.jpg" alt="" />
+        <img src="/images/Dogbreed3.jpg" alt="" />
+        <img src="/images/Dogbreed4.jpg" alt="" />
+        <img src="/images/Dogbreed5.jpg" alt="" />
+        <img src="/images/Dogbreed6.jpg" alt="" />
+        <img src="/images/Dogbreed7.jpg" alt="" />
+       
       </div>
     </div>
   );

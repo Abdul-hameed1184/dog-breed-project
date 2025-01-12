@@ -6,7 +6,7 @@ const Rojo = () => {
     <div className="rojo">
       <div className="route">You are here : Rojo Bulldogs</div>
       <div className="cover">
-        <img src="/images/colors1.jpg" alt="" />
+        <img src="/images/Dogbreed1.jpg" alt="" />
       </div>
       <RojoGrid/>
     </div>

@@ -29,7 +29,7 @@ const PreviewGrid = ({ product }) => {
         </p>
         <p className="price">$5,000</p>
         <p>
-          Lock in Fee towards for one of our Studs here at Designer French
+          Lock in Fee towards for one of our Studs here at SouthEast Elite French
           Bulldogs.
         </p>
         <div className="buttons">

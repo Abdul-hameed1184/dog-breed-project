@@ -14,12 +14,12 @@ const AvailableGrid = () => {
           Unfortunately, we receive a ton of spam calls, so texting to setup a
           call works best! Our pups fly anywhere in USA. Once you have decided
           you would like to purchase one of our amazing pups, please fill out
-          the puppy contract and email it to us at DesignerFrenchAbulls AT
+          the puppy contract and email it to us at SouthEast French bulls AT
           Gmail.com
         </p>
         <h2>✈️ Our Frenchie puppies for sale fly anywhere in USA! ✈️</h2>
         <p>
-          Designer French Bulldogs is a family run French Bulldog Breeder
+          SouthEast French Bulldogs is a family run French Bulldog Breeder
           working with top AKC bloodlines. Our Frenchies are “thick boned, and
           English Bulldog Esque” in cuteness, wrinkles and structure.
         </p>
@@ -33,7 +33,7 @@ const AvailableGrid = () => {
           When you purchase from us, you are purchasing what we believe a
           Frenchie should be in genetics, looks, health and temperament.
         </p>
-        <img src="/images/availablegrid1.jpg" alt="" />
+        <img src="/images/DogBreed1.jpg" alt="" />
         <ul>
           <header>Top Frenchie Genetics</header>
           <p>
@@ -294,11 +294,11 @@ const AvailableGrid = () => {
         </p>
       </div>
       <div className="right">
-        <img src="/images/availablegrid2.jpg" alt="" />
-        <img src="/images/availablegrid3.jpg" alt="" />
-        <img src="/images/availablegrid4.jpg" alt="" />
-        <img src="/images/program3.jpg" alt="" />
-        <img src="/images/program4.jpg" alt="" />
+        <img src="/images/Dogbreed2.jpg" alt="" />
+        <img src="/images/Dogbreed3.jpg" alt="" />
+        <img src="/images/Dogbreed4.jpg" alt="" />
+        <img src="/images/Dogbreed3.jpg" alt="" />
+        <img src="/images/Dogbreed4.jpg" alt="" />
       </div>
     </div>
   );

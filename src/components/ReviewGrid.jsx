@@ -12,19 +12,19 @@ const ReviewGrid = () => {
         <div className="star">5 star</div>
         <p>Google Review – 2 months ago</p>
         <p>
-          It was a pleasure dealing with Designer French Bulldog Frenchies. I
+          It was a pleasure dealing with SouthEast Elite  French Bulldog Frenchies. I
           recieved a health happy puppy. No problems at his vet visit. He is
           getting along with all my other dogs. He made the transfer so easy. My
           dog went from Florida to Kentucky with a dog nanny. This company is
           very professional. If I want another dog I will go right back to
-          Designer French Bulldog Frenchies.
+          SouthEast Elite  French Bulldog Frenchies.
         </p>
         <p>Sue Seamon</p>
         <div className="star">5 star</div>
         <p>Google Review – one month ago</p>
         <p>
           We are thrilled with our new family member, Mac! Brian was so patient
-          with us on deciding on our new baby and Designer French Bulldogs
+          with us on deciding on our new baby and SouthEast Elite  French Bulldogs
           didn’t disappoint us at all. Everything was communicated well and the
           process was easy! Thank you so much for the care you put into your
           French Bulldogs!
@@ -33,9 +33,9 @@ const ReviewGrid = () => {
         <div className="star">5 star</div>
         <p>Local Guide • 7 reviews • 7 photos</p>
         <p>starstarstarstarstar 2 weeks ago</p>
-        <p>Exquisite Frenchie Experience with Designer French Bulldogs</p>
+        <p>Exquisite Frenchie Experience with SouthEast Elite  French Bulldogs</p>
         <p>
-          I can’t recommend Designer French Bulldogs and Brian highly enough!
+          I can’t recommend SouthEast Elite  French Bulldogs and Brian highly enough!
           From the moment I reached out about the Isabella Merle Frenchie, we
           had our eye on, the experience was nothing short of exceptional.
         </p>
@@ -56,7 +56,7 @@ const ReviewGrid = () => {
         <p>
           If you’re looking for a reputable breeder who prioritizes the health
           and well-being of their pups, breeds for health and structure, look no
-          further than Brian and Designer French Bulldogs. Thank you, Brian, for
+          further than Brian and SouthEast Elite  French Bulldogs. Thank you, Brian, for
           bringing so much joy into our life with my precious Ivy!
         </p>
         <p>#ivythefrenchiechic</p>
@@ -64,7 +64,7 @@ const ReviewGrid = () => {
         <div className="star">5 star</div>
         <p>Local Guide·17 reviews·6 photos – one month ago</p>
         <p>
-          Designer French Bulldog Puppies is a one stop shop for all your
+          SouthEast Elite  French Bulldog Puppies is a one stop shop for all your
           Frenchie needs. If you’re looking for show dogs with unique coloring
           then look no more.
         </p>
@@ -72,7 +72,7 @@ const ReviewGrid = () => {
         <div className="star">5 star</div>
         <p>Google review – one month ago</p>
         <p>
-          We bought our French Bulldog through Designer French Bulldogs. They
+          We bought our French Bulldog through SouthEast Elite  French Bulldogs. They
           are very knowledgeable and helpful. I would highly recommend them for
           those looking for a quality French. Bulldog.
         </p>
@@ -100,19 +100,19 @@ const ReviewGrid = () => {
         <div className="star">5 star</div>
         <p>Google Review – 2 months ago</p>
         <p>
-          It was a pleasure dealing with Designer French Bulldog Frenchies. I
+          It was a pleasure dealing with SouthEast Elite  French Bulldog Frenchies. I
           recieved a health happy puppy. No problems at his vet visit. He is
           getting along with all my other dogs. He made the transfer so easy. My
           dog went from Florida to Kentucky with a dog nanny. This company is
           very professional. If I want another dog I will go right back to
-          Designer French Bulldog Frenchies.
+          SouthEast Elite  French Bulldog Frenchies.
         </p>
         <p>Sue Seamon</p>
         <div className="star">5 star</div>
         <p>Google Review – one month ago</p>
         <p>
           We are thrilled with our new family member, Mac! Brian was so patient
-          with us on deciding on our new baby and Designer French Bulldogs
+          with us on deciding on our new baby and SouthEast Elite  French Bulldogs
           didn’t disappoint us at all. Everything was communicated well and the
           process was easy! Thank you so much for the care you put into your
           French Bulldogs!
@@ -121,9 +121,9 @@ const ReviewGrid = () => {
         <div className="star">5 star</div>
         <p>Local Guide • 7 reviews • 7 photos</p>
         <p>starstarstarstarstar 2 weeks ago</p>
-        <p>Exquisite Frenchie Experience with Designer French Bulldogs</p>
+        <p>Exquisite Frenchie Experience with SouthEast Elite  French Bulldogs</p>
         <p>
-          I can’t recommend Designer French Bulldogs and Brian highly enough!
+          I can’t recommend SouthEast Elite  French Bulldogs and Brian highly enough!
           From the moment I reached out about the Isabella Merle Frenchie, we
           had our eye on, the experience was nothing short of exceptional.
         </p>
@@ -144,7 +144,7 @@ const ReviewGrid = () => {
         <p>
           If you’re looking for a reputable breeder who prioritizes the health
           and well-being of their pups, breeds for health and structure, look no
-          further than Brian and Designer French Bulldogs. Thank you, Brian, for
+          further than Brian and SouthEast Elite  French Bulldogs. Thank you, Brian, for
           bringing so much joy into our life with my precious Ivy!
         </p>
         <p>#ivythefrenchiechic</p>
@@ -152,7 +152,7 @@ const ReviewGrid = () => {
         <div className="star">5 star</div>
         <p>Local Guide·17 reviews·6 photos – one month ago</p>
         <p>
-          Designer French Bulldog Puppies is a one stop shop for all your
+          SouthEast Elite  French Bulldog Puppies is a one stop shop for all your
           Frenchie needs. If you’re looking for show dogs with unique coloring
           then look no more.
         </p>
@@ -160,7 +160,7 @@ const ReviewGrid = () => {
         <div className="star">5 star</div>
         <p>Google review – one month ago</p>
         <p>
-          We bought our French Bulldog through Designer French Bulldogs. They
+          We bought our French Bulldog through SouthEast Elite  French Bulldogs. They
           are very knowledgeable and helpful. I would highly recommend them for
           those looking for a quality French. Bulldog.
         </p>
@@ -184,29 +184,7 @@ const ReviewGrid = () => {
           adjusted to his new home. :)
         </p>
         <p>Michael M</p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga incidunt
-          magni saepe doloribus praesentium nesciunt perferendis illum tempore
-          soluta. Perspiciatis quod assumenda possimus necessitatibus sunt
-          commodi quos? Unde accusamus illum alias quia totam perspiciatis
-          labore assumenda consequatur impedit laboriosam ipsam, magni veniam
-          quod, possimus sapiente aperiam quas sequi velit quidem omnis nisi
-          eius sed deserunt porro? Odit asperiores quis unde, labore, quam
-          animi, voluptatibus eos quidem minima beatae veniam eum. Numquam ab
-          perferendis expedita nulla natus libero rem nisi ipsa dolor unde
-          possimus voluptatem delectus repudiandae atque fugit quibusdam dolorum
-          hic officia quidem velit, magni.
-        </p>
-        <p>
-          
-          dolores pariatur praesentium. Enim quo consectetur, incidunt nam,
-          aperiam quisquam ad rem repellendus iusto dolorum labore cupiditate
-          est nostrum molestiae consequuntur aliquid excepturi! Numquam atque
-          nihil reiciendis sed ad doloremque architecto modi hic, minima cumque
-          dolore autem voluptatem itaque dolorem porro dignissimos repellat quis
-          at fuga distinctio aliquid sequi quo? Qui quod maiores aliquam minus.
-              </p>
-              <img src="" alt="" />
+     
       </div>
       <div className="right">
         <img src="/images/available3.jpg" alt="" />

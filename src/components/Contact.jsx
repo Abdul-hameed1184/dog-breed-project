@@ -22,10 +22,10 @@ const Contact = () => {
 
   return (
     <div className="contact">
-      <h3>Designer French Bulldogs Contact</h3>
+      <h3>SouthEastElite Frenchies Contact</h3>
       <h6>
         Contact us for more information about upcoming litters of French
-        Bulldogs from Designer French Bulldogs.
+        Bulldogs from SouthEast French Bulldogs.
       </h6>
       <hr />
       <form>
@@ -192,8 +192,8 @@ const Contact = () => {
         </div>
         <div className="check2">
           <p>
-            Stay up-to-date with puppy announcements and more from Designer
-            French Bulldogs!
+            Stay up-to-date with puppy announcements and more from SouthEastElite
+            Frenchies!
           </p>
           <label>
             <input type="radio" name="check2" value="yes" />

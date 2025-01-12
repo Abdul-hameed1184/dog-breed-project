@@ -30,7 +30,7 @@ const ColorsGrid = () => {
           themselves, passing on the potential for long fur in future
           generations.
         </p>
-        <img src="/images/colors2.jpg" alt="" />
+        <img src="/images/Dogbreed2.jpg" alt="" />
         <h1>FLUFFY FRENCH BULLDOG FOR SALE</h1>
         <p>
           At Southeast Elite Frenchies, our Fluffy French Bulldogs, better known
@@ -66,7 +66,7 @@ const ColorsGrid = () => {
           nature, sticking to common colors will help keep costs down while
           still getting an adorable pup
         </p>
-        <img src="/images/colors3.jpg" alt="" />
+        <img src="/images/Dogbreed3.jpg" alt="" />
         <p>
           At Southeast Elite Frenchies, our future litters will come in colors
           such as Lilac, Lilac and Tan, Blues, Isabellas, and new shade
@@ -114,7 +114,7 @@ const ColorsGrid = () => {
           answers to some of the most important and frequently asked questions
           about the long-haired version of the great French Bulldog
         </p>
-        <img src="/images/colors4.jpg" alt="" />
+        <img src="/images/Dogbreed4.jpg" alt="" />
         <h1>Does the AKC Recognize Fluffy French Bulldog Puppies?</h1>
         <p>
           While there is no specific checkbox for "Fluffy" on AKC registration
@@ -156,7 +156,7 @@ const ColorsGrid = () => {
           compete in the rest of the AKC events, be regarded as full pedigree,
           and registered.
         </p>
-        <img src="/images/colors5.jpg" alt="" />
+        <img src="/images/Dogbreed5.jpg" alt="" />
         <h3>Are Fluffy Frenchie High Maintenance</h3>
         <p>
           Generally french Bulldogs are pretty low-maintenancee dogs regarding
@@ -184,7 +184,7 @@ const ColorsGrid = () => {
           the shoulder. The life expectancy can be determined by factors such as
           diet, exercise, genetics, and overall care.
         </p>
-        <img src="/images/colors6.jpg" alt="" />
+        <img src="/images/Dogbreed6.jpg" alt="" />
         <p>
           By choosing a high-quality breeder like Southeast Elite Frenchies,
           you’re ensuring a Fluffy Frenchie that is not only visually stunning
@@ -212,15 +212,14 @@ const ColorsGrid = () => {
         </p>
       </div>
       <div className="right">
-        <img src="/images/colors7.jpg" alt="" />
-        <img src="/images/colors8.jpg" alt="" />
-        <img src="/images/colors9.jpg" alt="" />
-        <img src="/images/colors10.jpg" alt="" />
-        <img src="/images/colors11.jpg" alt="" />
-        <img src="/images/colors12.jpg" alt="" />
-        <img src="/images/colors13.jpg" alt="" />
-        <img src="/images/colors15.jpg" alt="" />
-        <img src="/images/colors16.jpg" alt="" />
+        <img src="/images/Dogbreed1.jpg" alt="" />
+        <img src="/images/Dogbreed2.jpg" alt="" />
+        <img src="/images/Dogbreed3.jpg" alt="" />
+        <img src="/images/Dogbreed4.jpg" alt="" />
+        <img src="/images/Dogbreed5.jpg" alt="" />
+        <img src="/images/Dogbreed6.jpg" alt="" />
+        <img src="/images/Dogbreed7.jpg" alt="" />
+
       </div>
     </div>
   );

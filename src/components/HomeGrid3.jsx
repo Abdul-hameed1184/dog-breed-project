@@ -4,10 +4,7 @@ const HomeGrid3 = () => {
       <div className="left">
         <h1>SOUTHEAST FRENACH BULLDOGS PUPPIES</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus cum
-          similique modi at sunt. Facilis minus debitis sit consequuntur dolore
-          facere temporibus laborum quos ab distinctio dignissimos, sed aliquam
-          eligendi excepturi impedit illo perspiciatis consequatur.
+        AKC Frenchie puppies from DFB are available to go anywhere in the USA with our dedicated puppy nanny. Also, once your pup is about 6 weeks old, we schedule our puppy nanny! Our Nanny will bring he or she to you if you are not interested in coming to pick them up in person.
         </p>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
@@ -17,36 +14,23 @@ const HomeGrid3 = () => {
         </p>
         <h2>Is that a Boston Terrier or a Frenchie?t</h2>
         <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora
-          corrupti unde incidunt dolorem quibusdam animi molestias in nostrum,
-          sed numquam quisquam, temporibus molestiae ratione accusamus magnam
-          modi odit rem, mollitia veniam placeat? Dolores temporibus asperiores
-          a repudiandae aliquam harum iusto.
+        The SouthEast Elite Frenchies Bulldog puppies are very nice in conformation for structure and size. There is such variation these days in the quality and structure, which in other words means that the dog in itself can look many different ways.
         </p>
         <h2>Be careful out there!</h2>
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat
-          consequuntur nihil ad pariatur provident dolore vel at! Atque,
-          deleniti quos dignissimos ipsam accusantium, incidunt, corporis
-          deserunt fugit voluptatum mollitia pariatur dicta minima molestias
-          quibusdam excepturi exercitationem totam eligendi maxime ullam! Alias
-          provident expedita tenetur dolore.
+        If you are looking only for high-quality AKC breeders locally, you are going to limit yourself to quite a number of high-quality programs. Because virtually any higher level AKC Frenchie Breeder can send their pups with nannies direct to you. The web is filled to the brim with not just hobby breeders cranking out less-than-healthy dogs that are tough to look at. Beyond health and overall structure, high level vs low quality dogs, risk comes from scammers.
         </p>
         <h2>Fake French Bulldog Breeders</h2>
         <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum et
-          aperiam, totam nihil ratione at dolorem maiores ad sequi facere nam
-          incidunt vitae blanditiis iste. Quia voluptatibus nisi, sit soluta
-          expedita autem explicabo non perspiciatis nulla maxime maiores
-          laudantium sapiente.
+        Nigerian scammers have basically made it very difficult for hobby breeders overall by stealing pictures from breeder websites and listing fake dogs. If you see a FBD listed for 2000-3000-4000, it is most likely fake. If it is not fake, it certainly is lower quality. Although this risk exists, you can mitigate it by buying from a real experienced breeder like us!
         </p>
       </div>
       <div className="right">
         <img
-          src="/images/new-shade-rojo-french-bulldog-price-231-600x600.webp"
+          src="/images/Dogbreed1.jpg" 
           alt=""
         />
-        <img src="/images/Frenchie-breeders-6.jpg" alt="" />
+        <img src="/images/Dogbreed2.jpg" alt="" />
       </div>
     </div>
   );

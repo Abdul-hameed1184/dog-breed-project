@@ -33,7 +33,7 @@ const CartPage = () => {
                 <BiX />
               </td>
               <td className="pics">
-                <img src="images/leash7.jpg" alt="" />
+                <img src="images/Dogbreed1.jpg" alt="" />
               </td>
               <td className="product">
                 <Link>Yogawear French Bulldog Harness - graphite</Link>
@@ -57,7 +57,7 @@ const CartPage = () => {
                 <BiX />
               </td>
               <td className="pics">
-                <img src="images/leash7.jpg" alt="" />
+                <img src="images/Dogbreed2.jpg" alt="" />
               </td>
               <td className="product">
                 {" "}
@@ -82,7 +82,7 @@ const CartPage = () => {
                 <BiX />
               </td>
               <td className="pics">
-                <img src="images/leash7.jpg" alt="" />
+                <img src="images/Dogbreed3.jpg" alt="" />
               </td>
               <td className="product">
                 {" "}

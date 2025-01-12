@@ -6,12 +6,12 @@ const StudServices = () => {
     <div className="studServices">
       <div className="route">you are here: stud services</div>
       <div className="cover">
-        <img src="/images/french-bulldog-stud-service-1-1.jpg.webp" alt="" />
+        <img src="/images/Dogbreed6" alt="" />
       </div>
       <div className="write-up">
         <h1>FRENCHIE STUD SERVICE</h1>
         <p>
-          At Designer French Bulldogs, the goal is to be among the finest
+          At SouthEast Elite French Bulldogs, the goal is to be among the finest
           breeders of French Bulldogs in the United States. That being said, how
           would that be possible? Without a doubt, there is definitely no short
           answer to such a question! First with some of the best of all the

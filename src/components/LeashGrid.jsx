@@ -19,18 +19,12 @@ const LeashGrid = () => {
         <LeashCard />
       </div>
       <div className="right">
-        <img src="/images/leash1.jpg" alt="" />
-        <img src="/images/leash2.jpg" alt="" />
-        <img src="/images/leash3.jpg" alt="" />
-        <img src="/images/leash4.jpg" alt="" />
-        <img src="/images/leash5.jpg" alt="" />
-        <img src="/images/leash6.jpg" alt="" />
-        <img src="/images/leash7.jpg" alt="" />
-        <img src="/images/leash8.jpg" alt="" />
-        <img src="/images/leash9.jpg" alt="" />
-        <img src="/images/leash10.jpg" alt="" />
-        <img src="/images/leash11.jpg" alt="" />
-        <img src="/images/leash12.jpg" alt="" />
+        <img src="/images/Dogbreed1.jpg" alt="" />
+        <img src="/images/Dogbreed2.jpg" alt="" />
+        <img src="/images/Dogbreed3.jpg" alt="" />
+        <img src="/images/Dogbreed4.jpg" alt="" />
+        <img src="/images/Dogbreed5.jpg" alt="" />
+       
       </div>
     </div>
   );

@@ -13,17 +13,13 @@ const FAQGrid = () => {
         </p>
       </div>
       <div className="right">
-        <img src="/images/available3.jpg" alt="" />
-        <img src="/images/available4.jpg" alt="" />
-        <img src="/images/available5.jpg" alt="" />
-        <img src="/images/available6.jpg" alt="" />
-        <img src="/images/available8.jpg" alt="" />
-        <img src="/images/available9.jpg" alt="" />
-        <img src="/images/available10.jpg" alt="" />
-        <img src="/images/available11.jpg" alt="" />
-        <img src="/images/available12.jpg" alt="" />
-        <img src="/images/available13.jpg" alt="" />
-        <img src="/images/available14.jpg" alt="" />
+        <img src="/images/Dogbreed1.jpg" alt="" />
+        <img src="/images/Dogbreed2.jpg" alt="" />
+        <img src="/images/Dogbreed3.jpg" alt="" />
+        <img src="/images/Dogbreed4.jpg" alt="" />
+        <img src="/images/Dogbreed5.jpg" alt="" />
+        <img src="/images/Dogbreed6.jpg" alt="" />
+        <img src="/images/Dogbreed7.jpg" alt="" />
       </div>
     </div>
   );

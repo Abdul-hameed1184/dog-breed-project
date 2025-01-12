@@ -59,7 +59,7 @@ const FAQ = () => {
           of bone yet compact like a little nugget.
         </p>
         <p>
-          Q. I am ready to reserve a Frenchie from Designer French Bulldogs. How
+          Q. I am ready to reserve a Frenchie from SouthEast Elite Frenchies Bulldogs. How
           do I complete reservation?
         </p>
         <p>
@@ -109,7 +109,7 @@ const FAQ = () => {
           meet them at a local airport or even locally if driving.
         </p>
         <p>
-          Q. Does Designer Frenchies do anything differently to help with food
+          Q. Does SouthEast Elite Frenchies Frenchies do anything differently to help with food
           aggression or resource guarding in the firstfew weeks a puppy is
           eating without mom?
         </p>

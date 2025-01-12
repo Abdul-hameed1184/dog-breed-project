@@ -144,7 +144,7 @@ const LilacGrid = () => {
         <p>
           It is actually a question of personal preference when you decide
           between blues and lilacs or the merle version of those colors. Here at
-          Designer Frenchies, we produce regulars, tan points, merles, and every
+          SouthEast Elite Frenchies, we produce regulars, tan points, merles, and every
           other variation under the sun
         </p>
         <p>
@@ -210,7 +210,7 @@ const LilacGrid = () => {
         </p>
         <p>
           It's really a matter of preference when you choose between blues and
-          lilacs or the merle versions of those colors. Here at Designer
+          lilacs or the merle versions of those colors. Here at SouthEast Elite 
           Frenchies, we produce regulars, tan points, merles, and every other
           variation under the sun.
         </p>
@@ -270,15 +270,14 @@ const LilacGrid = () => {
 
       </div>
       <div className="right">
-        <img src="/images/colors7.jpg" alt="" />
-        <img src="/images/colors8.jpg" alt="" />
-        <img src="/images/colors9.jpg" alt="" />
-        <img src="/images/colors10.jpg" alt="" />
-        <img src="/images/colors11.jpg" alt="" />
-        <img src="/images/colors12.jpg" alt="" />
-        <img src="/images/colors13.jpg" alt="" />
-        <img src="/images/colors15.jpg" alt="" />
-        <img src="/images/colors16.jpg" alt="" />
+        <img src="/images/Dogbreed1.jpg" alt="" />
+        <img src="/images/Dogbreed2.jpg" alt="" />
+        <img src="/images/Dogbreed3.jpg" alt="" />
+        <img src="/images/Dogbreed4.jpg" alt="" />
+        <img src="/images/Dogbreed5.jpg" alt="" />
+        <img src="/images/Dogbreed6.jpg" alt="" />
+        <img src="/images/Dogbreed7.jpg" alt="" />
+
       </div>
     </div>
   );

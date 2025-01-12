@@ -26,7 +26,7 @@ const IsabellaGrid = () => {
           breed itself comes in variations now and is called new shade Isabella.
         </p>
         <p>
-          Why buy an Isabella French Bulldog puppy? Here at Designer Frenchies,
+          Why buy an Isabella French Bulldog puppy? Here at SouthEast Elite Frenchies,
           our program is entirely focused on structure, health, and temperament
           above all else. Our Isabella French bulldogs for sale are usually sold
           within 1-2 days of being listed here on our available Frenchie puppies
@@ -133,7 +133,7 @@ const IsabellaGrid = () => {
         </p>
         <h5>Short, thick and compact AKC Frenchies</h5>
         <p>
-          Cuter, thicker, more compact is what you will find in a Designer
+          Cuter, thicker, more compact is what you will find in a SouthEast Elite
           Frenchie puppy versus most of what is out there. Hobby breeders have
           really saturated the French market with low-end dogs that should never
           have been produced. Look to the ears, the eyes, the rope over the
@@ -220,15 +220,13 @@ const IsabellaGrid = () => {
         </p>
       </div>
       <div className="right">
-        <img src="/images/colors7.jpg" alt="" />
-        <img src="/images/colors8.jpg" alt="" />
-        <img src="/images/colors9.jpg" alt="" />
-        <img src="/images/colors10.jpg" alt="" />
-        <img src="/images/colors11.jpg" alt="" />
-        <img src="/images/colors12.jpg" alt="" />
-        <img src="/images/colors13.jpg" alt="" />
-        <img src="/images/colors15.jpg" alt="" />
-        <img src="/images/colors16.jpg" alt="" />
+        <img src="/images/Dogbreed1.jpg" alt="" />
+        <img src="/images/Dogbreed2.jpg" alt="" />
+        <img src="/images/Dogbreed3.jpg" alt="" />
+        <img src="/images/Dogbreed4.jpg" alt="" />
+        <img src="/images/Dogbreed5.jpg" alt="" />
+        <img src="/images/Dogbreed6.jpg" alt="" />
+        <img src="/images/Dogbreed7.jpg" alt="" />
       </div>
     </div>
   );

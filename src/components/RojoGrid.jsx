@@ -15,7 +15,7 @@ const RojoGrid = () => {
           color"
         </p>
         <h2>Rojo Frenchie price</h2>
-        <img src="/images/colors11.jpg" alt="" />
+        <img src="/images/Dogbreed7.jpg" alt="" />
 
         <p>
           One of the rarest and most sought after of all French Bulldog colors,
@@ -53,7 +53,7 @@ const RojoGrid = () => {
           common colors. Also available is the amazing Isabella Merle and New
           shade.
         </p>
-        <img src="/images/colors11.jpg" alt="" />
+        <img src="/images/Dogbreed6.jpg" alt="" />
         <h4>How easily can one find this color Frenchie?</h4>
         <p>
           Typically, we have 1 or 2 Isabella French bulldogs for sale available
@@ -65,13 +65,11 @@ const RojoGrid = () => {
         </p>
       </div>
       <div className="right">
-        <img src="/images/colors7.jpg" alt="" />
-        <img src="/images/colors8.jpg" alt="" />
-        <img src="/images/colors11.jpg" alt="" />
-        <img src="/images/colors12.jpg" alt="" />
-        <img src="/images/colors13.jpg" alt="" />
-        <img src="/images/colors15.jpg" alt="" />
-        <img src="/images/colors16.jpg" alt="" />
+        <img src="/images/Dogbreed1.jpg" alt="" />
+        <img src="/images/Dogbreed2.jpg" alt="" />
+        <img src="/images/Dogbreed3.jpg" alt="" />
+        <img src="/images/Dogbreed4.jpg" alt="" />
+        <img src="/images/Dogbreed5.jpg" alt="" />
       </div>
     </div>
   );

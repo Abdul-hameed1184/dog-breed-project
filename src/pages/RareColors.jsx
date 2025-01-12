@@ -5,7 +5,7 @@ const RareColors = () => {
     <div className="rareFrenchies">
       <div className="route">You are here : Rare Bulldog Colors</div>
       <div className="cover">
-        <img src="/images/colors1.jpg" alt="" />
+        <img src="/images/Dogbreed1.jpg" alt="" />
       </div>
       <RareGrid/>
     </div>

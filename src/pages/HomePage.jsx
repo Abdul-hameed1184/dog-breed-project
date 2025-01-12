@@ -1,5 +1,10 @@
 import { IoIosShareAlt } from "react-icons/io";
 import HomeCard from "../components/HomeCard";
+import HomeCard2 from "../components/HomeCard2";
+import HomeCard3 from "../components/HomeCard3";
+import HomeCard4 from "../components/HomeCard4";
+import HomeCard5 from "../components/HomeCard5";
+import HomeCard6 from "../components/HomeCard6";
 import HomeGrid1 from "../components/HomeGrid1";
 import HomeGrid2 from "../components/HomeGrid2";
 import HomeGrid3 from "../components/HomeGrid3";
@@ -15,90 +20,54 @@ const HomePage = () => {
         <div className="route">You are here: Home</div>
 
         <div className="container">
-          <img src="/images/french-bulldogs-for-sale-534-1.jpg" />
+        <img src="/images/Dogbreed1.jpg" width="400" height="400" />
           <div className="write-up">
             <h1>SOUTHEAST ELITE FRENCHIES BULLDOGS</h1>
             <p className="first-p">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Necessitatibus distinctio quod quidem ipsa rem laborum. Ut,
-              repellat illo. Recusandae, quae? Fuga error quas ipsam dignissimos
-              dolore assumenda id adipisci, ducimus, sed exercitationem est a
-              nostrum, rem cupiditate accusantium maiores animi mollitia
-              doloribus! Iure, quasi quaerat!
+            Welcome to the home of the finest SouthEast Elite Frenchies Bulldog puppies in the United States! Find your 
+            perfect companion with the #1 SouthEast Elite Frenchies breeder, 
+            renowned for health, premium DNA, and exceptional structure. Our Frenchie puppies can
+            be delivered anywhere in the USA by our dedicated puppy nanny,  or you’re welcome to visit us in person.
             </p>
             <p className="first-p">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam
-              culpa, non veniam harum natus reprehenderit amet inventore
-              reiciendis quis magni ullam tenetur accusantium ducimus distinctio
-              consequatur tempore eos sint aut ea. Ab maxime explicabo excepturi
-              tempore laborum distinctio praesentium atque. Quasi fugiat
-              dignissimos, delectus repellendus, nulla unde iusto, dolorem neque
-              placeat sapiente aliquid beatae corrupti.
+            Our French Bulldog puppies are short, stout, compact dogs that truly represent the French Bulldog breed type. We are pet-first breeders, 
+            and this means no kennels, no overbreeding, and lots of love for this amazing breed. We have Frenchies in every color imaginable, 
+            from classic to rare colors such as lilac, blue, Isabella, Rojo, all types of Merle, and many, many more.
             </p>
             {/* <img
               src="/images/french-bulldogs-for-sale-534-1.jpg"
               alt=""
               className="mid"
             /> */}
-            <div className="available">
-              <img src="/images/available.jpg" alt="" />
-              <div className="overlay">
-                <div className="icon-div">
-                  <IoIosShareAlt className="icon" />
-                </div>
-              </div>
-            </div>
+          
             <h1>AKC FRENCHIE PUPPIES </h1>
             <p className="linkup">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
-              provident molestiae sed quia eligendi voluptatem corrupti unde
-              accusamus autem maxime dicta dignissimos harum aliquid inventore,
-              nostrum hic sit, eius expedita a aperiam enim?
+            Lyla and Showtime have given birth to an incredible litter of five males! We are now accepting reservations for our stunning lilac and lilac
+             merle French Bulldog puppies. A $1,000 reservation fee secures your pick, 
+            and they can be reserved through our Available Frenchie Puppies section.
             </p>
             <h1>SOUTHEAST FRENCH BULLDOG </h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
-              provident molestiae sed quia eligendi voluptatem corrupti unde
-              accusamus autem maxime dicta dignissimos harum aliquid inventore,
-              nostrum hic sit, eius expedita a aperiam enim? Lorem ipsum dolor
-              sit amet consectetur adipisicing elit. Facilis labore odit
-              pariatur quaerat cupiditate voluptatibus.
+            Our SouthEast French Bulldog puppies have a full-time "puppy nanny" to deliver your puppy to you wherever you are in the USA when your puppy is ready to go home. With us, you are not going to have to settle for less on health and quality just to work with someone locally. Our goal within our breeding program is to create compactly muscular, correctly structured French Bulldogs.
             </p>
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam
-              nesciunt natus accusantium odit asperiores temporibus, maiores
-              amet! Laboriosam natus distinctio voluptatum magnam iusto cum
-              repellendus recusandae animi? Hic, magnam ipsum atque perferendis
-              ipsa aliquam vero rem ullam maiores error architecto aliquid,
-              consectetur provident ab cupiditate?Lorem ipsum dolor sit amet
-              consectetur adipisicing elit. Maxime obcaecati itaque ea placeat
-              tempora, explicabo blanditiis officiis distinctio recusandae esse?
+            Our puppies are from only the best bloodlines, thick, compact, and dense as can be. You can opt to pick up your Frenchie personally or have them delivered to your nearest airport through our professional puppy nanny service. Yes, our pups travel not only across the USA but also to Canada and internationally; it's really very affordable and easy to arrange. This is a very important step in choosing your French Bulldog puppy: choosing the best quality over convenience.
             </p>
             <h1>AKC FRENCHIE PUPPIES </h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
-              provident molestiae sed quia eligendi voluptatem corrupti unde
-              accusamus autem maxime dicta dignissimos harum aliquid inventore,
-              nostrum hic sit, eius expedita a aperiam enim?
+            At SouthEast, perfection of what we believe to be the ideal breed standard is our committed passion. From over 15 years of selective breeding, we have developed some of the finest AKC bloodlines in the United States-a result of passion and precision.
             </p>
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam
-              nesciunt natus accusantium odit asperiores temporibus, maiores
-              amet! Laboriosam natus distinctio voluptatum magnam iusto cum
-              repellendus recusandae animi? Hic, magnam ipsum atque perferendis
-              ipsa aliquam vero rem ullam maiores error architecto aliquid,
-              consectetur provident ab cupiditate?
+            Our main priority is to breed outstanding French Bulldogs. Our puppies have larger heads, short thick legs, compact and solid bodies, and shorter backs. We also focus on symmetrical ropes-the folds over the nose-properly constructed ears, and very cute flat profiles. It is never easy to find the perfect puppy, let alone a bulldog, which is why we're here to make it as smooth and gratifying as possible for you.
             </p>
           </div>
           <div className="cards">
             <HomeCard />
-            <HomeCard />
-            <HomeCard />
-            <HomeCard />
-            <HomeCard />
-            <HomeCard />
-            <HomeCard />
-            <HomeCard />
+            <HomeCard2 />
+            <HomeCard3 />
+            <HomeCard4 />
+            <HomeCard5 />
+            <HomeCard6 />
           </div>
           <div className="grids">
             <HomeGrid1 />

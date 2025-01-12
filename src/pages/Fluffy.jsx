@@ -6,7 +6,7 @@ const Fluffy = () => {
     <div className="fluffy">
       <div className="route">You are here : Fluffy Bulldogs</div>
       <div className="cover">
-        <img src="/images/colors1.jpg" alt="" />
+        <img src="/images/Dogbreed1.jpg" alt="" />
           </div>
           <FluffyGrid/>
     </div>

@@ -23,7 +23,7 @@ const FrenchiesGrid = () => {
         <p>
           Searching for the perfect pup is not limited to your local area if the
           Frenchie Breeder uses a nanny to transport/fly their pups. Here at
-          Designer French Bulldogs, we work with various “puppy nanny services”
+          SouthEast Elite French Bulldogs, we work with various “puppy nanny services”
           to fly our beautiful French Bulldog babies anywhere in the USA. As you
           probably assumed, some of the nicer and more rare colors of frenchies
           for sale near me will require a deposit to be placed on our waiting
@@ -82,7 +82,7 @@ const FrenchiesGrid = () => {
           unique as no two are every alike!
         </p>
         <p>
-          Here at Designer French Bulldogs nearly every single litter we have
+          Here at SouthEast Elite French Bulldogs nearly every single litter we have
           has at least 1 or 2 Merle French bulldog puppies for sale. Pricing
           will depend on which color you choose and if they are fluffy, a fluffy
           carrier or no fluffy. Lastly, the merle french bulldog price will
@@ -144,14 +144,12 @@ const FrenchiesGrid = () => {
         </p>
       </div>
       <div className="right">
-        <img src="/images/available20.jpg" alt="" />
-        <img src="/images/available21.jpg" alt="" />
-        <img src="/images/available22.jpg" alt="" />
-        <img src="/images/available23.jpg" alt="" />
-        <img src="/images/available24.jpg" alt="" />
-        <img src="/images/available25.jpg" alt="" />
-        <img src="/images/available26.jpg" alt="" />
-        <img src="/images/available27.jpg" alt="" />
+        <img src="/images/Dogbreed1.jpg" alt="" />
+        <img src="/images/Dogbreed2.jpg" alt="" />
+        <img src="/images/Dogbreed3.jpg" alt="" />
+        <img src="/images/Dogbreed4.jpg" alt="" />
+        <img src="/images/Dogbreed5.jpg" alt="" />
+        <img src="/images/Dogbreed6.jpg" alt="" />
       </div>
     </div>
   );

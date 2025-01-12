@@ -24,12 +24,12 @@ const ChocolateGrid = () => {
           More often than not, these puppies are reserved the moment they are
           born, or sometimes in advance of the entire breeding!
               </p>
-              <img src="images/frenchie-for-sale-91.jpg" alt="" />
+              <img src="images/Dogbreed1.jpg" alt="" />
           </div>
           <div className="right">
-              <img src="images/finance4.jpg" alt="" />
-              <img src="images/finance2.jpg" alt="" />
-              <img src="images/finance3jpg" alt="" />
+              <img src="images/Dogbreed2.jpg" alt="" />
+              <img src="images/Dogbreed3.jpg" alt="" />
+              <img src="images/Dogbreed4" alt="" />
               
           </div>
     </div>

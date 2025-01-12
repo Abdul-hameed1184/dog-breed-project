@@ -5,7 +5,7 @@ const Puppies = () => {
     <div className="puppies">
       <div className="route">You are here: Frenches Puppies for sale</div>
       <div className="cover">
-        <img src="/images/gear1.jpg" alt="" />
+        <img src="/images/Dogbreed7.jpg" alt="" />
       </div>
       <div className="container">
         <PuppiesGrid />

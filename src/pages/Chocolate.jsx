@@ -6,7 +6,7 @@ const Chocolate = () => {
     <div className="chocolate">
       <div className="route">You are here : Chocolate Bulldogs</div>
       <div className="cover">
-        <img src="images/finance1.jpg" alt="" />
+        <img src="images/Dogbreed1.jpg" alt="" />
       </div>
       <ChocolateGrid />
     </div>

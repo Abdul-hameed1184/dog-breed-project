@@ -11,10 +11,10 @@ const RareGrid = () => {
           Looking for some of the most unique and rarest colors for your new
           Frenchie? Welcome to one of the top programs in the country, producing
           some of the best Frenchies in the United States for over 15 years.
-          Designer French Bulldogs is proud to be the best French Bulldog
+          SouthEast Elite French Bulldogs is proud to be the best French Bulldog
           Breeder offering a variety of rare colored French Bulldog Puppies!
-          Designer Frenchie puppies come in a wide array of colors and rare
-          french bulldog colors and combinations. Here at Designer Frenchies, we
+          SouthEast Elite Frenchie puppies come in a wide array of colors and rare
+          french bulldog colors and combinations. Here at SouthEast Elite Frenchies, we
           only work with top genetics when it comes to structure, temperament,
           health, and of course, rare Frenchie colors.
         </p>
@@ -28,7 +28,7 @@ const RareGrid = () => {
           color, tricolor merles, too, and you have a wide range and rainbow of
           amazing dogs.
         </p>
-        <img src="/images/colors2.jpg" alt="" />
+        <img src="/images/Dogbreed2.jpg" alt="" />
         <h1>UNUSUAL FRECHIES COLORS</h1>
         <p>
           Some of the rarest colors of Frenchie, or rare Frenchie colors are
@@ -63,7 +63,7 @@ const RareGrid = () => {
           per pup. Your success depends upon finding the right bloodlines in
           finding the perfect platinum french bulldog puppy
         </p>
-        <img src="/images/colors2.jpg" alt="" />
+        <img src="/images/Dogbreed3.jpg" alt="" />
         <p>
           Colors other than the most common - black, fawn, white, or pied - are
           going to be far more exotic, much more than because of this fact, most
@@ -93,7 +93,7 @@ const RareGrid = () => {
         </p>
         <h1>MERLE FRNCHIES COLOR</h1>
         <p>
-          Here at Designer French Bulldogs, nearly every single litter we have
+          Here at SouthEast Elite French Bulldogs, nearly every single litter we have
           has at least 1 or 2 Merle French bulldog puppies. Pricing will depend
           on which color you choose and if they are fluffy, a fluffy carrier, or
           no fluffy. Last but not least, the merle french bulldog price will
@@ -211,15 +211,13 @@ const RareGrid = () => {
         </p>
       </div>
       <div className="right">
-          <img src="/images/colors7.jpg" alt="" />
-          <img src="/images/colors8.jpg" alt="" />
-          <img src="/images/colors9.jpg" alt="" />
-          <img src="/images/colors10.jpg" alt="" />
-          <img src="/images/colors11.jpg" alt="" />
-          <img src="/images/colors12.jpg" alt="" />
-          <img src="/images/colors13.jpg" alt="" />
-          <img src="/images/colors15.jpg" alt="" />
-          <img src="/images/colors16.jpg" alt="" />
+            <img src="/images/Dogbreed1.jpg" alt="" />
+            <img src="/images/Dogbreed2.jpg" alt="" />
+            <img src="/images/Dogbreed3.jpg" alt="" />
+            <img src="/images/Dogbreed4.jpg" alt="" />
+            <img src="/images/Dogbreed5.jpg" alt="" />
+            <img src="/images/Dogbreed6.jpg" alt="" />
+            <img src="/images/Dogbreed7.jpg" alt="" />
       </div>
     </div>
   );

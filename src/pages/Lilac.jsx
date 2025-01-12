@@ -6,7 +6,7 @@ const Lilac = () => {
     <div className="lilac">
       <div className="route">You are here : Lilac Bulldogs</div>
       <div className="cover">
-        <img src="/images/colors1.jpg" alt="" />
+        <img src="/images/Dogbreed5.jpg" alt="" />
       </div>
       <LilacGrid/>
     </div>

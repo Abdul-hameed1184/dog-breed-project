@@ -26,15 +26,15 @@ const AvailablePuppies = () => {
             anywhere in the USA or Canada if you do not wish to pick up.
           </p>
           <p>
-            Designer French Bulldog puppies for sale has a dedicated puppy nanny
+            SouthEast French Bulldog puppies for sale has a dedicated puppy nanny
             that will fly your pup “in cabin” to the local airport of your
             choice. If you have a question regarding a puppy, our program, or
             about getting on our waiting list for a different litter, please
-            call, text (609.827.2645) or email.
+            call, text 808-430-4156 or Southeastelitefrenchies@gmail.com.
           </p>
         </div>
         <Contact />
-        <img src="/images/available2.jpg" alt="" className="available2" />
+        <img src="/images/Dogbreed1.jpg" alt="" className="available2" />
         <AvailablePics />
         <AvailableGrid />
       </div>

@@ -10,7 +10,7 @@ const Form = () => {
       </form>
       <h4>{`AMERICA'S`} BEST BREEDERS</h4>
       <p>
-        Designer Frenchies is a family-operated French Bulldog breeding program
+        SouthEast Elite Frenchies is a family-operated French Bulldog breeding program
         committed to top AKC bloodlines. Buying your new family member from a
         breeder who focuses on health, temperament, and genetics rather than a
         hobby breeder or puppy mill is an investment in quality. If the price is
@@ -43,7 +43,7 @@ const Form = () => {
         Unlike many breeders, we have an on-site animal biologist with a
         genetics background, consistently improving our program. This strong
         focus on genetics and bloodline health allows us to continually enhance
-        the breed. We would like to thank you for trusting Designer Frenchies!
+        the breed. We would like to thank you for trusting SouthEast Elite Frenchies!
       </p>
       <ul>
         <h3>SOUTHEAST FRENCH LINK</h3>

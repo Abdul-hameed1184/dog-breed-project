@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 const Card = () => {
   return (
       <div className="card">
-          <img src='/images/available12.jpg' alt="" />
+          <img src='/images/Dogbreed1.jpg' alt="" />
           <div className="detail">
               <p>French Bulldog puppy balance</p>
               <p className="price">$2,500</p>

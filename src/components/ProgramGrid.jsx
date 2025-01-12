@@ -2,10 +2,10 @@ const ProgramGrid = () => {
   return (
     <div className="programGrid">
       <div className="left">
-        <h1>FRENCH BULLDOG DESIGNER</h1>
+        <h1>FRENCH BULLDOG SOUTHEAST ELITE </h1>
         <p>
           Welcome to the best Frenchie Breeder program in the United States!
-          Here at Designer French Bulldogs, we really do strive each and every
+          Here at SouthEast Elite French Bulldogs, we really do strive each and every
           day to be the best Frenchie breeders in the USA. Our customers agree
           that our Frenchie breeder program is top-notch, and the same is said
           by breeders who trust our program. All of our puppies are 100%
@@ -40,7 +40,7 @@ const ProgramGrid = () => {
         </ul>
         <h1>ABOUT OUR FRENCH BULLDOG BREEDING PROGRAM</h1>
         <p>
-          Designer French Bulldogs is a family run French Bulldog Breeder
+          SouthEast Elite French Bulldogs is a family run French Bulldog Breeder
           working with top bloodlines. Our Frenchies are "thick boned, and
           English Bulldog Esque"in cuteness, wrinkles and structure.
         </p>
@@ -64,7 +64,7 @@ const ProgramGrid = () => {
         <h4>Breeding for the perfect French Bulldog </h4>
         <p>
           As mentioned above, we value structure and health above everything
-          else. A pup from Designer French Bulldogs have the short back and
+          else. A pup from SouthEast Elite French Bulldogs have the short back and
           short leg genes. Most of our pups are at least fluffy carriers so they
           have nicer coats than non carriers. Looking for large heads, good bone
           and structure but small and compact.
@@ -87,7 +87,7 @@ const ProgramGrid = () => {
           some of our French Bulldog breeder reviews, cut and pasted right from
           google and facebook.
         </p>
-        <h5>What makes Designer Frenchies differentthan the rest?</h5>
+        <h5>What makes SouthEast Elite Frenchies differentthan the rest?</h5>
         <p>
           French bulldog breeders are a dime a dozen nowadays and with that
           comes a lot of low quality breedings. Since Frenchies are fairly
@@ -104,9 +104,9 @@ const ProgramGrid = () => {
         </p>
       </div>
       <div className="right">
-        <img src="/images/program2.jpg" alt="" />
-        <img src="/images/program3.jpg" alt="" />
-        <img src="/images/program4.jpg" alt="" />
+        <img src="/images/Dogbreed1.jpg" alt="" />
+        <img src="/images/Dogbreed2.jpg" alt="" />
+        <img src="/images/Dogbreed3.jpg" alt="" />
       </div>
     </div>
   );

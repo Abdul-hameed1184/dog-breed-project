@@ -10,7 +10,7 @@ const StudGrid2 = () => {
           with Cherry Tan points and also carries fluffy
         </p>
         <p>
-          Here at Designer Frenchies we can send our Frenchie for sale anywhere
+          Here at SouthEast Elite Frenchies we can send our Frenchie for sale anywhere
           in the USA. That being said, many people find us searching for the
           best French Bulldog Breeders near me. The price of the puppy does not
           include transport or a nanny to deliver. The use of a puppy nanny
@@ -46,8 +46,8 @@ const StudGrid2 = () => {
         </p>
       </div>
       <div className="right">
-        <img src="/images/image3.jpg" alt="" />
-        <img src="/images/image.jpg" alt="" />
+        <img src="/images/Dogbreed3.jpg" alt="" />
+        <img src="/images/Dogbreed4.jpg" alt="" />
       </div>
     </div>
   );

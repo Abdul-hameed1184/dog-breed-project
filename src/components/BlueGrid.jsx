@@ -19,7 +19,7 @@ const BlueGrid = () => {
           panel clear! No matter which French bulldog puppies you purchase, all
           come with the same guarantee.
         </p>
-        <img src="/images/program3.jpg" alt="" />
+        <img src="/images/Dogbreed1.jpg" alt="" />
         <h2>Blue and Tan Merle French bulldog</h2>
         <p>
           The Blue and Tan Merle French Bulldog, or blue and tan merle Frenchie,
@@ -166,7 +166,7 @@ const BlueGrid = () => {
           For that reason, be super careful who you buy from! There's a reason
           that, in 15+ years, we have never produced a puppy that had one single
           health issue to our knowledge. We have never had to replace a puppy,
-          and no puppy that we produced here at Designer Frenchies has EVER
+          and no puppy that we produced here at SouthEast Elite Frenchies has EVER
           required any type of"bulldog surgery"
         </p>
         <h2>How long do blue French Bulldogs live?</h2>
@@ -210,7 +210,7 @@ const BlueGrid = () => {
           Others will say it is related to allergies and color dilution
           alopecia, leading to the loss of fur or issues with the skin. On the
           whole, we are not seeing ANY of these in ANY of our lines here at
-          Designer Frenchie puppies.
+          SouthEast Elite Frenchie puppies.
         </p>
         <h2>Are Blue French Bulldogs rare?</h2>
         <p>
@@ -261,15 +261,12 @@ const BlueGrid = () => {
         </p>
       </div>
       <div className="right">
-        <img src="/images/colors7.jpg" alt="" />
-        <img src="/images/colors8.jpg" alt="" />
-        <img src="/images/colors9.jpg" alt="" />
-        <img src="/images/colors10.jpg" alt="" />
-        <img src="/images/colors11.jpg" alt="" />
-        <img src="/images/colors12.jpg" alt="" />
-        <img src="/images/colors13.jpg" alt="" />
-        <img src="/images/colors15.jpg" alt="" />
-        <img src="/images/colors16.jpg" alt="" />
+        <img src="/images/Dogbreed1.jpg" alt="" />
+        <img src="/images/Dogbreed2.jpg" alt="" />
+        <img src="/images/Dogbreed3.jpg" alt="" />
+        <img src="/images/Dogbreed5.jpg" alt="" />
+        <img src="/images/Dogbreed6.jpg" alt="" />
+        <img src="/images/Dogbreed7.jpg" alt="" />
       </div>
     </div>
   );

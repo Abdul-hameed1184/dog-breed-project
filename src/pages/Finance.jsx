@@ -5,7 +5,7 @@ const Finance = () => {
     <div className="finance">
       <div className="route">you are here : finances</div>
       <div className="cover">
-        <img src="/images/finance1.jpg" alt="" />
+        <img src="/images/Dogbreed1.jpg" alt="" />
       </div>
       <div className="finance-body">
         <h1>FRENCH BULDOG FINANCE</h1>
@@ -42,9 +42,7 @@ const Finance = () => {
             </p>
           </div>
         </div>
-        <div className="qr">
-          <img src="/images/finance qr.jpg" alt="" />
-        </div>
+   
         <p>
           * Terrace Pets powered by Terrace Finance is not a lender but
           represents a range of lenders/lessors. Available programs and

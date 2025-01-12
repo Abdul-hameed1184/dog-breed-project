@@ -6,7 +6,7 @@ const Platinum = () => {
     <div className="platinum">
       <div className="route">You are here : Platinum Bulldogs</div>
       <div className="cover">
-        <img src="/images/colors1.jpg" alt="" />
+        <img src="/images/Dogbreed6.jpg" alt="" />
       </div>
       <PlatinumGrid/>
     </div>

@@ -4,57 +4,38 @@ const HomeGrid8 = () => {
       <div className="left">
         <h1>MINI FRENCHIES</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error iure
-          dolore, pariatur quisquam quaerat eius incidunt eum. Aliquam eos aut
-          perferendis quas. Nulla illum reiciendis hic officia quod illo eum!
+        If someone tells you they are selling you mini Frenchie puppies or "tea cup frenchies" understand they are trying to sell you the breed standard as a special version of the Frenchie. All of our dogs will be short backed, short legged with no tail. Mini French Bulldog puppies are actually the standard, not "abnormal or unique.".
         </p>
         <h1>AKC FRENCH BULLDOGS</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
-          laudantium veritatis quis libero rem explicabo earum expedita ipsa
-          quidem soluta.
+        All our AKC Frenchie puppies are from top bloodline AKC French Bulldogs near me. Here, we are looking to breed only healthy, well-structured dogs that improve the breed standard.
         </p>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit libero
-          eligendi odit fuga vero, qui facere nam quia laborum esse!
+        With great effort, our bloodlines are breeding away from tall, long, skinny dogs and more towards short, compact, blocky, thick boned puppies with high skeletal and muscle weight density.
         </p>
         <h1>AKC FRENCH BULLDOGS</h1>
         <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima
-          perspiciatis laborum ad quia corporis esse. Animi commodi praesentium
-          sit vitae ratione placeat voluptatum quasi maiores!
+        All of our Frenchies for sale are AKC registered. That means whether you purchase your new puppy as a pet or with show or breeding rights, you will be receiving your AKC Frenchie puppy paperwork usually at delivery or within a couple of weeks of receiving your puppy, once the AKC processes the paperwork. 100% of our pups come with AKC papers.
         </p>
         <h1>HOBBY FRENCH BULLDOG BREEDERS</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque
-          consequatur voluptatum necessitatibus sed corporis eveniet, nihil
-          eaque itaque fugiat, obcaecati maiores, deserunt ipsum vel nostrum
-          expedita hic fuga culpa sapiente quidem vitae consequuntur quasi
-          voluptatem! Illum, perspiciatis voluptatum. Odio ratione at temporibus
-          sed numquam corporis?
+        There are so many breeders producing giant dogs-it's crazy nowadays. Because this breed is small and easy to work with, hobby breeding French Bulldogs for sale has taken over producing nearly half the pups. For this reason, there are tons of pups out there with bad genetics. These pups typically have not only health issues but look much different than a dog you would purchase from our program.
+
         </p>
         <h1>LILAC MERLE FRENCH BULLDOG</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
-          reprehenderit, impedit beatae quo corrupti ab debitis laudantium esse
-          expedita eum?
+        Colors in abundance, but we are going to provide only with the best quality AKC French bulldog puppy options from anywhere. Find that truly rare color: the Isabella Merle or perhaps an Isabella Merle Fluffy Frenchie Puppies. Want common colors? Look no further; because some of our Frenchie puppies may be available in those standard colors as Lilac, Blue, Black and Tan, amongst many more colors.
         </p>
         <h1>LILAC FRENCH BULLDOG</h1>
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci,
-          ducimus aut. Modi cupiditate ab illum esse laborum ducimus quia
-          minima.
+        One of the rarer forms of "lilac" would be the Lilac Merle French bulldog. These are beautiful merle versions of the lilac or lilac and tan Frenchie.
         </p>
         <h1>BIG ROPE FRENCH BULLDOG</h1>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni non
-          doloribus impedit quo. Repudiandae, eos placeat. Rerum mollitia ipsa
-          tempora ab eveniet necessitatibus! Quae doloribus debitis minus
-          consequatur expedita quis incidunt eaque esse ullam praesentium!
+        One of the more popular colors is the Lilac French bulldog for sale. These are stunning to look at, especially in outdoor lighting! Basically, it is a diluted lighter version of blue, that shimmers in the light.
         </p>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius,
-          ducimus.
+        Some of the newest types of Frenchies for sale beyond the Fluffy is going to be the Big Rope Frenchie. While unique and therefore newer, these are going to be slightly more expensive than the traditional French bulldog puppy. What is a big rope French Bulldog puppy? Put simply, this is a Frenchie that has a larger fold / top wrinkle above it's nose.
         </p>
         <ul>
           <li>Lilac French Bulldogs</li>

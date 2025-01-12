@@ -7,7 +7,7 @@ const OurProgram = () => {
     <div className="program">
       <div className="route">You are here: Our programs</div>
       <div className="cover">
-        <img src="/images/program1.jpg" alt="" />
+        <img src="/images/Dogbreed2.jpg" alt="" />
       </div>
       <div className="container">
         <ProgramGrid />

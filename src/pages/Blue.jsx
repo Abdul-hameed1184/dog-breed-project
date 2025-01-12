@@ -6,7 +6,7 @@ const Blue = () => {
     <div className="blue">
       <div className="route">You are here : Blue Bulldogs</div>
       <div className="cover">
-        <img src="/images/colors1.jpg" alt="" />
+        <img src="/images/Dogbreed2.jpg" alt="" />
       </div>
       <BlueGrid/>
     </div>

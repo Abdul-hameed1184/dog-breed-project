@@ -7,7 +7,7 @@ const PuppyList = () => {
         You are here: french bulldog puppy waitlist
       </div>
       <div className="cover">
-        <img src="/images/List1.jpg" alt="" />
+        <img src="/images/Dogbreed1.jpg" alt="" />
       </div>
       <div className="container">
         <h1>FRENCH BULLDOG PUPIES FOR SALE </h1>
@@ -20,7 +20,7 @@ const PuppyList = () => {
       </div>
       <ul>
         <p>
-          Q: I’ve decided I want a Designer French Bulldogs lines puppy, what is
+          Q: I’ve decided I want a SouthEast Elite French Bulldogs lines puppy, what is
           the next steps?
         </p>
         <li>
@@ -43,7 +43,7 @@ const PuppyList = () => {
         <p>
           Unfortunately, we receive a ton of spam calls, so leaving us a VM or
           texting to setup a call works best if we do not answer! Our pups fly
-          anywhere in USA. Designer French Bulldog pups from our lines are in
+          anywhere in USA. SouthEast Elite French Bulldog pups from our lines are in
           high demand from our existing customers who always want a second, so
           placing a deposit on a future litter or new born puppy is recommended
           as soon as you make your decision. On any given day we can get up to
@@ -52,14 +52,14 @@ const PuppyList = () => {
         </p>
         <p>
           Once you have decided you would like to purchase one of our amazing
-          pups, please fill call, text or email us at DesignerFrenchAbulls AT
+          pups, please fill call, text or email us at SouthEast EliteFrenchAbulls AT
           Gmail.com or using our contact form.
         </p>
-        <img src="/images/available28.jpg" alt="" />
+        <img src="/images/Dogbreed2.jpg" alt="" />
         <h2>✈️ Our Frenchie pups fly anywhere in USA! ✈️</h2>
-        <img src="/images/available28.jpg" alt="" />
+        <img src="/images/Dogbreed3.jpg" alt="" />
         <p>
-          Designer French Bulldogs is a family run French Bulldog Breeder
+          SouthEast Elite French Bulldogs is a family run French Bulldog Breeder
           working with top AKC bloodlines. Our Frenchies are “thick boned, and
           English Bulldog Esque” in cuteness, wrinkles and structure. There is
           such variation these days in the quality and structure of the dog

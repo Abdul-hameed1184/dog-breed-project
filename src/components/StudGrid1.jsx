@@ -42,8 +42,8 @@ const StudGrid1 = () => {
         </p>
       </div>
       <div className="right">
-        <img src="/images/image 1.jpg" alt="" />
-        <img src="/images/image2.jpg" alt="" />
+        <img src="/images/Dogbreed1.jpg" alt="" />
+        <img src="/images/Dogbreed2.jpg" alt="" />
       </div>
     </div>
   );

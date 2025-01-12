@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const LeashCard = () => {
   return (
     <div className="leashCard">
-      <img src="/images/program11.jpg" alt="" />
+      <img src="/images/Dogbreed3.jpg" alt="" />
       <div className="detail">
         <p>Lorem ipsum dolor sit amet.</p>
         <p className="price">$5,000</p>

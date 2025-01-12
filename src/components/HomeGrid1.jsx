@@ -4,77 +4,42 @@ const HomeGrid1 = () => {
       <div className="left">
         <h1>FRENCHIES BREEDERS</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Necessitatibus, unde fugit! Inventore et, esse labore qui, perferendis
-          ipsa quasi accusantium ex eveniet, nisi ducimus illo autem ut ratione
-          dolore eum. Vel consequatur incidunt dolorem voluptas!
+        At SouthEast French Bulldogs, we are committed to raising our Frenchies as cherished family members for a lifetime of good adjustment and socialization when they go to their new homes. Our puppies are raised inside our homes-not in kennels-with love and attention everywhere. Each of our females is bred only 1 to 3 times in their lifetime and cared for as beloved pets.
         </p>
         <h1>SOUTH EAST FRENCHIES</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit,
-          perspiciatis facilis? Modi atque sit consequatur reprehenderit.
-          Reprehenderit, inventore minus. Reiciendis vel nulla enim, hic ratione
-          odit, tenetur reprehenderit temporibus esse rerum consequatur quod
-          delectus id nam officiis animi minus quae nemo laborum voluptatibus
-          dolores similique distinctio, dicta accusamus. Officia, doloribus.
+        We believe we offer the best AKC SouthEast French Bulldog puppies in the USA. As one of the top Frenchie breeders in the country, we work only with superior AKC bloodlines. Our puppies are socialized in a family environment daily with our five children, other dogs, cats, reptiles, and kids of all ages, making great use of their socialization skills.
         </p>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid,
-          reprehenderit id magni harum unde deserunt consequuntur ducimus dolore
-          exercitationem ab, velit, dignissimos quos a. Molestiae nesciunt magni
-          necessitatibus dignissimos ipsa nobis, illum ad facere consectetur
-          ipsam numquam, inventore quo! Suscipit tenetur nihil quasi nostrum
-          reiciendis?
+        Poor practices by puppy mills and hobby breeders often bring questioning about the health of the breed. When bred responsibly from top bloodlines, French Bulldogs are healthy and robust. Good breeding, like ours, ensures puppies with minimal health issues, thanks to generations of careful selection.
+
         </p>
         <h1>TOOP QUALITIES AKC BLOODLINE</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam odio
-          accusantium recusandae perferendis repellat vitae corporis commodi,
-          suscipit, laudantium quidem possimus exercitationem similique quisquam
-          laborum officiis quaerat! Voluptatum et quae natus magni cumque. At
-          nihil nostrum quam voluptas optio delectus cum earum explicabo libero
-          harum!
+        Great Frenchies take time, patience, and love. After all, "Rome wasn't built in one day," and neither were these outstanding AKC lines. Our six-generation breeding program focuses on 4-panel clear DNA health, structure, along with exotic and rare colors, as well as one of the most sought-after coat types: fluffy.
         </p>
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi
-          tempore culpa eum inventore iure debitis ullam. Cumque nostrum atque
-          ut omnis optio quo repellat sapiente neque tenetur numquam. Ab,
-          soluta.
+        Our French Bulldog puppies are priced from $5,000 to $50,000, depending on the rarity of their colors and coat types. With SouthEast French Bulldogs, you’re not just purchasing a puppy—you’re investing in years of expertise, love, and dedication to the breed.
         </p>
         <h3>Skip the line and call, text or email us now!</h3>
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus
-          voluptatibus veniam nam fugiat eligendi optio asperiores odio
-          recusandae, deleniti quos repellendus exercitationem itaque?
-          Praesentium explicabo molestias doloribus voluptatum? Fugiat enim
-          ipsum voluptatem nostrum doloremque, voluptatum quaerat aperiam,
-          dolore, placeat saepe perferendis! Alias dolore sapiente et?
+        Call/Text 808-430-4156 or southeastelitefrenchies@gmail.com. Our pups fly anywhere in the world, so when searching for Frenchie breeders near me, remember our nanny flys your pup directly to you. You can also fill out our contact form to get in touch with us and let us know what color/sex/coat type puppies you are interested in most!
         </p>
         <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid
-          voluptate obcaecati amet? Sequi corrupti, suscipit incidunt illum sint
-          ipsam soluta omnis at repellendus debitis voluptates, aperiam cumque
-          assumenda. Autem dicta, doloremque perspiciatis hic perferendis libero
-          obcaecati veniam, reiciendis sit deleniti odit sequi, illo nostrum
-          similique!
+        We are more than happy to text or hop on a call! Discussing our breeding program, Frenchie puppies for sale, what makes us different, and of course the puppy reservation process is something we enjoy doing. When you're passionate about this amazing breed, you enjoy every aspect of the process. Though difficult at times, raising these wonderful dogs has been an amazing part of our lives.
         </p>
         <h1>FRENCHIES FOR SALE</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat totam
-          dolore voluptatibus, fugiat modi numquam cupiditate facilis sed labore
-          provident ipsam deserunt ab ad repellendus sequi assumenda
-          exercitationem quisquam harum molestiae. Reprehenderit tempore ex
-          molestiae autem repellendus ullam ipsa qui velit, dolorem maiores
-          laboriosam corporis!
+        Here at SouthEast Frenchies, all of our Frenchies for sale are built with amazing structure. Our Frenchies puppies are short, compact, solid, come in all of the rarest colors and coat types. Our most important quality is structure over everything else. Looking for the perfect new family member? Check out our available Frenchie puppies!
         </p>
       </div>
-      <div className="rigth">
+      <div className="rigth" margin="10px">
         <img
-          src="images/isabella-french-bulldog-for-sale450.jpg"
-          alt=""
-        />
-        <img src="images/blue-frenchie-450x450.jpg.webp" alt="" />
-        <img src="images/merle-frenchies-for-sale-32.jpg" alt="" />
+          src="images/Dogbreed3.jpg"
+          alt="" width="200" height="300" 
+         />
+        <img src="images/Dogbreed4.jpg" alt=""  width="200" height="300" />
+        <img src="images/Dogbreed5.jpg" alt=""  width="200" height="300" />
       </div>
     </div>
   );

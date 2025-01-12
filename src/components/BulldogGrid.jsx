@@ -5,8 +5,8 @@ const BulldogGrid = () => {
       <div className="left">
         <h1>FRENCH BULLDOG FOR SALE</h1>
         <p>
-          Designer French bulldogs from the #1 AKC French bulldog breeder in the
-          USA! Here at Designer French Bulldogs, we specialize in 4 generation
+          SouthEast Elite Frenchies bulldogs from the #1 AKC French bulldog breeder in the
+          USA! Here at SouthEast Elite Frenchies Bulldogs, we specialize in 4 generation
           deep 4 panel DNA health clear Frenchie puppies. Our puppies fly
           anywhere in the country via our flight nanny direct to your airport
           for one low, flat rate price.
@@ -16,7 +16,7 @@ const BulldogGrid = () => {
           When shopping for a new Frenchie puppy, understand you get what you
           pay for. Quality AKC French bulldogs are not going to be the same
           price as puppy mill dogs. All of our puppies are raised in our home,
-          under foot around our children and other pets. Designer Frenchies
+          under foot around our children and other pets. SouthEast Elite Frenchies
           starts the pee pad training process before our puppies leave the nest
           to set you up for success when potty training.
         </p>
@@ -24,13 +24,13 @@ const BulldogGrid = () => {
         <h1>FRENCH BULLDOG PUPPIES FOR SALE</h1>
         <p>
           Looking for the nicest quality French Bulldogs for sale in the
-          country? You’ve found them! Here at Designer Frenchies we are all
+          country? You’ve found them! Here at SouthEast Elite Frenchies we are all
           about quality and improving the breed with each litter. Whether you
           are looking for a new hot and rare colored Frenchie, or a common
           color, we have you covered.
         </p>
         <p>
-          Here at Designer we produce around 6-8 litters total per year. That
+          Here at SouthEast Elite Frenchies we produce around 6-8 litters total per year. That
           allows us to focus on quality puppies and quality whelping. Giving our
           dogs and pups our utmost attention by only producing a few litters a
           year allows us to keep “producing quality” at the forefront of our
@@ -109,7 +109,7 @@ const BulldogGrid = () => {
         <div>
           <ul>
             <p>
-              Designer Works with some of the best French bulldog genetics in
+            SouthEast Elite Frenchies Works with some of the best French bulldog genetics in
               the world, we are proud to offer French Bulldogs for sale that
               exemplify the breed standard for:
             </p>
@@ -125,16 +125,13 @@ const BulldogGrid = () => {
         </div>
       </div>
       <div className="right">
-        <img src="/images/available20.jpg" alt="" />
-        <img src="/images/available21.jpg" alt="" />
-        <img src="/images/available22.jpg" alt="" />
-        <img src="/images/available23.jpg" alt="" />
-        <img src="/images/available24.jpg" alt="" />
-        <img src="/images/available25.jpg" alt="" />
-        <img src="/images/available26.jpg" alt="" />
-        <img src="/images/available27.jpg" alt="" />
-        <img src="/images/available28.jpg" alt="" />
-        <img src="/images/available29.jpg" alt="" />
+        <img src="/images/Dogbreed1.jpg" alt="" />
+        <img src="/images/Dogbreed2.jpg" alt="" />
+        <img src="/images/Dogbreed3.jpg" alt="" />
+        <img src="/images/Dogbreed4.jpg" alt="" />
+        <img src="/images/Dogbreed5.jpg" alt="" />
+        <img src="/images/Dogbreed6.jpg" alt="" />
+        <img src="/images/Dogbreed7.jpg" alt="" />
       </div>
     </div>
   );

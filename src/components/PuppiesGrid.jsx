@@ -10,7 +10,7 @@ const PuppiesGrid = () => {
           standard for.
         </p>
         <h2>TOP FRENCHIE GENETICS</h2>
-        <img src="/images/program10.jpg" alt="" />
+        <img src="/images/Dogbreed1.jpg" alt="" />
         <h4>Fluffy Frenchie puppy for sale</h4>
         <p>
           The newest and rarest and some say the cutest is the fluffy french
@@ -59,7 +59,6 @@ const PuppiesGrid = () => {
           expressed in a variety of ways both genotypical (carrying) and
           phenotypical (visual).
         </p>
-        <img src="" alt="" />
         <h4>Blue Frenchie puppies for sale</h4>
         <p>
           Frenchies for sale can be found in all shapes, sizes and colors. When
@@ -99,10 +98,10 @@ const PuppiesGrid = () => {
         </p>
       </div>
       <div className="right">
-        <img src="images/available2.jpg" alt="" />
-        <img src="images/available3.jpg" alt="" />
-        <img src="images/available4.jpg" alt="" />
-        <img src="images/available5.jpg" alt="" />
+         <img src="/images/Dogbreed1.jpg" alt="" />
+         <img src="/images/Dogbreed2.jpg" alt="" />
+         <img src="/images/Dogbreed3.jpg" alt="" />
+
 
       </div>
     </div>

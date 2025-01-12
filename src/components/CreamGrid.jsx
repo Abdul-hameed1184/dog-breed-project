@@ -24,7 +24,7 @@ const CreamGrid = () => {
           more information on French bulldog colors, or French bulldog genetics
           feel free to browse these sections of our website.
         </p>
-        <img src="images/program13.jpg" alt="" />
+        <img src="images/Dogbreed1.jpg" alt="" />
         <h1>CREAM FRENCHIES</h1>
         <p>
           The Cream French bulldog cost is going to be along the same lines as
@@ -51,7 +51,7 @@ const CreamGrid = () => {
           In such cases, then we would refer to the pup as a "lilac covered in
           cream, or platinum" or "blue covered in cream".
         </p>
-        <img src="images/program11.jpg" alt="" />
+        <img src="images/Dogbreed2.jpg" alt="" />
         <p>
           This means cream over rides other colors. Cream French bulldog puppies
           are not so common and usually run around 7500-9000 as a pet and bit
@@ -74,12 +74,12 @@ const CreamGrid = () => {
         </p>
       </div>
       <div className="right">
-        <img src="images/finance4.jpg" alt="" />
-        <img src="images/finance2.jpg" alt="" />
-        <img src="images/finance3jpg" alt="" />
-        <img src="/images/colors13.jpg" alt="" />
-        <img src="/images/colors15.jpg" alt="" />
-        <img src="/images/colors16.jpg" alt="" />
+        <img src="images/Dogbreed1.jpg" alt="" />
+        <img src="images/Dogbreed2.jpg" alt="" />
+        <img src="images/Dogbreed3" alt="" />
+        <img src="/images/Dogbreed4.jpg" alt="" />
+        <img src="/images/Dogbreed5.jpg" alt="" />
+        <img src="/images/Dogbred6.jpg" alt="" />
       </div>
     </div>
   );

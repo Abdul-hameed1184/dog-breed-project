@@ -4,57 +4,34 @@ const HomeGrid4 = () => {
       <div className="left">
         <h1>FRENCH BULLDOGS FOR SALE</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
-          exercitationem obcaecati magni similique dolor non officiis veritatis?
-          Laboriosam asperiores, dolores vel rem, incidunt, beatae pariatur
-          perspiciatis reiciendis quos nisi ad veritatis facilis eum velit
-          praesentium placeat ea! Adipisci quia reprehenderit inventore
-          molestiae fuga, quibusdam accusamus eligendi quos, sed delectus amet!
+        When you get your Frenchie puppy from us, you don't have it all mediocre. Our goal first starts off with temperament: compact size, proper structure, and rare color/combinations. Each of these is considered to add reassurance towards having peace in your mind-for an AKC paper with your French Bulldog Puppy is highly vital with the Dealer French bulldogs. In the final thought, you will have a full health warranty to genetic condition and updated vaccinations alongside a veterinary record to present it.
         </p>
         <h1>AKC FRENCH BULLDOGS BREEDERS</h1>
         <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt beatae
-          iusto ad, quos dolor eligendi doloremque repudiandae earum alias
-          placeat asperiores ullam eveniet dolore expedita commodi doloribus
-          voluptate vero repellat. Nam maxime culpa et nulla ad laborum,
-          recusandae inventore tempore praesentium veniam. Cumque, magnam
-          nostrum?
+        Training your new pup starts here with one of the top AKC Frenchie Breeders. We start training our puppies to use puppy pads at age 4-5 weeks old. That means by the time they get to their new forever homes, they have already gotten used to going to the bathroom outside of the play area and nursing areas.
         </p>
         <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni in
-          magnam optio soluta? Quos obcaecati sunt numquam nam quisquam possimus
-          harum earum non quis mollitia aliquid hic nisi, reiciendis voluptatem?
+        By doing this, it sets your new pup up for housebreaking success. Believe it or not, this is a huge benefit for their forever owners. Our new puppy owners are constantly telling us how easy their pup was to house break, which is not a "common trait" for Frenchies.
         </p>
         <h1>MERLE FRENACHIE FOR SALE</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Error eius
-          laborum consequatur pariatur vero, sunt, iusto quam, qui ducimus odit
-          quae nihil illum accusamus maxime. Non id porro eos repudiandae ad.
-          Dolore earum veritatis non?
+        Some of the most popular colors we produce include merle Frenchie for sale in many colors. Merle French bulldogs include colors like Isabella, Lilac and Blue. Merle Frenchies are priced based on the base color coat overall.
         </p>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis
-          ipsum quae laboriosam dolorum libero ab vero ex beatae, suscipit
-          praesentium ipsam porro aut iure optio fugit ducimus delectus itaque
-          dolores hic voluptatibus eveniet provident magnam! Neque eius dolore
-          praesentium qui deserunt laborum. Dicta sed soluta, dolorum tempora
-          inventore illum laboriosam velit quaerat amet, illo non!
+        There is no such thing as a bargain basement Frenchie. Be very careful of "AKC Frenchie for sale websites" that allow breeders to list countless dogs with no information regarding parents/genetics/health. As sad as it sounds, these dogs are typically raised in cages from puppy mills and allowed to relieve themselves right in their own cage which typically has a wire bottom, and a tray underneath to catch feces.
         </p>
         <h1>AKC FRENCH PUPPIES</h1>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione,
-          dignissimos architecto culpa dolorem quisquam tempore numquam vitae
-          quidem, ab provident qui laboriosam temporibus voluptates quo velit
-          laborum natus? Ducimus sequi, velit nobis officia ad incidunt.
+        Because these pups are not set up for success and are a nightmare to housebreak if they ever are even housebroken! Finding good quality AKC Frenchie puppies is not easy, or cheap. Consider our pups "well started" on the way to potty training. As experienced breeders and whelper, we start pee pad training process at 5 weeks old.
         </p>
       </div>
       <div className="right">
         <img
-          src="images/black-and-tan-fluffy-frenchie-1-600x593.webp"
+          src="images/dogbreed3.jpg"
           alt=""
         />
         <img
-          src="images/frenchie-puppies-for-sale-near-me-1-1-600x600 (1).webp"
+          src="images/Dogbreed4"
           alt=""
         />
       </div>

@@ -5,32 +5,23 @@ const ContactPage = () => {
     <div className="contactPage">
       <div className="route">You are here: contact </div>
       <div className="container">
-        <img src="/images/rojo-frenchie-2.webp" alt="" />
+        <img src="/images/Dogbreed1.jpg" alt="" />
         <div className="write-up">
-          <h2> Southeast French Bulldogs</h2>
-          <h6>EHT, NJ and Tampa, FL, USA</h6>
-          <p>Call, Text or Email : Brian or Jen 609-827-2645</p>
+          <h2> Southeast Elite French Bulldogs</h2>
+          <p>Call, Text or Email :808-430-4156 or southeastelitefrenchies@gmail.com.</p>
           <h3>Specializing in Amazing French bulldog puppies for sale</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius totam
-            eaque omnis repellendus ad inventore ipsam vitae adipisci quaerat
-            praesentium, ea commodi hic nihil corrupti! Lorem ipsum dolor sit,
-            amet consectetur adipisicing elit. Autem officiis reprehenderit a
-            beatae provident laborum voluptatibus assumenda suscipit praesentium
-            quibusdam?
+          Welcome to the quality-conscious French Bulldog breeder of the utmost premium genetics for structure, temperament, and above all, healthy puppies. The nicest quality AKC pets and future AKC show-stopping Frenchies are available right here at DesignerFrenchBulldogs.com.
+
           </p>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero ex
-            necessitatibus corporis placeat aliquam alias qui nam ut quam, sunt
-            exercitationem ea id, obcaecati voluptate Lorem ipsum dolor sit,
-            amet consectetur adipisicing elit. Magnam, blanditiis ipsum. Quaerat
-            quam sed cum blanditiis eaque obcaecati, impedit iusto?
+          Our males/sires are from the Goober and Mr. Banks lines, one of-if not the nicest, best-built, smallest, most compact but thick and strong builds of any AKC Frenchie line you will find. When buying any Frenchie puppies for sale from us, expect only the best quality you can find anywhere.
           </p>
           <div className="images">
-            <img src="/images/frenchies-for-sale-1.jpg.webp" alt="" />
-            <img src="/images/frenchie-for-sale-1.jpg.webp" alt="" />
-            <img src="/images/lilac-frenchie-cost.jpg" alt="" />
-            <img src="/images/fluffy-frenchie-for-sale.jpg.webp" alt="" />
+            <img src="/images/Dogbreed2.jpg" alt="" />
+            <img src="/images/Dogbreed3.jpg" alt="" />
+            <img src="/images/Dogbreed4.jpg" alt="" />
+            <img src="/images/Dogbreed5.jpg" alt="" />
           </div>
         </div>
         <Contact />

@@ -2,53 +2,31 @@ const HomeGrid2 = () => {
   return (
     <div className="homeGrid2">
       <div className="left">
-        <img src="/images/designer-french-bulldogs-1-450x450.webp" alt="" />
-        <img src="/images/Frenchies-for-sale-near-me-3.jpg" alt="" />
+        <img src="/images/Dogbreed1.jpg" alt="" width="300px" />
+        <img src="/images/Dogbreed2.jpg" alt=""  width="300px"/>
       </div>
       <div className="right">
         <h1>FRENCH BULLDOGS FOR SALE</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias optio
-          neque nihil dolore vitae. Molestias alias nostrum quis perferendis,
-          aut sint, doloribus est accusamus hic debitis adipisci quia distinctio
-          illo voluptatum praesentium accusantium voluptatibus ea modi? Nam,
-          repellat voluptatibus quos harum enim quod at blanditiis.
+        Looking for your new best friend? A Frenchie puppy from SouthEast Elite Frenchies Bulldogs may be the best choice out there. We work with some of the best French Bulldog Genetics in the world, where our sires and dams produce some of the most beautiful and rare French bulldog puppies for sale. We spare no detail for our sires or dams-all have 4-panel clearances of genetic health as well as colour testing.
         </p>
         <h1>FLUFFY FRENCHIES FOR SALE</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus a
-          dolores rem magni quo ipsum incidunt, expedita delectus commodi!
-          Cumque quam officia architecto culpa voluptatibus, alias reiciendis
-          amet laborum nisi quibusdam perferendis aperiam excepturi, accusantium
-          fuga voluptates ipsa cupiditate dignissimos?
+        Fluffy Frenchie for sale are also available here at SouthEast Elite Frenchies! We produce a couple of fluffy Frenchie puppies on average with each of our litters. Most of our parents carry the L1 or L4 Gene for long hair with one copy, therefore when bred they produce 50% of the pups as visual fluffy. Buying a fluffy is just the same as any other color Frenchie just as a long haired Frenchie.
+
         </p>
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam
-          itaque nisi labore adipisci cupiditate vero sapiente debitis accusamus
-          eum nemo velit a fugiat molestias voluptatibus, repellat voluptates!
-          Fugit, animi laboriosam.
+        If you are searching for the best AKC French bulldog breeders for your next best friend, make sure they are raised in their home and not from a puppy mill or Amish puppy farm. Remember the saying: you get what you pay for.
         </p>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis omnis
-          nulla consequuntur, optio minus, reiciendis at reprehenderit delectus
-          exercitationem unde placeat perspiciatis assumenda id quae aliquam
-          quia rerum inventore cumque?
+        We tell our clients: You typically pay for it now with a high-quality French Bulldog puppy for sale, OR you pay it later at the vet. The difference is all those other 'lower quality' frenchie puppies near me wont look anything like one of our French Bulldog Puppies.
         </p>
         <h3>French Bulldog puppies built right</h3>
         <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum
-          aliquid, aspernatur quod reiciendis voluptate doloribus veniam vel
-          ipsa omnis assumenda, ducimus maxime nostrum ipsam minima, aliquam
-          optio voluptates laborum maiores illum sed obcaecati soluta
-          laboriosam?
+          Whether you are looking for structure, temperament, health, color, or even rare coat types, we have the best of the best under one roof. Having a puppy that is raised underfoot by our family, with our kids including a toddler, really sets your next best friend up for behavioral success.
         </p>
         <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos a modi
-          ab tenetur provident optio fugiat, non quae magnam eius earum
-          necessitatibus odio beatae velit iste autem accusantium molestiae
-          saepe nulla mollitia harum, laudantium rem! Pariatur laudantium
-          laborum eum maxime vero esse illum magni, dolor magnam aliquam
-          provident fugit expedita totam, quas ipsum, quia dolorem.
+          Did you know that all our adult males and females are carriers of the short back and shorter leg genes, and have all tested 4 panel health clear? You will not get a giraffe from DFB! Remember, cheap is expensive. If all you want is a Frenchie for sale near me, it's never good to save a couple of bucks at the expense of quality. It's in finding that perfect French Bulldog puppy where a long and enjoyable relationship can be built up with your new family member.
         </p>
       </div>
     </div>
