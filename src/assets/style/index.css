@@ -32,7 +32,9 @@
   background: #8a005a; /* Color of the scrollbar thumb on hover */
 }
 
-
+img{
+  object-fit: cover;
+}
 @keyframes appear {
   from {
     opacity: 0;
