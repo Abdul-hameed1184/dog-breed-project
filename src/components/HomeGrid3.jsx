@@ -28,9 +28,9 @@ const HomeGrid3 = () => {
       <div className="right">
         <img
           src="/images/Dogbreed1.jpg" 
-          alt=""
+          alt=""  width="250" height="350"
         />
-        <img src="/images/Dogbreed2.jpg" alt="" />
+        <img src="/images/Dogbreed2.jpg" alt=""  width="250" height="350" />
       </div>
     </div>
   );

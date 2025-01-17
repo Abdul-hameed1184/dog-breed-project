@@ -20,7 +20,7 @@ const HomePage = () => {
         <div className="route">You are here: Home</div>
 
         <div className="container">
-        <img src="/images/Dogbreed1.jpg" width="400" height="400" />
+        <img src="/images/Dogbreed1.jpg" width="250" height="300" />
           <div className="write-up">
             <h1>SOUTHEAST ELITE FRENCHIES BULLDOGS</h1>
             <p className="first-p">
@@ -40,7 +40,8 @@ const HomePage = () => {
               className="mid"
             /> */}
           
-            <h1>AKC FRENCHIE PUPPIES </h1>
+          {/*  
+               <h1>AKC FRENCHIE PUPPIES </h1>
             <p className="linkup">
             Lyla and Showtime have given birth to an incredible litter of five males! We are now accepting reservations for our stunning lilac and lilac
              merle French Bulldog puppies. A $1,000 reservation fee secures your pick, 
@@ -53,13 +54,17 @@ const HomePage = () => {
             <p>
             Our puppies are from only the best bloodlines, thick, compact, and dense as can be. You can opt to pick up your Frenchie personally or have them delivered to your nearest airport through our professional puppy nanny service. Yes, our pups travel not only across the USA but also to Canada and internationally; it's really very affordable and easy to arrange. This is a very important step in choosing your French Bulldog puppy: choosing the best quality over convenience.
             </p>
+          
+          */} 
             <h1>AKC FRENCHIE PUPPIES </h1>
-            <p>
+           {/* <p>
             At SouthEast, perfection of what we believe to be the ideal breed standard is our committed passion. From over 15 years of selective breeding, we have developed some of the finest AKC bloodlines in the United States-a result of passion and precision.
             </p>
             <p>
             Our main priority is to breed outstanding French Bulldogs. Our puppies have larger heads, short thick legs, compact and solid bodies, and shorter backs. We also focus on symmetrical ropes-the folds over the nose-properly constructed ears, and very cute flat profiles. It is never easy to find the perfect puppy, let alone a bulldog, which is why we're here to make it as smooth and gratifying as possible for you.
             </p>
+             */} 
+
           </div>
           <div className="cards">
             <HomeCard />
@@ -71,8 +76,11 @@ const HomePage = () => {
           </div>
           <div className="grids">
             <HomeGrid1 />
-            <HomeGrid2 />
-            <HomeGrid3 />
+       {/*  <HomeGrid2 /> 
+             <HomeGrid3 />
+       
+       */}    
+           
             <HomeGrid4 />
             <HomeGrid5 />
             <HomeGrid6 />

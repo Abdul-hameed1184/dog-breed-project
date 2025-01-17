@@ -296,13 +296,18 @@ img {
     justify-content: center;
     margin-bottom: 2rem;
   }
-  .homeCard {
+  .homeCard,
+  homeCard2,
+  homeCard3,
+  homeCard4,
+  homeCard5,
+  homeCard6{
     width: 355px;
     height: 368px;
     margin-bottom: 2rem;
 
     img {
-      height: 100%;
+      margin-left: 50px;
       border-radius: 4px;
       width: 100%;
     }
@@ -311,6 +316,7 @@ img {
       font-size: 12px;
       text-align: center;
       margin-top: 1rem;
+      margin-left: 7rem;
     }
   }
 }

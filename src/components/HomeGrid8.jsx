@@ -2,7 +2,8 @@ const HomeGrid8 = () => {
   return (
     <div className="homeGrid8">
       <div className="left">
-        <h1>MINI FRENCHIES</h1>
+       {/*
+          <h1>MINI FRENCHIES</h1>
         <p>
         If someone tells you they are selling you mini Frenchie puppies or "tea cup frenchies" understand they are trying to sell you the breed standard as a special version of the Frenchie. All of our dogs will be short backed, short legged with no tail. Mini French Bulldog puppies are actually the standard, not "abnormal or unique.".
         </p>
@@ -22,6 +23,7 @@ const HomeGrid8 = () => {
         There are so many breeders producing giant dogs-it's crazy nowadays. Because this breed is small and easy to work with, hobby breeding French Bulldogs for sale has taken over producing nearly half the pups. For this reason, there are tons of pups out there with bad genetics. These pups typically have not only health issues but look much different than a dog you would purchase from our program.
 
         </p>
+       */} 
         <h1>LILAC MERLE FRENCH BULLDOG</h1>
         <p>
         Colors in abundance, but we are going to provide only with the best quality AKC French bulldog puppy options from anywhere. Find that truly rare color: the Isabella Merle or perhaps an Isabella Merle Fluffy Frenchie Puppies. Want common colors? Look no further; because some of our Frenchie puppies may be available in those standard colors as Lilac, Blue, Black and Tan, amongst many more colors.
@@ -50,13 +52,11 @@ const HomeGrid8 = () => {
         </ul>
       </div>
       <div className="right">
-        <img src="images/big-rope-Frenchie-14 (1).jpg" alt="" />
+        <img src="images/Dogbreed8.jpg" alt="" />
         <img
-          src="images/isabella-french-bulldog-for-sale450.jpg"
+          src="images/Dogbreed3.jpg"
           alt=""
         />
-        <img src="images/blue-frenchie-450x450.jpg" alt="" />
-        <img src="images/merle-frenchies-for-sale-32.jpg" alt="" />
       </div>
     </div>
   );

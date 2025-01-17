@@ -13,7 +13,8 @@ const HomeGrid4 = () => {
         <p>
         By doing this, it sets your new pup up for housebreaking success. Believe it or not, this is a huge benefit for their forever owners. Our new puppy owners are constantly telling us how easy their pup was to house break, which is not a "common trait" for Frenchies.
         </p>
-        <h1>MERLE FRENACHIE FOR SALE</h1>
+       {/* 
+             <h1>MERLE FRENACHIE FOR SALE</h1>
         <p>
         Some of the most popular colors we produce include merle Frenchie for sale in many colors. Merle French bulldogs include colors like Isabella, Lilac and Blue. Merle Frenchies are priced based on the base color coat overall.
         </p>
@@ -24,15 +25,16 @@ const HomeGrid4 = () => {
         <p>
         Because these pups are not set up for success and are a nightmare to housebreak if they ever are even housebroken! Finding good quality AKC Frenchie puppies is not easy, or cheap. Consider our pups "well started" on the way to potty training. As experienced breeders and whelper, we start pee pad training process at 5 weeks old.
         </p>
+       */}
       </div>
       <div className="right">
         <img
-          src="images/dogbreed3.jpg"
-          alt=""
+          src="images/Dogbreed3.jpg"
+          alt=""  width="250" height="350"
         />
         <img
-          src="images/Dogbreed4"
-          alt=""
+          src="images/Dogbreed4.jpg"
+          alt=""  width="250" height="350"
         />
       </div>
     </div>

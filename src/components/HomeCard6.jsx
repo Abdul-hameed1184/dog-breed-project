@@ -4,8 +4,8 @@ const HomeCard6 = () => {
   return (
     <div className="homeCard">
     <Link>
-      <img src="/images/Dogbreed6.jpg" alt="" />
-      <div className="title">Big Rope French Bulldog</div>
+      <img src="/images/Dogbreed12.jpg" alt=""  style={{ width: "250px", height: "300px" }}/>
+      <div className="title" style={{ marginRight: "100px"}}>Big Rope French Bulldog</div>
     </Link>
   </div>
   )

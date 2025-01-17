@@ -18,7 +18,8 @@ const HomeGrid7 = () => {
         <p>
         Of course, people wonder how long it usually takes to receive or buy a French Bulldog puppy once they have joined our waiting list. Depending on the time of year, it's anywhere from a week to a couple of months from the time of joining our waiting list for the puppy. Lastly, with a deposit you can secure yourself a pup from the next litter.
         </p>
-        <h1>FRENCHIES PUPPIES</h1>
+     {/*
+          <h1>FRENCHIES PUPPIES</h1>
         <p>
         Finding the right AKC Frenchie puppy isn't easy. Sure it may seem that way, but the internet nowadays is full of scams! Amish puppy mill born Frenchie for sale, and tons of low-quality backyard Frenchie Breeders. Think of the next 10-14 years. Don't be fooled…if you are purchasing a "steal of a pup". As the cost is anything below 5-6k, do not expect a fun experience or a healthy pup/dog in the long run.
         </p>
@@ -26,6 +27,7 @@ const HomeGrid7 = () => {
         <p>
         For the reasons above, it's common fact that the Best Frenchie breeders near me spare no expense for the quality of their breed stock. Above all, the health and confirmation to breed standard of the puppies born. Last but not least, it is very important for those-the best French Bulldog breeders send our pups with our nanny direct to your local airport unless you come to us!
         </p>
+     */}   
       </div>
     </div>
   );

@@ -4,7 +4,7 @@ const HomeGrid6 = () => {
       <div className="left">
         <h3>Finding the perfect French bulldog puppies</h3>
         <p>
-           If you see a pup available for under 4-5k, don't walk-run. Chances are you are going to spend triple that on vet bills and probably will not have the same experience as if you had owned a healthy French Bulldog puppy. Servicing the entire US, as French Bulldog breeders, we will be able to send your pup with a nanny direct to your airport.
+           If you see a pup available for under 4-5k, don't walk-run. Chances are you are going to spend triple that on vet bills and probably will not have the same experience as if you had owned a healthy French Bulldog puppy.
         </p>
         <h3>What are Frenchie prices like?</h3>
         <p>
@@ -14,7 +14,8 @@ const HomeGrid6 = () => {
         <p>
              More often than not, they breed tall, long dogs that do not require C-sections or Artificial Insemination. These dogs do not look like or are not shaped like top-quality dogs. One quick trip to the vet for a common bulldog health issue will cost you $5K in a blink; thus, remember, cheap is expensive with pure-bred French Bulldogs.
         </p>
-        <h3>best French Bulldog breeders</h3>
+       { /* 
+          <h3>best French Bulldog breeders</h3>
         <p>
             You will not find any quality AKC Frenchies for sale by price hunting. With this breed, you probably have more variation than in any other breed of purebred dog. Often, I come across hobby Frenchie breeders around me with no idea of what they are doing who breed dogs that have serious health issues.
         </p>
@@ -32,12 +33,12 @@ const HomeGrid6 = () => {
         </p>
         <p>
         They also sometimes refer to the dog as a "micro Frenchie" when it should be that small to begin with, anyway. Just be very leery out there because all the little backyard breeders or Nigerian scammers make it ridiculously hard to dig through the mire for a quality dog.
-        </p>
+        </p> 
+       */} 
       </div>
       <div className="right">
-        <img src="/images/Dogbreed1.jpg" alt="" />
-        <img src="/images/Dogbreed2.jpg" alt="" />
-        <img src="/images/Dogbreed3.jpg" alt="" />
+        <img src="/images/Dogbreed1.jpg" alt=""  width="250" height="350"/>
+        <img src="/images/Dogbreed2.jpg" alt="" width="250" height="350"/>
       </div>
     </div>
   );
