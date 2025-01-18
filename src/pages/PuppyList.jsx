@@ -6,7 +6,7 @@ const PuppyList = () => {
       <div className="route">
         You are here: french bulldog puppy waitlist
       </div>
-      <div className="cover">
+      {/* <div className="cover">
         <img src="/images/Dogbreed1.jpg" alt="" />
       </div>
       <div className="container">
@@ -16,8 +16,8 @@ const PuppyList = () => {
           Puppies! If you would like to reserve a spot for a future litter you
           can also join our Waiting list below
         </p>
-        <Contact />
-      </div>
+        * <Contact /> 
+      </div> */}
       <ul>
         <p>
           Q: I’ve decided I want a SouthEast Elite French Bulldogs lines puppy, what is

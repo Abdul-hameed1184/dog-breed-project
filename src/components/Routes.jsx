@@ -98,7 +98,7 @@ const Routes = () => {
                         <Link to={"/available-puppies"}>
                           Available French Bulldog Puppies
                         </Link>
-                      </li>
+                      </li> 
                       <li>
                         <Link to={"/future-litter"}>
                           Future litter reservation deposit
@@ -131,7 +131,9 @@ const Routes = () => {
                     </ul>
                   </div>
                 </li>
-                <span>|</span>
+              
+                
+                {/*   <span>|</span>
                 <li className="nav-list">
                   <div
                     onMouseEnter={handleMouseEnter3}
@@ -167,9 +169,9 @@ const Routes = () => {
                       <li>
                         <Link to={"/rojo-bulldog"}>Rojo </Link>
                       </li>
-                      {/* <li>
+                       <li>
                         <Link to={"/big-rope-bulldog"}>Big Rope</Link>
-                      </li> */}
+                      </li> 
                       <li>
                         <Link to={"/chocolate-bulldog"}>
                           Chocolate Frenchies Bulldog Puppies for Sale
@@ -183,16 +185,16 @@ const Routes = () => {
                       </li>
 
 
-                      {/* <li>
+                       <li>
                         <Link>Brindle French Bulldogs </Link>
                       </li>
                       <li>
                         <Link>Fawn French Bulldog</Link>
-                      </li> */}
+                      </li> 
                     </ul>
                   </div>
-                </li>
-                <span>|</span>
+                </li> */}
+                {/* <span>|</span>
                 <li className="nav-list">
                   <div
                     onMouseEnter={handleMouseEnter4}
@@ -233,7 +235,7 @@ const Routes = () => {
                       </li>
                     </ul>
                   </div>
-                </li>
+                </li> */}
                 <span>|</span>
                 <li className="nav-list">
                   <div
@@ -294,7 +296,7 @@ const Routes = () => {
                     </ul>
                   </div>
                 </li>
-                <span>|</span>
+                {/* <span>|</span>
                 <li className="nav-list">
                   <div
                     onMouseEnter={handleMouseEnter8}
@@ -332,7 +334,7 @@ const Routes = () => {
                       </li>
                     </ul>
                   </div>
-                </li>
+                </li> */}
               </ul>
             </div>
           </nav>
