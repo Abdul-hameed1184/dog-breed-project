@@ -302,8 +302,8 @@ const Routes = () => {
                     onMouseEnter={handleMouseEnter8}
                     onMouseLeave={handleMouseLeave8}
                   >
-                    <Link to={"/gear"}>Gear</Link>
-                    <ul className="sub-menu8" ref={navRef8}>
+                    <Link to={"/#"}>Merchandise</Link>
+                    {/* <ul className="sub-menu8" ref={navRef8}>
                       <li>
                         <Link to={"/leashes"}>
                           Frenchies Leashes and Harness
@@ -332,7 +332,7 @@ const Routes = () => {
                           </li>
                         </ul>
                       </li>
-                    </ul>
+                    </ul> */}
                   </div>
                 </li> 
               </ul>

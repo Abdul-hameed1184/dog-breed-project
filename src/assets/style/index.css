@@ -1223,6 +1223,11 @@ img {
     }
   }
 }
+.deposit{
+  margin-top: 15.5rem;
+  color: #ccc;
+  
+}
 .frenchPrices {
   margin-top: 15.5rem;
   color: #ccc;
@@ -2449,6 +2454,9 @@ img {
         }
       }
     }
+  }
+  .deposit{
+    margin-top: 5rem;
   }
   .gear {
     margin-top: 5rem;

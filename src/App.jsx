@@ -34,6 +34,7 @@ import Cream from "./pages/Cream";
 import Chocolate from "./pages/Chocolate";
 import Black from "./pages/Black";
 import Lilac from "./pages/Lilac"
+import Deposit from "./pages/Deposit";
 
 const App = () => {
   const router = createBrowserRouter(
@@ -74,7 +75,7 @@ const App = () => {
         />
         <Route
           path="/future-litter"
-          element={<PreviewPage product="Puppy Deposit" />}
+          element={<Deposit/>}
         />
         <Route
           path="/rojo-tan-tricolor"
