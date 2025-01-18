@@ -20,7 +20,7 @@ const HomePage = () => {
         <div className="route">You are here: Home</div>
 
         <div className="container">
-        <img src="/images/Dogbreed1.jpg" width="250" height="300" />
+        <img src="images/home.jpg" width="250" height="300" />
           <div className="write-up">
             <h1>SOUTHEAST ELITE FRENCHIES BULLDOGS</h1>
             <p className="first-p">

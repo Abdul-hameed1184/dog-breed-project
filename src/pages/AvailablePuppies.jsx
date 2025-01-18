@@ -7,7 +7,7 @@ const AvailablePuppies = () => {
     <div className="availablePuppies">
       <div className="route">You are here : Available Puppies</div>
       <div className="container">
-        <img src="/images/Dogbreed2.jpg" alt="" />
+        <img src="images/Dogbreed2copy.jpg" alt="" />
         <div className="write-up">
           <h1>FRENCHIE PUPPIES FOR SALE</h1>
           <p>

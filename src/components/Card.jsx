@@ -4,10 +4,10 @@ import { Link } from 'react-router-dom'
 const Card = () => {
   return (
       <div className="card">
-          <img src='/images/Dogbreed1.jpg' alt="" />
+          <img src='/images/thor.jpg' alt="" />
           <div className="detail">
-              <p>French Bulldog puppy balance</p>
-              <p className="price">$2,500</p>
+              <p>Thor</p>
+              <p className="price">$8000</p>
           </div>
           <div className="buttons">
               <Link><BiCart className='icon'/> Read More</Link>

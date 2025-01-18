@@ -5,9 +5,9 @@ import { useRef } from "react";
 const Routes = () => {
   const navRef = useRef();
   const navRef2 = useRef();
-  const navRef3 = useRef();
-  const navRef4 = useRef();
-  const navRef5 = useRef();
+  // const navRef3 = useRef();
+  // const navRef4 = useRef();
+  // const navRef5 = useRef();
   const navRef6 = useRef();
   const navRef7 = useRef();
   const navRef8 = useRef();
@@ -27,24 +27,24 @@ const Routes = () => {
   const handleMouseLeave2 = () => {
     navRef2.current.classList.remove("visible");
   };
-  const handleMouseEnter3 = () => {
-    navRef3.current.classList.add("visible");
-  };
-  const handleMouseLeave3 = () => {
-    navRef3.current.classList.remove("visible");
-  };
-  const handleMouseEnter4 = () => {
-    navRef4.current.classList.add("visible");
-  };
-  const handleMouseLeave4 = () => {
-    navRef4.current.classList.remove("visible");
-  };
-  const handleMouseEnter5 = () => {
-    navRef5.current.classList.add("visible");
-  };
-  const handleMouseLeave5 = () => {
-    navRef5.current.classList.remove("visible");
-  };
+  // const handleMouseEnter3 = () => {
+  //   navRef3.current.classList.add("visible");
+  // };
+  // const handleMouseLeave3 = () => {
+  //   navRef3.current.classList.remove("visible");
+  // };
+  // const handleMouseEnter4 = () => {
+  //   navRef4.current.classList.add("visible");
+  // };
+  // const handleMouseLeave4 = () => {
+  //   navRef4.current.classList.remove("visible");
+  // };
+  // const handleMouseEnter5 = () => {
+  //   navRef5.current.classList.add("visible");
+  // };
+  // const handleMouseLeave5 = () => {
+  //   navRef5.current.classList.remove("visible");
+  // };
   const handleMouseEnter6 = () => {
     navRef6.current.classList.add("visible");
   };
@@ -296,7 +296,7 @@ const Routes = () => {
                     </ul>
                   </div>
                 </li>
-                {/* <span>|</span>
+                 <span>|</span>
                 <li className="nav-list">
                   <div
                     onMouseEnter={handleMouseEnter8}
@@ -334,7 +334,7 @@ const Routes = () => {
                       </li>
                     </ul>
                   </div>
-                </li> */}
+                </li> 
               </ul>
             </div>
           </nav>

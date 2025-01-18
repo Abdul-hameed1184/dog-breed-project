@@ -13,7 +13,7 @@
     sans-serif;
 }
 
- /* Custom Scrollbar for WebKit browsers */
+/* Custom Scrollbar for WebKit browsers */
 ::-webkit-scrollbar {
   width: 8px; /* Width of the scrollbar */
 }
@@ -32,7 +32,7 @@
   background: #8a005a; /* Color of the scrollbar thumb on hover */
 }
 
-img{
+img {
   object-fit: cover;
 }
 @keyframes appear {
@@ -99,6 +99,7 @@ textarea,
 hr,
 form,
 title,
+.card,
 img {
   animation: appear linear;
   animation-timeline: view();
@@ -207,6 +208,11 @@ img {
   color: rgb(231, 223, 223);
   /* z-index: 50; */
   margin-top: 15.5rem;
+  .cover {
+    img {
+      width: 100%;
+    }
+  }
   .container {
     padding: 0 18vw;
     display: flex;
@@ -303,7 +309,7 @@ img {
   homeCard3,
   homeCard4,
   homeCard5,
-  homeCard6{
+  homeCard6 {
     width: 355px;
     height: 368px;
     margin-bottom: 2rem;
@@ -1070,8 +1076,8 @@ img {
   .platinumGrid,
   .rojoGrid,
   .chocolateGrid,
-  .creamGrid ,
-  .blackGrid{
+  .creamGrid,
+  .blackGrid {
     padding: 0 18vw;
     display: flex;
     justify-content: center;
@@ -2127,11 +2133,12 @@ img {
     position: sticky;
     .nav-container {
       display: flex;
-      flex-direction: column;
+      padding: 0.5rem 1.5rem;
+      /* flex-direction: column; */
       align-items: center;
-      justify-content: center;
+      justify-content: space-between;
       width: 100vw;
-      padding: 0.5rem 2rem;
+      /* padding: 0.5rem 2rem; */
       border-bottom: 1px solid rgba(231, 223, 223, 0.205);
       transition: all ease-in-out 1s;
 
@@ -2141,49 +2148,44 @@ img {
         margin: 0;
         align-items: center;
         justify-content: center;
-        z-index: 1000;
+        /* z-index: 1000; */
         display: flex;
-        padding-bottom: 1rem;
-        padding-top: 0.5rem;
+        /* padding-bottom: 1rem;
+        padding-top: 0.5rem; */
 
         img {
           height: 4rem;
         }
       }
-      .left {
-        display: flex;
-        flex-direction: column;
-        width: 100vw;
-        transition: all ease-in-out 1s;
-        background: transparent;
-        z-index: 200;
-        gap: 1rem;
-        align-items: center;
-        color: rgb(231, 223, 223);
-        .icon {
-          font-size: 2rem;
-          width: 100%;
-          background-color: rgb(66, 7, 66);
-          z-index: 1000;
-        }
-        .bar:onclick {
-          transform: rotateX("30deg");
-        }
+      .search{
+        font-size: 2.5rem;
+        background-color: rgb(66, 7, 66);
+        z-index: 0;
+        color: #f1f1f1;
+      }
+      .icon {
+        font-size: 2.5rem;
+        background-color: rgb(66, 7, 66);
+        z-index: 1000;
+        color: #f1f1f1;
       }
     }
-
+.responsive_bar{
+  transform: translateX(-92vw);
+}
     .nav-menu {
       width: 100%;
-      /* display: none; */
-      /* position: fixed; */
-      /* z-index: 10; */
-      /* overflow-y: scroll;
+       position: fixed; 
+       z-index: 10; 
+       overflow-y: scroll;
       width: 92vw;
       height: 100vh;
-      right: -27rem;
-      font-size: 13px; */
+      border-left: 1px solid rgba(231, 223, 223, 0.205);
+      /* right: -27rem; */
+      left: 100vw;
+      font-size: 13px;
       ul {
-        /* margin-top: 9rem; */
+         margin-top: 9rem; 
         line-height: 2.5rem;
         width: 100%;
         background-color: #252525;
@@ -2234,7 +2236,7 @@ img {
   }
 
   .homePage {
-    margin-top: 12rem;
+    margin-top: 5rem;
     padding: 0;
     .container {
       padding: 0 2rem;
@@ -2306,7 +2308,7 @@ img {
     }
   }
   .contactPage {
-    margin-top: 12rem;
+    margin-top: 5rem;
     .container {
       padding: 0 2rem;
       img {
@@ -2320,18 +2322,18 @@ img {
     }
   }
   .bulldogColors,
-.rareFrenchies,
-.blue,
-.merle,
-.fluffy,
-.cream,
-.isabella,
-.lilac,
-.platinum,
-.rojo,
-.chocolate,
-.black {
-    margin-top: 12rem;
+  .rareFrenchies,
+  .blue,
+  .merle,
+  .fluffy,
+  .cream,
+  .isabella,
+  .lilac,
+  .platinum,
+  .rojo,
+  .chocolate,
+  .black {
+    margin-top: 5rem;
     padding: 0;
     .cover {
       img {
@@ -2341,24 +2343,24 @@ img {
       }
     }
     .colorGrid,
-  .rareGrid,
-  .blueGrid,
-  .merleGrid,
-  .fluffyGrid,
-  .isabellaGrid,
-  .lilacGrid,
-  .platinumGrid,
-  .rojoGrid,
-  .chocolateGrid,
-  .creamGrid ,
-  .blackGrid {
+    .rareGrid,
+    .blueGrid,
+    .merleGrid,
+    .fluffyGrid,
+    .isabellaGrid,
+    .lilacGrid,
+    .platinumGrid,
+    .rojoGrid,
+    .chocolateGrid,
+    .creamGrid,
+    .blackGrid {
       flex-direction: column;
       width: 100%;
       padding: 0 2rem;
     }
   }
   .program {
-    margin-top: 12rem;
+    margin-top: 5rem;
     padding: 0;
     .cover {
       img {
@@ -2400,7 +2402,7 @@ img {
     }
   }
   .finance {
-    margin-top: 12rem;
+    margin-top: 5dvb;
     .finance-body {
       padding: 0 2rem;
       .semi {
@@ -2431,7 +2433,7 @@ img {
     }
   }
   .studServices {
-    margin-top: 12rem;
+    margin-top: 5rem;
     .write-up {
       padding: 0 2rem;
       .studGrid1,
@@ -2449,7 +2451,7 @@ img {
     }
   }
   .gear {
-    margin-top: 12rem;
+    margin-top: 5rem;
     padding: 0;
     .gearGrid {
       flex-direction: column;
@@ -2466,7 +2468,7 @@ img {
     }
   }
   .availablePuppies {
-    margin-top: 12rem;
+    margin-top: 5rem;
     img {
       height: 9rem;
     }
@@ -2507,7 +2509,7 @@ img {
     }
   }
   .puppyList {
-    margin-top: 12rem;
+    margin-top: 5rem;
     .contact {
       padding: 0 2rem;
     }
@@ -2542,7 +2544,7 @@ img {
     }
   }
   .frenchPrices {
-    margin-top: 12rem;
+    margin-top: 5rem;
     .container {
       padding: 0 2rem;
       .pricesGrid {
@@ -2551,7 +2553,7 @@ img {
     }
   }
   .leashPages {
-    margin-top: 12rem;
+    margin-top: 5rem;
     .content {
       /* padding: 0 2rem; */
       .leashGrid {
@@ -2560,7 +2562,7 @@ img {
     }
   }
   .puppies {
-    margin-top: 12rem;
+    margin-top: 5rem;
     .container {
       padding: 0 2rem;
       .puppiesGrid {
@@ -2569,7 +2571,7 @@ img {
     }
   }
   .bulldog {
-    margin-top: 12rem;
+    margin-top: 5rem;
     .bulldogGrid {
       flex-direction: column;
       padding: 0 2rem;
@@ -2581,7 +2583,7 @@ img {
     }
   }
   .frenchies {
-    margin-top: 12rem;
+    margin-top: 5rem;
     .content {
       padding: 0 2rem;
       .top {
@@ -2600,7 +2602,7 @@ img {
     }
   }
   .previewPage {
-    margin-top: 12rem;
+    margin-top: 5rem;
     .previewGrid {
       padding: 0 2rem;
       flex-direction: column;
@@ -2632,7 +2634,7 @@ img {
     }
   }
   .faq {
-    margin-top: 12rem;
+    margin-top: 5rem;
     .write-up {
       padding: 0 2rem;
     }
@@ -2654,7 +2656,7 @@ img {
     }
   }
   .reviewPage {
-    margin-top: 12rem;
+    margin-top: 5rem;
     .reviewGrid {
       padding: 0 2rem;
       flex-direction: column;
@@ -2663,7 +2665,7 @@ img {
   .cartPage {
     /* width: 100vw; */
     padding: 0;
-    margin-top: 12rem;
+    margin-top: 5rem;
     .product-container {
       padding: 0 2rem;
       button {

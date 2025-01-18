@@ -8,7 +8,7 @@ const MobileNav = () => {
   const location = useLocation();
   const [navbar, setnavbar] = useState(false);
   const showNavbar = () => {
-    // navRef.current.classList.toggle("responsive_bar");
+    navRef.current.classList.toggle("responsive_bar");
 
     setnavbar(!navbar);
   };
@@ -39,7 +39,7 @@ const MobileNav = () => {
   // };
   useEffect(() => {
     console.log("Route changed to:", location.pathname);
-    // navRef.current.classList.remove("responsive_bar");
+    navRef.current.classList.remove("responsive_bar");
     window.scrollTo(0, 0);
     setnavbar(false);
     setShowMenu({
@@ -66,18 +66,20 @@ const MobileNav = () => {
     <div className="mobileNav">
       <nav>
         <div className="nav-container">
+          <BiSearch className="search" />
           <div className="logo">
             <img src="/images/logo.png" />
           </div>
-          <div className="left">
+          
             {navbar ? (
               <CgClose className="icon " onClick={showNavbar} />
             ) : (
               <CgMenu className="icon bar" onClick={showNavbar} />
             )}
-            <div className={navbar ? "slide-in" : "slide-out"}>
-              {navbar ? (
-                <div className="nav-menu">
+            
+              
+            
+                <div className="nav-menu" ref={navRef}>
                   <ul>
                     <li>
                       <Link
@@ -102,11 +104,12 @@ const MobileNav = () => {
                             </Link>
                           </li>
                           <li>
-                            <Link to={'/future-litter'}>
-                            <span>-</span> Future litter reservation deposit</Link>
+                            <Link to={"/future-litter"}>
+                              <span>-</span> Future litter reservation deposit
+                            </Link>
                           </li>
                           <li>
-                            <span>-</span>{" "}
+                            <span>-</span>
                             <Link to={"/puppies-wait-list"}>
                               Puppy waiting list
                             </Link>
@@ -138,7 +141,7 @@ const MobileNav = () => {
                         </ul>
                       ) : null}
                     </li>
-                    <li>
+                    {/* <li>
                       <Link to={"/french-bulldog-colors"}>
                         French Bulldog Colors
                       </Link>
@@ -183,9 +186,9 @@ const MobileNav = () => {
                             <Link to={"/rojo-bulldog"}>
                     <span>-</span> Rojo</Link>
                   </li>
-                  {/* <li>
+                  <li>
                     <span>-</span> Big Rope
-                  </li> */}
+                  </li>
                           <li>
                             <Link to={"/chocolate-bulldog"}>
                     <span>-</span> Chocolate french bulldog puppies</Link>
@@ -198,7 +201,7 @@ const MobileNav = () => {
                             <Link to={"/black-bulldog"}>
                     <span>-</span> Black frenchies</Link>
                   </li>
-                  {/* <li>
+                  <li>
                     <span>-</span> Frenchies bulldog cbreeders
                   </li>
                   <li>
@@ -209,11 +212,11 @@ const MobileNav = () => {
                   </li>
                   <li>
                     <span>-</span> Fawn french Bulldogs
-                  </li> */}
+                  </li>
                 </ul>
               ) : null}
-                    </li>
-                    <li>
+                    </li> */}
+                    {/* <li>
                       <Link to={"/programs"}>Our Program</Link>
                       <span>
                         {showMenu[4] ? (
@@ -244,8 +247,8 @@ const MobileNav = () => {
                           </li>
                         </ul>
                       ) : null}
-                    </li>
-                    <li>
+                    </li> */}
+                    {/* <li>
                       <Link to={"/finance"}>Finance</Link>
                       <span>
                         {showMenu[5] ? (
@@ -263,7 +266,7 @@ const MobileNav = () => {
                           </li>
                         </ul>
                       ) : null}
-                    </li>
+                    </li> */}
                     <li>
                       <Link to={"/stud-services"}>Stud Services</Link>
                       <span>
@@ -350,7 +353,7 @@ const MobileNav = () => {
                       ) : null}
                     </li>
                     <li>
-                      <Link to={"/gear"}>Gear</Link>
+                      <Link to={"/gear"}>Merchandise</Link>
                       <span>
                         {showMenu[8] ? (
                           <CgChevronDown onClick={() => toggleMenu(8)} />
@@ -385,30 +388,7 @@ const MobileNav = () => {
                     </li>
                   </ul>
                 </div>
-              ) : // <>
-              //   <p>Here working</p>
-              //   <p>Here working</p>
-              //   <p>Here working</p>
-              //   <p>Here working</p>
-              //   <p>Here working</p>
-              //   <p>Here working</p>
-              //   <p>Here working</p>
-              //   <p>Here working</p>
-              //   <p>Here working</p>
-              //   <p>Here working</p>
-              //   <p>Here working</p>
-              //   <p>Here working</p>
-              //   <p>Here working</p>
-              //   <p>Here working</p>
-              //   <p>Here working</p>
-              //   <p>Here working</p>
-              // </>
-              null}
-            </div>
-
-            <BiSearch className="icon" />
           </div>
-        </div>
       </nav>
     </div>
   );
