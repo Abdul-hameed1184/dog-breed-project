@@ -15,7 +15,7 @@ const PreviewGrid = ({ product }) => {
   return (
     <div className="previewGrid">
       <div className="left">
-        <img src="/images/colors8.jpg" alt="" />
+        <img src="images/thor.jpg" alt="" />
       </div>
       <div className="right">
         <h1>{products}</h1>
