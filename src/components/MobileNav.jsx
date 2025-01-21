@@ -288,12 +288,12 @@ const MobileNav = () => {
                               <span>-</span> French Bulldog Stock Lock In
                             </Link>
                           </li>
-                          <li>
+                          {/* <li>
                             <Link to={"/rojo-tan-tricolor"}>
                               <span>-</span> Goober Rojo Cherry tan tricolor
                               merle
                             </Link>
-                          </li>
+                          </li> */}
                         </ul>
                       ) : null}
                     </li>
@@ -363,7 +363,7 @@ const MobileNav = () => {
                       </span>
                       {showMenu[8] ? (
                         <ul className="showMenu">
-                          <li>
+                          {/* <li>
                             <Link to={"/leashes"}>
                               <span>-</span> French Leash & Harness
                             </Link>
@@ -382,7 +382,7 @@ const MobileNav = () => {
                             <Link to={"/french-bulldog-prices"}>
                               <span>-</span> French bulldog clothes
                             </Link>
-                          </li>
+                          </li>  */}
                         </ul>
                       ) : null}
                     </li>

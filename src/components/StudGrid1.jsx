@@ -10,7 +10,7 @@ const StudGrid1 = () => {
           Stud colours come from Rojo, Rojo Merle, Lilac Fluffy in all colours
           and carriers, too, as well as Blue Merle/Blue Tan Merle.
         </p>
-        <p>
+        {/* <p>
           Allow me to introduce Mr. Elon Saks, son of the Famous #1 Fluffy
           Frenchie in the USA, Mr. Banks. Elon is well recognized as one of the
           finest up-and-coming studs inside the French Bulldog circuit. With
@@ -18,7 +18,7 @@ const StudGrid1 = () => {
           and a flat muzzle, Elon carries Testable Chocolate and can produce
           basically everything under the sun and fluffy. If you are interested
           in locking in Elon please click here.
-        </p>
+        </p> */}
         <h1>FRENCHIES STUD NEAR ME</h1>
         <p>
           Don't just settle for any Frenchie stud near me. You can have the best

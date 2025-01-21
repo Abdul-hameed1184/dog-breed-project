@@ -254,11 +254,11 @@ const Routes = () => {
                           French Bulldog Stud Lock in
                         </Link>
                       </li>
-                      <li>
+                      {/* <li>
                         <Link to={"/rojo-tan-tricolor"}>
                           Goober Rocho Cherry Tan Tricolor
                         </Link>
-                      </li>
+                      </li> */}
                     </ul>
                   </div>
                 </li>
