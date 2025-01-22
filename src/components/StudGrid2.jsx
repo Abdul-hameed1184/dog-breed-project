@@ -2,7 +2,7 @@ const StudGrid2 = () => {
   return (
     <div className="studGrid2">
       <div className="left">
-        <h1>GOOBER ROJO MERLE WITH CHERRY TAN POINT</h1>
+        {/* <h1>GOOBER ROJO MERLE WITH CHERRY TAN POINT</h1>
         <p>
           Another Amazing stud is Goober. Goober is available for Rojo Frenchie
           stud service. His stud fee is currently $3500.00. His puppies
@@ -18,7 +18,7 @@ const StudGrid2 = () => {
           the United States. With a puppy nanny, our French Bulldog Puppies for
           sale fly safely and comfortably year-round. If you are interested in
           locking in one of our Frenchie Stud Service dogs, please click here.
-        </p>
+        </p> */}
         <h2>Rojo Merle Frenchie Stud</h2>
         <p>
           If you are searching for the right Frenchie breeders near me, you have
@@ -46,8 +46,8 @@ const StudGrid2 = () => {
         </p>
       </div>
       <div className="right">
-        <img src="/images/Dogbreed3.jpg" alt="" />
-        <img src="/images/Dogbreed4.jpg" alt="" />
+        <img src="/images/Dogbreed3.jpg" alt="" width="250" height="350"/>
+        <img src="/images/Dogbreed4.jpg" alt=""  width="250" height="350"/>
       </div>
     </div>
   );

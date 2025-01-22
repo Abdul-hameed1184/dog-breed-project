@@ -19,7 +19,7 @@ const StudGrid1 = () => {
           basically everything under the sun and fluffy. If you are interested
           in locking in Elon please click here.
         </p> */}
-        <h1>FRENCHIES STUD NEAR ME</h1>
+        {/* <h1>FRENCHIES STUD NEAR ME</h1>
         <p>
           Don't just settle for any Frenchie stud near me. You can have the best
           if you live anywhere in the USA! Elon is a blue and tan Merle,
@@ -39,11 +39,11 @@ const StudGrid1 = () => {
           and his 1 in a million temperament make him one of the top studs, if
           not the top Frenchie Stud carrying both Fluffy and Isabella in the
           United States.
-        </p>
+        </p> */}
       </div>
       <div className="right">
-        <img src="/images/Dogbreed1.jpg" alt="" />
-        <img src="/images/Dogbreed2.jpg" alt="" />
+        <img src="/images/Dogbreed1.jpg" alt="" width="250" height="350" />
+        <img src="/images/Dogbreed2.jpg" alt=""  width="250" height="350"/>
       </div>
     </div>
   );
