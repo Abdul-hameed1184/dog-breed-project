@@ -29,8 +29,7 @@ const PuppyList = () => {
         </li>
         <li>
           2. If you are interested in one of our pups, which are normally all
-          sold before they are 4 weeks old, PLEASE call and/or text Brian or Jen
-          609-827-2645
+          sold before they are 4 weeks old, PLEASE call and/or text Rocky 808-430-4156
         </li>
         <li>
           3. Deposits (1000.00) are taken to reserve a puppy. We accept Credit
