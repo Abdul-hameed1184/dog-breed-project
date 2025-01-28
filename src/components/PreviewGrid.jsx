@@ -27,7 +27,7 @@ const PreviewGrid = ({ product }) => {
           <BsFillStarFill />
           <span>(4 customer reviewed)</span>
         </p>
-        <p className="price">$5,000</p>
+        <p className="price">$1,500</p>
         <p>
           Lock in Fee towards for one of our Studs here at SouthEast Elite French
           Bulldogs.
@@ -68,7 +68,11 @@ const PreviewGrid = ({ product }) => {
           </p>
         </div>
       </div>
+
+
     </div>
+
+    
   );
 }
 

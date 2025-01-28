@@ -7,7 +7,7 @@ const Card = () => {
           <img src='/images/thor.jpg' alt="" />
           <div className="detail">
               <p>Thor</p>
-              <p className="price">$8000</p>
+              <p className="price">$1,500</p>
           </div>
           <div className="buttons">
               <Link><BiCart className='icon'/> Read More</Link>

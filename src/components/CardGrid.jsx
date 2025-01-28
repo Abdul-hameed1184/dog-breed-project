@@ -11,9 +11,9 @@ const CardGrid = () => {
           <h2>Related Products</h2>
           <div className="grid">
           <Card/>
-          {/* <Card1/>
-          <Card2/>
-          <Card3/> */}
+          <Card1/>
+          {/* <Card2/>
+          <Card3/>  */}
           </div>
          
     </div>
