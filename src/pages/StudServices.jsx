@@ -1,9 +1,14 @@
 import StudGrid1 from "../components/StudGrid1";
 import StudGrid2 from "../components/StudGrid2";
+import { Helmet } from "react-helmet";
 
 const StudServices = () => {
   return (
     <div className="studServices">
+      <Helmet>
+        <title>French Bulldogs Stud Services</title>
+        <meta name="description" content="French Bulldogs Stud Services" />
+      </Helmet>
       <div className="route">you are here: stud services</div>
       <div className="cover">
         <img src="/images/Dogbreed6" alt="" />

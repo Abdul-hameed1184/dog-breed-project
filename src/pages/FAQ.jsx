@@ -1,9 +1,15 @@
 import AvailableGrid from "../components/AvailableGrid";
 import AvailablePics from "../components/AvailablePics";
+import React from "react";
+import { Helmet } from "react-helmet";
 
 const FAQ = () => {
   return (
     <div className="faq">
+      <Helmet>
+        <title>FAQs</title>
+        <meta name="description" content="FAQs" />
+      </Helmet>
       <div className="route">You are here: FAQs</div>
       <div className="cover">
         <img src="" alt="cover img" />

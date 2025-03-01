@@ -1,8 +1,14 @@
 import Contact from "../components/Contact";
+import React from "react";
+import { Helmet } from "react-helmet";  
 
 const ContactPage = () => {
   return (
     <div className="contactPage">
+      <Helmet>
+        <title>Contact Us</title>
+        <meta name="description" content="Contact Us" />
+      </Helmet>
       <div className="route">You are here: contact </div>
       <div className="container">
         <img src="/images/Dogbreed1.jpg" alt="" />

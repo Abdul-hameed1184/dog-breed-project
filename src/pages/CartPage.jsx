@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { BiX } from 'react-icons/bi';
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 
 const CartPage = () => {
   const [number, setnumber] = useState(1);
@@ -14,6 +15,10 @@ const CartPage = () => {
       }
   return (
     <div className="cartPage">
+      <Helmet>
+        <title>Cart</title>
+        <meta name="description" content="Cart" />
+      </Helmet>
       <div className="route">You are here: Home / cart</div>
       <div className="product-container">
         <table border="1" style={{ borderCollapse: "collapse", width: "100%" }}>

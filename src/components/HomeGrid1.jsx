@@ -14,14 +14,14 @@ const HomeGrid1 = () => {
         We believe we offer the best AKC SouthEast French Bulldog puppies in the USA. As one of the top Frenchie breeders in the country, we work only with superior AKC bloodlines. Our puppies are socialized in a family environment daily. 
         </p>
         
-        <h1>TOOP QUALITIES AKC BLOODLINE</h1>
+        <h1>TOP QUALITIES AKC BLOODLINE</h1>
         <p>
         Great Frenchies take time, patience, and love. After all, "Rome wasn't built in one day," and neither were these outstanding AKC lines. 
         </p>
         <p>
         Our French Bulldog puppies are priced from $5,000 to $50,000, depending on the rarity of their colors and coat types. With SouthEast French Bulldogs, you’re not just purchasing a puppy—you’re investing in years of expertise, love, and dedication to the breed.
         </p>
-        <h3>Skip the line and call, text or email us now!</h3>
+        <h3>Skip the line and call, text or email us now!</h3>  
         <p>
         Call/Text 808-430-4156 or southeastelitefrenchies@gmail.com. Our pups fly anywhere in the world, so when searching for Frenchie breeders near me, remember our nanny flys your pup directly to you. You can also fill out our contact form to get in touch with us and let us know what color/sex/coat type puppies you are interested in most!
         </p>

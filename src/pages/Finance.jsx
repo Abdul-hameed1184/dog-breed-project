@@ -1,8 +1,14 @@
 import FinanceGrid from "../components/FinanceGrid";
+import React from "react";
+import { Helmet } from "react-helmet";
 
 const Finance = () => {
   return (
     <div className="finance">
+      <Helmet>
+        <title>Finances</title>
+        <meta name="description" content="Finances" />
+      </Helmet>
       <div className="route">you are here : finances</div>
       <div className="cover">
         <img src="/images/Dogbreed1.jpg" alt="" />

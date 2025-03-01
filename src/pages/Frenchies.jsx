@@ -1,9 +1,14 @@
 import React from 'react'
 import FrenchiesGrid from '../components/FrenchiesGrid';
+import { Helmet } from "react-helmet"
 
 function Frenchies() {
   return (
     <div className="frenchies">
+      <Helmet>
+        <title>Frenchies</title>
+        <meta name="description" content="Frenchies" />
+      </Helmet>
       <div className="route">You are Here: Frenchies </div>
       <div className="content">
         <div className="top">

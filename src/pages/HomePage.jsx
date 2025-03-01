@@ -13,10 +13,15 @@ import HomeGrid5 from "../components/HomeGrid5";
 import HomeGrid6 from "../components/HomeGrid6";
 import HomeGrid7 from "../components/HomeGrid7";
 import HomeGrid8 from "../components/HomeGrid8";
+import { Helmet } from "react-helmet";
 const HomePage = () => {
   return (
     <>
       <div className="homePage">
+        <Helmet>
+          <title>SouthEast Elite Frenchies Bulldogs</title>
+          <meta name="description" content="SouthEast Elite Frenchies Bulldogs" />
+        </Helmet>
         <div className="route">You are here: Home</div>
 
         <div className="container">

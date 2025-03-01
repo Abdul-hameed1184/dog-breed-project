@@ -1,10 +1,15 @@
 import AvailablePics from "../components/AvailablePics";
 import Contact from "../components/Contact";
 import AvailableGrid from "../components/AvailableGrid";
+import { Helmet } from "react-helmet";
 
 const AvailablePuppies = () => {
   return (
     <div className="availablePuppies">
+       <Helmet>
+        <title>FRENCHIE PUPPIES FOR SALE</title>
+        <meta name="description" content="Frenchie Puppies for Sale" />
+      </Helmet>
       <div className="route">You are here : Available Puppies</div>
       <div className="container">
         <img src="images/Dogbreed2copy.jpg" alt="" />

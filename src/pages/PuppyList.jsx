@@ -1,8 +1,14 @@
 import Contact from "../components/Contact";
+import { Helmet } from "react-helmet";  
 
 const PuppyList = () => {
   return (
     <div className="puppyList">
+      <Helmet>
+        <title>French Bulldog Puppy Waitlist</title>
+        <meta name="description" content="French Bulldog Puppy Waitlist" />
+      </Helmet>
+      
       <div className="route">
         You are here: french bulldog puppy waitlist
       </div>
